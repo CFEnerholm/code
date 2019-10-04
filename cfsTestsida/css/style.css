@@ -3,17 +3,75 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #00343b; 
 }
 
 .header{
     width: 100%;
-    height: 4em;
-    background-color: darkgreen; 
+    height: 5em;
+    background-color: #00343b; 
+}
+
+.headerLeft{
+    width: 80%;
+    height: inherit;
+    background-image: url(../bilder/logga.png);
+    background-size: auto 70%;
+    background-repeat: no-repeat;
+    float: left;
+    background-position-y: center;
+}
+
+.headerMiddle{
+    display: none;
+}
+
+.headerRight{
+    width: 20%;
+    height: inherit;
+    float: left;
 }
 
 .innerBody{
-    width: 90%;
-    height: 40em;
-    margin-left: 5%;
-    background-color: darkblue;
+    width: 100%;
+    background-color: white;
+}
+
+@media screen and (min-width: 768px){
+
+.headerLeft{
+    width: 27%;
+}
+
+.headerMiddle{
+    display: block;
+    width: 46%;
+    float: left;
+}
+
+.headerRight{
+    width: 27%;
+    height: inherit;
+    float: left;
+}
+
+.menuBtn{
+    width: 33%;
+    height: 5em;
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menuBtn a{
+    text-decoration: none;
+    color: black;
+}
+
+.menuBtn a:hover{
+    text-decoration: none;
+    color: darkgrey;
+}
 }
