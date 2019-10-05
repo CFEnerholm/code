@@ -7,12 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/startsida.css">
+    <link rel="stylesheet" href="css/varaTjanster.css">
+    <script type="text/javascript" src="javaScript/slideshow.js"></script>
     <title>Nilsson Enerholm Webb & Systemutveckling AB</title>
 </head>
 
-<body>
+<body onload="showSlides()">
     <div class="header">
-        <div class="headerLeft"></div>
+        <div class="headerLeft">
+            <a href="startsida.html"><img id="logga" src="bilder/logga.png" alt=""></a>
+        </div>
         <div class="headerMiddle">
             <div class="menuBtn"><a href="varaTjanster.html">Våra tjänster</a></div>
             <div class="menuBtn"><a href="tidigareProjekt.html">Tidigare projekt</a></div>
@@ -22,7 +26,20 @@
     </div>
     <div class="innerBody">
         <div class="startsidaTop">
-            <img src="bilder/photo1.jpg" alt="images">
+            <div class="startsidaImage fade">
+                <img src="bilder/photo3.jpg" alt="images">
+            </div>
+            <div class="startsidaImage fade">
+                <img src="bilder/photo1.jpg" alt="images">
+            </div>
+            <div class="startsidaImage fade">
+                <img src="bilder/photo2.jpg" alt="images">
+            </div>
+        </div>
+        <div class="varaTjanster">
+            <div class="tjanst"></div>
+            <div class="tjanst"></div>
+            <div class="tjanst"></div>
         </div>
     </div>
 </body>
