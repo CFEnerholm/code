@@ -7,6 +7,10 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1, h2{
+    text-align: center;
+}
+
 #logga{
     height: 70%;
     margin-top: 0.5em;

@@ -1,5 +1,6 @@
 var slideIndex = 0;
 showSlides();
+showHemsida();
 
 function showSlides() {
   var i;

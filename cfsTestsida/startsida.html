@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/varaTjanster.css">
     <link rel="stylesheet" href="css/tidigareProjekt.css">
     <link rel="stylesheet" href="css/kontakt.css">
-    <script type="text/javascript" src="javaScript/slideshow.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
     <title>Nilsson Enerholm Webb & Systemutveckling AB</title>
 </head>
 
@@ -42,13 +42,23 @@
             <div class="tjanstHeading">
                 <h1>Våra Tjänster</h1>
             </div>
-            <div class="tjanst"><img src="bilder/hemsida.jpg" alt="images">
+            <div class="hemsida"><button onclick="showHemsida()" class="closeBtn">Stäng</button>
+                <H2>Hemsida</H2>
+            </div>
+            <div class="webbhotell"><button onclick="showWebbhotell()" class="closeBtn">Stäng</button>
+                <h2>Webbhotell</h2>
+            </div>
+            <div class="installation"><button onclick="showInstallation()" class="closeBtn">Stäng</button>
+                <h2>Installation</h2>
+            </div>
+
+            <div onclick="showHemsida()" class="tjanst"><img src="bilder/hemsida.jpg" alt="images">
                 <div class="tjanstRubrik">Hemsida</div>
             </div>
-            <div class="tjanst"><img src="bilder/serverhall.jpg" alt="images">
+            <div onclick="showWebbhotell()" class="tjanst"><img src="bilder/serverhall.jpg" alt="images">
                 <div class="tjanstRubrik">Webbhotell</div>
             </div>
-            <div class="tjanst"><img src="bilder/installation.jpg" alt="images">
+            <div onclick="showInstallation()" class="tjanst"><img src="bilder/installation.jpg" alt="images">
                 <div class="tjanstRubrik">Installation</div>
             </div>
         </div>
@@ -82,6 +92,8 @@
             </tr>
         </table>
     </div>
+    <script src="javaScript/slideshow.js"></script>
+    <script src="javaScript/varaTjanster.js"></script>
 </body>
 
 </html>
