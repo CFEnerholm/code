@@ -17,7 +17,7 @@
     width: 90%;
     height: 15em;
     margin-left: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 1em;
     background-color: lightgrey;
     border-radius: 1em;
     overflow: hidden;
@@ -28,37 +28,40 @@
 .hemsida{
     display: none;
     width: 90%;
-    height: 15em;
+    height: 47em;
     margin-left: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 1em;
     background-color: whitesmoke;
     border-radius: 1em;
     position: absolute;
     z-index: 3;
+    opacity: 0.9;
 }
 
 .webbhotell{
     display: none;
     width: 90%;
-    height: 15em;
+    height: 47em;
     margin-left: 5%;
-    margin-bottom: 5%;
-    background-color: lightgrey;
+    margin-bottom: 1em;
+    background-color: whitesmoke;
     border-radius: 1em;
     position: absolute;
     z-index: 3;
+    opacity: 0.9;
 }
 
 .installation{
     display: none;
     width: 90%;
-    height: 15em;
+    height: 47em;
     margin-left: 5%;
-    margin-bottom: 5%;
-    background-color: lightgrey;
+    margin-bottom: 1em;
+    background-color: whitesmoke;
     border-radius: 1em;
     position: absolute;
     z-index: 3;
+    opacity: 0.9;
 }
 
 .tjanst img{
@@ -113,8 +116,8 @@ margin-left: 5%;
 }
 
 .hemsida{
-    width: 91.4%;
-    height: 80%;
+    width: 91.5%;
+    height: 71%;
     margin-left: 4.1%;
     margin-right: 4.1%;
     margin-bottom: 0;
@@ -123,22 +126,24 @@ margin-left: 5%;
 }
 
 .webbhotell{
-    width: 91.4%;
-    height: 80%;
+    width: 91.5%;
+    height: 71%;
     margin-left: 4.1%;
     margin-right: 4.1%;
     margin-bottom: 0;
     float: left;
+    opacity: 0.9;
     box-shadow: 5px 5px 2.5px 0 rgba(0, 0, 0, 0.2), 8px 8px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
 .installation{
-    width: 91.4%;
-    height: 80%;
+    width: 91.5%;
+    height: 71%;
     margin-left: 4.1%;
     margin-right: 4.1%;
     margin-bottom: 0;
     float: left;
+    opacity: 0.9;
     box-shadow: 5px 5px 2.5px 0 rgba(0, 0, 0, 0.2), 8px 8px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
