@@ -89,65 +89,92 @@
     margin-right: 0.5em;
 }
 
+/*För Ipad*/
 @media screen and (min-width: 768px){
+    .tjanst{
+        width: 31.3%;
+        height: 25em;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 4%;
+        float: left;
+        box-shadow: 5px 5px 2.5px 0 rgba(0, 0, 0, 0.2), 8px 8px 4px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .tjanst img{
+        width: auto;
+        height: 100%;
+    }
+
+.tjanstRubrik{
+    height: 15%;
+}
+
+    .hemsida{
+        width: 98%;
+        height: 25em;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 0;
+        box-shadow: 5px 5px 2.5px 0 rgba(0, 0, 0, 0.2), 8px 8px 4px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .webbhotell{
+        width: 98%;
+        height: 25em;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 0;
+        box-shadow: 5px 5px 2.5px 0 rgba(0, 0, 0, 0.2), 8px 8px 4px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .installation{
+        width: 98%;
+        height: 25em;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 0;
+        box-shadow: 5px 5px 2.5px 0 rgba(0, 0, 0, 0.2), 8px 8px 4px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+/*För större skärmar*/
+@media screen and (min-width: 1224px){
 
 .varaTjanster{
 width: 90%;
+height: 25em;
 margin-left: 5%;
 }
 
 .tjanst{
-    width: 20em;
-    height: 25em;;
+    width: 25%;
+    height: 25em;
     margin-left: 4.1%;
     margin-right: 4.1%;
     margin-bottom: 4%;
     float: left;
     box-shadow: 5px 5px 2.5px 0 rgba(0, 0, 0, 0.2), 8px 8px 4px 0 rgba(0, 0, 0, 0.19);
 }
-.tjanst img{
-    width: auto;
-    height: 100%;
-}
-
-.tjanstRubrik{
-    height: 15%;
-}
 
 .hemsida{
     width: 91.5%;
-    height: 71%;
+    height: 25em;
     margin-left: 4.1%;
     margin-right: 4.1%;
-    margin-bottom: 0;
-    float: left;
-    box-shadow: 5px 5px 2.5px 0 rgba(0, 0, 0, 0.2), 8px 8px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
 .webbhotell{
     width: 91.5%;
-    height: 71%;
+    height: 25em;
     margin-left: 4.1%;
     margin-right: 4.1%;
-    margin-bottom: 0;
-    float: left;
-    opacity: 0.9;
-    box-shadow: 5px 5px 2.5px 0 rgba(0, 0, 0, 0.2), 8px 8px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
 .installation{
     width: 91.5%;
-    height: 71%;
+    height: 25em;
     margin-left: 4.1%;
     margin-right: 4.1%;
-    margin-bottom: 0;
-    float: left;
-    opacity: 0.9;
-    box-shadow: 5px 5px 2.5px 0 rgba(0, 0, 0, 0.2), 8px 8px 4px 0 rgba(0, 0, 0, 0.19);
 }
-
-.tjanst:hover .hemsida{
-    display: block;
-}
-
 }

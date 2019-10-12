@@ -53,7 +53,13 @@ h1, h2{
     color: whitesmoke;
 }
 
+/*För Ipad*/
 @media screen and (min-width: 768px){
+   
+}
+
+/*För större skärmar*/
+@media screen and (min-width: 1224px){
 
 .header{
     border-bottom: 2px solid black;

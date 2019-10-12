@@ -2,6 +2,7 @@
     display: none;
 }
 
+/*För Ipad*/
 @media screen and (min-width: 768px){
 .startsidaTop{
     display: block;
@@ -38,4 +39,9 @@
     width: 100%;
     height: auto;
 }
+}
+
+/*För större skärmar*/
+@media screen and (min-width: 1224px){
+
 }
