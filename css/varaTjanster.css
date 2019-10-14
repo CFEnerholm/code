@@ -21,15 +21,16 @@
 }
 
 .tjanstHeading img{
-    padding: 2em;
+    padding: 1em;
 }
 
 .tjanst{
     width: 90%;
     height: 15em;
     margin-left: 5%;
-    margin-bottom: 1em;
+    margin-bottom: 4%;
     background-color: whitesmoke;
+    overflow: hidden;
     position: relative;
     z-index: 1;
 }
@@ -39,7 +40,6 @@
     width: 90%;
     height: 47em;
     margin-left: 5%;
-    margin-bottom: 1em;
     background-color: whitesmoke;
     position: absolute;
     z-index: 3;
@@ -51,7 +51,6 @@
     width: 90%;
     height: 47em;
     margin-left: 5%;
-    margin-bottom: 1em;
     background-color: whitesmoke;
     position: absolute;
     z-index: 3;
@@ -65,7 +64,6 @@
     margin-left: 5%;
     margin-bottom: 1em;
     background-color: whitesmoke;
-    border-radius: 1em;
     position: absolute;
     z-index: 3;
     opacity: 0.9;
@@ -163,7 +161,7 @@
 
 .varaTjanster{
 width: 90%;
-height: 25em;
+height: 47em;
 margin-left: 5%;
 }
 
@@ -178,6 +176,7 @@ margin-left: 5%;
     height: 25em;
     margin-left: 4.1%;
     margin-right: 4.1%;
+    margin-bottom: 4%;
     float: left;
     box-shadow: 5px 5px 2.5px 0 rgba(0, 0, 0, 0.2), 8px 8px 4px 0 rgba(0, 0, 0, 0.19);
 }
