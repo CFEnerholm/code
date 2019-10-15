@@ -17,21 +17,24 @@
 <body onload="showSlides()">
     <div class="header">
         <div class="headerLeft">
-            <a href="startsida.html"><img id="logga" src="bilder/logga.png" alt=""></a>
+            <a href="#toppen"><img id="logga" src="bilder/logga.png" alt=""></a>
         </div>
         <div class="headerMiddle">
             <div class="menuBtn"><a href="#varaTjanster">Våra tjänster</a></div>
             <div class="menuBtn"><a href="#tidigareProjekt">Tidigare projekt</a></div>
             <div class="menuBtn"><a href="#kontakt">Kontakt</a></div>
         </div>
-        <div class="headerRight">
-          
+        <div class="headerRight" onclick="visaMeny()"> 
                 <img id="menyBild" src="bilder/icons8-menu.png" alt="">
-           
+        </div>
+        <div class="mobilMeny">
+            <a href="#varaTjanster">Våra tjänster</a><br/>
+            <a href="#tidigareProjekt">Tidigare projekt</a><br/>
+            <a href="#kontakt">Kontakt</a><br/>
         </div>
     </div>
     <div class="innerBody">
-        <div class="startsidaTop">
+        <div id="toppen" class="startsidaTop">
             <div class="startsidaImage fade">
                 <img src="bilder/photo3.jpg" alt="images">
             </div>
@@ -135,6 +138,7 @@
     <script src="javaScript/slideshow.js"></script>
     <script src="javaScript/varaTjanster.js"></script>
     <script src="javaScript/anchorScroll.js"></script>
+    <script src="javaScript/visaMeny.js"></script>
 </body>
 
 </html>
