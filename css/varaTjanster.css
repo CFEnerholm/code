@@ -15,25 +15,62 @@
     text-align: center;
 }
 
-.tjanstHeading h1, h2, p{
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
 .tjanstHeading img{
     padding: 1em;
 }
 
 .tjanst{
     width: 90%;
-    height: 15em;
+    height: 20em;
     margin-left: 5%;
     margin-bottom: 4%;
     background-color: whitesmoke;
     overflow: hidden;
     position: relative;
     z-index: 1;
+}
+
+.tjanstRubrik{
+    width: 100%;
+    height: 15%;
+    background-color: whitesmoke;
+    color: black;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tjanstBeskrivning{
+    width: 100%;
+    height: 70%;
+    background-color: whitesmoke;
+}
+
+.tjanstBeskrivning ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 10%;
+  }
+  
+  .tjanstBeskrivning ul li::before {
+    content: "\2713";
+    color: orange;
+    display: inline-block; 
+    width: 1em;
+
+  }
+
+.tjanstPris{
+    width: 100%;
+    height: 15%;
+    background-color: orange;
+    color: black;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hemsida{
@@ -68,40 +105,6 @@
     position: absolute;
     z-index: 3;
     opacity: 0.9;
-}
-
-.tjanstRubrik{
-    width: 100%;
-    height: 15%;
-    background-color: whitesmoke;
-    color: black;
-    opacity: 0.9;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.tjanstRubrik h1, h2, p{
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-.tjanstBeskrivning{
-    width: 100%;
-    height: 70%;
-    background-color: whitesmoke;
-}
-
-.tjanstPris{
-    width: 100%;
-    height: 15%;
-    background-color: orange;
-    color: black;
-    opacity: 0.9;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .tjanstUtokadinfoRubrik{

@@ -1,12 +1,13 @@
 .kontakt{
     width: 100%;
+    height: 50em;
     padding-bottom: 2em;
     padding-top: 4em;
-    background-color: white;
    }
 
    .kontaktHeading{
     width: 100%;
+    height: 30%;
     margin: 0;
     color: black;
     text-align: center;
@@ -14,20 +15,38 @@
 
 .kontaktContent{
     width: 90%;
-    height: 30em;
+    height: 70%;
     margin-left: 5%;
-    margin-bottom: 5%;
-
 }
 
 .kontaktInfo{
-    width: 100%;
-    color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50%;
+    text-align: left;
+    float: left;
+}
+
+.kontaktInfo h2, h3{
+    color: orange;
+    text-align: left;
+}
+
+.kontaktInfo p{
+    text-align: left;
 }
 
 .kontaktForm{
     width: 100%;
+    height: 50%;
+    float: left;
+}
 
+form input, textarea{
+    width: 95%;
+    margin: 1em;
+    text-align: left;
 }
 
 /*För Ipad*/
@@ -35,17 +54,16 @@
     .kontaktContent{
         width: 98%;
         margin-left: 1%;
- 
         }
 
         .kontaktInfo{
-            width: 50%;
-            color: white;
+            width: 30%;
+            height: 100%;
         }
         
         .kontaktForm{
             width: 50%;
-            
+            height: 100%;          
         }
 }
 
