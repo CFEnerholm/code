@@ -25,7 +25,7 @@ h1, h2{
 .header{
     width: 100%;
     height: 4em;
-    background-color: #176C80; 
+    background-color: #ffa500; 
     position: fixed;
     opacity: 0.9;
     z-index: 5;
@@ -55,8 +55,8 @@ h1, h2{
 .footer{
     width: 100%;
     height: 7em;
-    background-color: #176C80;
-    color: whitesmoke;
+    background-color: black;
+    color: rgb(128, 83, 0);
 }
 
 .mobilMeny{
@@ -129,6 +129,6 @@ h1, h2{
 
 .menuBtn a:hover{
     text-decoration: none;
-    color: darkgrey;
+    color: rgb(58, 58, 58);
 }
 }
