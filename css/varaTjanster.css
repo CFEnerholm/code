@@ -1,8 +1,9 @@
 .varaTjanster{
  width: 100%;
- margin-bottom: 2em;
+ padding-bottom: 2em;
  padding-top: 4em;
  position: relative;
+ background-color: white;
 }
 
 .tjanstHeading{
@@ -117,6 +118,11 @@
 
 /*För Ipad*/
 @media screen and (min-width: 768px){
+    .varaTjanster{
+        width: 100%;
+        height: 40em;
+    }
+
     .tjanst{
         width: 31.3%;
         height: 25em;
@@ -128,6 +134,7 @@
 
     .tjanstHeading{
         width: 70%;
+        height: 15em;
         margin-left: 15%;
         margin-right: 15%;
     }
@@ -164,9 +171,9 @@
 @media screen and (min-width: 1224px){
 
 .varaTjanster{
-width: 90%;
+width: 100%;
 height: 47em;
-margin-left: 5%;
+
 }
 
 .tjanstHeading{
