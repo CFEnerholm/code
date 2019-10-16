@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/tidigareProjekt.css">
     <link rel="stylesheet" href="css/kontakt.css">
     <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>Nilsson Enerholm Webb & Systemutveckling AB</title>
 
 </head>
@@ -153,12 +154,12 @@
                     <p>Carl-Fredrik: 070-290 59 59</p>
                 </div>
                 <div class="kontaktForm">
-                    <form>
-                        <input type="text" placeholder="Ditt namn:"><br>
-                        <input type="email" placeholder="Din e-post:"><br>
-                        <input type="tel" placeholder="Ditt telefonnummer:"><br>
-                        <textarea placeholder="Ditt meddelande:" rows="10"></textarea><br>
-                        <button>Skicka</button>
+                    <form onsubmit="send()">
+                        <input type="text" id="name" placeholder="Ditt namn:"><br>
+                        <input type="email" id="mail" placeholder="Din e-post:"><br>
+                        <input type="tel" id="phone" placeholder="Ditt telefonnummer:"><br>
+                        <textarea id="message" placeholder="Ditt meddelande:" rows="10"></textarea>
+                        <submit><button>Skicka</button></submit>
                     </form>
                 </div>
             </div>
@@ -171,7 +172,9 @@
     <script src="javaScript/varaTjanster.js"></script>
     <script src="javaScript/anchorScroll.js"></script>
     <script src="javaScript/visaMeny.js"></script>
-    <script src="javaScript/fixaSkarmStorlek.js"></script>
+    <script src="javaScript/fixaSkarmStorlek.js"></script>  
+    <script src="javaScript/sendMail.js"></script>
+    
 </body>
 
 </html>
