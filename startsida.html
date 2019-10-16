@@ -15,45 +15,58 @@
     <title>Nilsson Enerholm Webb & Systemutveckling AB</title>
 </head>
 
-<body onload="showSlides()">
+<body>
     <div class="header">
         <div class="headerLeft">
             <a href="#toppen"><img id="logga" src="bilder/logga.png" alt=""></a>
         </div>
         <div class="headerMiddle">
+                <div class="menuBtn"><a href="#tidigareProjekt">Tidigare projekt</a></div>
             <div class="menuBtn"><a href="#varaTjanster">Våra tjänster</a></div>
-            <div class="menuBtn"><a href="#tidigareProjekt">Tidigare projekt</a></div>
             <div class="menuBtn"><a href="#kontakt">Kontakt</a></div>
         </div>
         <div class="headerRight" onclick="visaMeny()">
             <img id="menyBild" src="bilder/icons8-menu.png" alt="">
         </div>
         <div class="mobilMeny">
-            <a href="#varaTjanster" onclick="visaMeny()">Våra tjänster</a><br />
             <a href="#tidigareProjekt" onclick="visaMeny()">Tidigare projekt</a><br />
+            <a href="#varaTjanster" onclick="visaMeny()">Våra tjänster</a><br />
             <a href="#kontakt" onclick="visaMeny()">Kontakt</a><br />
         </div>
     </div>
-    <div class="innerBody">
-        <div id="toppen" class="startsidaTop">
-            <div class="startsidaImage fade">
-                <img src="bilder/photo3.jpg" alt="images">
-            </div>
-            <div class="startsidaImage fade">
-                <img src="bilder/photo1.jpg" alt="images">
-            </div>
-            <div class="startsidaImage fade">
+    <div id="toppen" class="innerBody">
+        <div class="startsidaTop">
+            <div class="startsidaImage">
                 <img src="bilder/photo2.jpg" alt="images">
             </div>
         </div>
+
+        <div class="startsidaBottom">
+
+                    <img src="bilder/logga.png" alt="image">
+
+ 
+            </div>
+
+        <div id="tidigareProjekt" class="tidigareProjekt">
+                <div class="tidigareProjektHeading">
+                    <img src="bilder/icons8-services.png" alt="image">
+                    <h1>Tidigare projekt</h1>
+                    <div class="tidigareProjektContent"></div>
+                </div>
+            </div>
+
         <div id="varaTjanster" class="varaTjanster">
             <div class="tjanstHeading">
                 <img src="bilder/icons8-monitor.png" alt="image">
                 <h1>Våra Tjänster</h1>
-                <p>På NEWS vet vi hur man skapar en hemsida, men vi kan mycket mer än så. Då vi även är ett webbhotell ser vi inte bara till 
-                    att du får en snygg hemsida, utan vi kan även ge dig en helhetslösning med domännamn, epost-adresser m.m. Vi har även stor 
-                    erfarenhet av olika typer av installationer och erbjuder även installationer av nätverk m.m. för dig som har behov av det. 
-                    Vill du veta mer om vilka problem vi kan lösa för dig? 
+                <p>På NEWS vet vi hur man skapar en hemsida, men vi kan mycket mer än så. Då vi även är ett webbhotell
+                    ser vi inte bara till
+                    att du får en snygg hemsida, utan vi kan även ge dig en helhetslösning med domännamn, epost-adresser
+                    m.m. Vi har även stor
+                    erfarenhet av olika typer av installationer och erbjuder även installationer av nätverk m.m. för dig
+                    som har behov av det.
+                    Vill du veta mer om vilka problem vi kan lösa för dig?
                     Läs mer nedan eller kontakta oss för mer info! </p>
             </div>
             <div class="hemsida" onclick="showHemsida()"><button class="closeBtn">X</button>
@@ -96,12 +109,11 @@
                 </div>
                 <div class="tjanstBeskrivning">
                     <ul>
+                        <li>Tre sidor</li>
+                        <li>Responsiv layout</li>
                         <li>Domännamn</li>
                         <li>Uppsättning av e-post adresser</li>
-                        <li>Domännamn</li>
-                        <li>Uppsättning av e-post adresser</li>
-                        <li>Domännamn</li>
-                        <li>Uppsättning av e-post adresser</li>
+                        <li>1 års webbhotell</li>
                     </ul>
                 </div>
                 <div class="tjanstPris">
@@ -113,19 +125,19 @@
                 <div class="tjanstRubrik">
                     <h2>Tilläggstjänster</h2>
                 </div>
-                <div class="tjanstBeskrivning"></div>
+                <div class="tjanstBeskrivning">
+                    <ul>
+                    <li>Konsultation i nätverksfrågor</li>
+                    <li>Installation av nätverk</li>
+                    <li>Webbaserat tidbokningssystem</li>
+                </ul>
+                </div>
                 <div class="tjanstPris">
                     <h2>Efterfråga Offert</h2>
                 </div>
             </div>
         </div>
-        <div id="tidigareProjekt" class="tidigareProjekt">
-            <div class="tidigareProjektHeading">
-                <img src="bilder/icons8-services.png" alt="image">
-                <h1>Tidigare projekt</h1>
-                <div class="tidigareProjektContent"></div>
-            </div>
-        </div>
+
         <div id="kontakt" class="kontakt">
             <div class="kontaktHeading">
                 <img src="bilder/icons8-important_mail.png" alt="image">
@@ -135,32 +147,40 @@
                 <div class="kontaktInfo">
                     <h2>Kontakta oss</h2>
                     <p>Du når oss lättast genom att fylla i vårt kontaktformulär. Vill du hellre kontakt oss via
-                        mail eller telefon finns våra kontaktuppgifter här nedan.</p>
+                        telefon finns våra kontaktuppgifter här nedan.</p>
                     <br />
                     <h3>Telefon:</h3>
                     <p>Mats: 073-545 15 87 </p>
                     <p>Carl-Fredrik: 070-290 59 59</p>
-                    <br />
-                    <h3>Mail:</h3>
-                    <p>info@nilssonenerholm.se</p>
-                    <p>mats@nilssonenerholm.se</p>
-                    <p>carlfredrik@nilssonenerholm.se</p>
-
+                    
+                
                 </div>
                 <div class="kontaktForm">
+<<<<<<< HEAD
                     <form onsubmit="send()">
                         <input type="text" id="name" placeholder="Ditt namn:"><br>
                         <input type="email" id="mail" placeholder="Din e-post:"><br>
                         <input type="tel" id="phone" placeholder="Ditt telefonnummer:"><br>
                         <textarea id="message" placeholder="Ditt meddelande:" rows="10"></textarea>
                         <submit><button>Skicka</button></submit>
+=======
+                    <form>
+                        <input type="text" placeholder="Ditt namn:"><br>
+                        <input type="email" placeholder="Din e-post:"><br>
+                        <input type="tel" placeholder="Ditt telefonnummer:"><br>
+                        <textarea placeholder="Ditt meddelande:" rows="10"></textarea><br>
+                        <button>Skicka</button>
+>>>>>>> 5636fecb425fde7dd82f8d3b8fb67e74bf9f8170
                     </form>
                 </div>
             </div>
 
         </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+            Org.nr: 559220-2591<br/>
+            Godkänd för F-Skatt
+    </div>
     <script src="javaScript/slideshow.js"></script>
     <script src="javaScript/varaTjanster.js"></script>
     <script src="javaScript/anchorScroll.js"></script>
