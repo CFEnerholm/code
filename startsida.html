@@ -148,11 +148,12 @@
 
                 </div>
                 <div class="kontaktForm">
-                    <form>
+                    <form onsubmit="send()">
                         <input type="text" id="name" placeholder="Ditt namn:"><br>
                         <input type="email" id="mail" placeholder="Din e-post:"><br>
                         <input type="tel" id="phone" placeholder="Ditt telefonnummer:"><br>
                         <textarea id="message" placeholder="Ditt meddelande:" rows="10"></textarea>
+                        <submit><button>Skicka</button></submit>
                     </form>
                 </div>
             </div>
@@ -164,7 +165,9 @@
     <script src="javaScript/varaTjanster.js"></script>
     <script src="javaScript/anchorScroll.js"></script>
     <script src="javaScript/visaMeny.js"></script>
+    
     <script src="javaScript/sendMail.js"></script>
+    
 </body>
 
 </html>

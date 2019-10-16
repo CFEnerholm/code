@@ -3,21 +3,22 @@
 
 function send(){
 
-    var name = $("#name").val();
-    var email = $("#email").val();
-    var message = $("#message").val();
-    var phone = $("#phone").val();
-
+  
+    alert("HEj");
+    
+  
 Email.send({
 
-    SecureToken : "93890fd2-bf02-457d-8945-564547ff9e0a",
-    To : 'info@nilssonenerholm.se',
+   // SecureToken : "93890fd2-bf02-457d-8945-564547ff9e0a",
+   Host : "mail.nilssonenerholm.se",
+    Username : "visitor@nilssonenerholm.se",
+    Password : "ContactForm",
+    To : "info@nilssonenerholm.se",
     From : "visitor@nilssonenerholm.se",
     Subject : "Från nilssonenerholm.se",
-    Body : name +"<br>"+ email +"<br>"+ phone +"<br>"+ message
+    Body :  "TEsT!!"
     
 }).then(
   message => alert(message)
 );
-
-}
+};
