@@ -6,175 +6,155 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/meny.css">
     <link rel="stylesheet" href="css/startsida.css">
     <link rel="stylesheet" href="css/varaTjanster.css">
     <link rel="stylesheet" href="css/tidigareProjekt.css">
     <link rel="stylesheet" href="css/kontakt.css">
     <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>Nilsson Enerholm Webb & Systemutveckling AB</title>
-
 </head>
 
-<body onload="sattHojd()">
+<body>
+
     <div class="header">
         <div class="headerLeft">
-            <a href="#toppen"><img id="logga" src="bilder/logga.png" alt=""></a>
+            <a href="#startsida"><img id="logga" src="bilder/logga.png" alt=""></a>
         </div>
         <div class="headerMiddle">
             <div class="menuBtn"><a href="#tidigareProjekt">Tidigare projekt</a></div>
             <div class="menuBtn"><a href="#varaTjanster">Våra tjänster</a></div>
             <div class="menuBtn"><a href="#kontakt">Kontakt</a></div>
         </div>
-        <div class="headerRight" onclick="visaMeny()">
-            <img id="menyBild" src="bilder/icons8-menu.png" alt="">
+        <div class="headerRight">
+            <img id="menyBild" src="bilder/icons8-menu.png" alt="" onclick="visaMeny()">
         </div>
         <div class="mobilMeny">
-            <a href="#tidigareProjekt" onclick="visaMeny()">Tidigare projekt</a><br />
-            <a href="#varaTjanster" onclick="visaMeny()">Våra tjänster</a><br />
-            <a href="#kontakt" onclick="visaMeny()">Kontakt</a><br />
+            <a href="#tidigareProjekt" onclick="visaMeny()"><div class="mobilMenyKnapp">Tidigare projekt</div></a>
+            <a href="#varaTjanster" onclick="visaMeny()"><div class="mobilMenyKnapp"> Våra tjänster</div></a>
+            <a href="#kontakt" onclick="visaMeny()"><div class="mobilMenyKnapp"> Kontakt</div></a>
         </div>
     </div>
 
-    <div id="toppen" class="innerBody">
-
-        <div id="startsida" class="startsida">
-            <div class="startsidaTop">
-                <img src="bilder/photo2.jpg" alt="images">
-            </div>
-            <div class="startsidaBottom">
-                <img src="bilder/logga.png" alt="image">
-            </div>
+    <div id="startsida" class="behallare">
+        <div class="startsidaTop">
+            <img src="bilder/logga.png" alt="image">
         </div>
+        <div class="startsidaBottten">
 
-        <div id="tidigareProjekt" class="tidigareProjekt">
-            <div class="tidigareProjektHeading">
-                <img src="bilder/icons8-services.png" alt="image">
-                <h1>Tidigare projekt</h1>
-                <div class="tidigareProjektContent"></div>
-            </div>
         </div>
+    </div>
 
-        <div id="varaTjanster" class="varaTjanster">
-            <div class="tjanstHeading">
-                <img src="bilder/icons8-monitor.png" alt="image">
-                <h1>Våra Tjänster</h1>
+    <div id="tidigareProjekt" class="behallare">
+        <div class="behallarTop">
+            <img src="bilder/icons8-services.png" alt="image">
+            <h1>Tidigare projekt</h1>
+            <div class="tidigareProjektInnehall"></div>
+        </div>
+    </div>
+
+    <div id="varaTjanster" class="behallare">
+        <div class="behallarTop">
+            <img src="bilder/icons8-monitor.png" alt="image">
+            <h1>Våra Tjänster</h1>
+            <div class="varaTjansterText">
                 <p>På NEWS vet vi hur man skapar en hemsida, men vi kan mycket mer än så. Då vi även är ett webbhotell
                     ser vi inte bara till
                     att du får en snygg hemsida, utan vi kan även ge dig en helhetslösning med domännamn, epost-adresser
                     m.m. Vi har även stor
                     erfarenhet av olika typer av installationer och erbjuder även installationer av nätverk m.m. för dig
-                    som har behov av det.
-                    Vill du veta mer om vilka problem vi kan lösa för dig?
+                    som har behov av det.<br><br>
+                    Vill du veta mer om vilka problem vi kan lösa för dig?<br>
                     Läs mer nedan eller kontakta oss för mer info! </p>
-            </div>
-
-            <div class="hemsida" onclick="showHemsida()"><button class="closeBtn">X</button>
-                <div class="tjanstUtokadinfoRubrik">
-                    <h2>Hemsida</h2>
-                    <p>För dig som behöver en hemsida</p>
-                </div>
-            </div>
-            <div class="webbhotell" onclick="showWebbhotell()"><button class="closeBtn">X</button>
-                <div class="tjanstUtokadinfoRubrik">
-                    <h2>Helhetslösningen</h2>
-                    <p>För dig som behöver en hemsida och allt där omkring</p>
-                </div>
-            </div>
-            <div class="installation" onclick="showInstallation()"><button class="closeBtn">X</button>
-                <div class="tjanstUtokadinfoRubrik">
-                    <h2>Tilläggstjänster</h2>
-                    <p>För dig som behöver hjälp med annat</p>
-                </div>
-            </div>
-            <div class="tjansterna">
-                <div onclick="showHemsida()" class="tjanst">
-                    <div class="tjanstRubrik">
-                        <h2>Hemsida</h2>
-                    </div>
-                    <div class="tjanstBeskrivning">
-                        <ul>
-                            <li>Tre sidor</li>
-                            <li>Responsiv layout</li>
-                        </ul>
-                    </div>
-                    <div class="tjanstPris">
-                        <h2>Från 3 595kr</h2>
-                    </div>
-                </div>
-                <div onclick="showWebbhotell()" class="tjanst">
-                    <div class="tjanstRubrik">
-                        <h2>Helhetslösningen</h2>
-                    </div>
-                    <div class="tjanstBeskrivning">
-                        <ul>
-                            <li>Tre sidor</li>
-                            <li>Responsiv layout</li>
-                            <li>Domännamn</li>
-                            <li>Uppsättning av e-post adresser</li>
-                            <li>1 års webbhotell</li>
-                        </ul>
-                    </div>
-                    <div class="tjanstPris">
-                        <h2>Från 4 995kr</h2>
-                    </div>
-                </div>
-                <div onclick="showInstallation()" class="tjanst">
-                    <div class="tjanstRubrik">
-                        <h2>Tilläggstjänster</h2>
-                    </div>
-                    <div class="tjanstBeskrivning">
-                        <ul>
-                            <li>Konsultation i nätverksfrågor</li>
-                            <li>Installation av nätverk</li>
-                            <li>Webbaserat tidbokningssystem</li>
-                        </ul>
-                    </div>
-                    <div class="tjanstPris">
-                        <h2>Efterfråga Offert</h2>
-                    </div>
-                </div>
             </div>
         </div>
 
-
-        <div id="kontakt" class="kontakt">
-            <div class="kontaktHeading">
-                <img src="bilder/icons8-important_mail.png" alt="image">
-                <h1>Kontakt</h1>
-            </div>
-            <div class="kontaktContent">
-                <div class="kontaktInfo">
-                    <h2>Kontakta oss</h2>
-                    <p>Du når oss lättast genom att fylla i vårt kontaktformulär. Vill du hellre kontakt oss via
-                        telefon finns våra kontaktuppgifter här nedan.</p>
-                    <br />
-                    <h3>Telefon:</h3>
-                    <p>Mats: 073-545 15 87 </p>
-                    <p>Carl-Fredrik: 070-290 59 59</p>
+        <div class="tjansterna">
+            <div id="hemsida" onclick="showHemsida()" onfocus="livaUppRutan()" class="tjanst">
+                <div class="tjanstRubrik">
+                    <h2>Hemsida</h2>
                 </div>
-                <div class="kontaktForm">
-                    <form onsubmit="send()">
-                        <input type="text" id="name" placeholder="Ditt namn:"><br>
-                        <input type="email" id="mail" placeholder="Din e-post:"><br>
-                        <input type="tel" id="phone" placeholder="Ditt telefonnummer:"><br>
-                        <textarea id="message" placeholder="Ditt meddelande:" rows="10"></textarea>
-                        <submit><button>Skicka</button></submit>
-                    </form>
+                <div class="tjanstBeskrivning">
+                    <ul>
+                        <li>Tre sidor</li>
+                        <li>Responsiv layout</li>
+                    </ul>
+                </div>
+                <div class="tjanstPris">
+                    <h2>Från 3 595kr</h2>
+                </div>
+            </div>
+            <div onclick="showWebbhotell()" class="tjanst">
+                <div class="tjanstRubrik">
+                    <h2>Helhetslösningen</h2>
+                </div>
+                <div class="tjanstBeskrivning">
+                    <ul>
+                        <li>Tre sidor</li>
+                        <li>Responsiv layout</li>
+                        <li>Domännamn</li>
+                        <li>Uppsättning av e-post adresser</li>
+                        <li>1 års webbhotell</li>
+                    </ul>
+                </div>
+                <div class="tjanstPris">
+                    <h2>Från 4 995kr</h2>
+                </div>
+            </div>
+            <div onclick="showInstallation()" class="tjanst">
+                <div class="tjanstRubrik">
+                    <h2>Tilläggstjänster</h2>
+                </div>
+                <div class="tjanstBeskrivning">
+                    <ul>
+                        <li>Konsultation i nätverksfrågor</li>
+                        <li>Installation av nätverk</li>
+                        <li>Webbaserat tidbokningssystem</li>
+                    </ul>
+                </div>
+                <div class="tjanstPris">
+                    <h2>Efterfråga Offert</h2>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer">
+
+    <div id="kontakt" class="behallare">
+        <div class="behallarTop">
+            <img src="bilder/icons8-important_mail.png" alt="image">
+            <h1>Kontakt</h1>
+        </div>
+        <div class="kontakt">
+            <div class="kontaktInfo">
+                <h2>Kontakta oss</h2>
+                <p>Du når oss lättast genom att fylla i vårt kontaktformulär. Vill du hellre kontakt oss via
+                    telefon finns våra kontaktuppgifter här nedan.</p>
+                <br />
+                <h3>Telefon:</h3>
+                <p>Mats: 073-545 15 87 </p>
+                <p>Carl-Fredrik: 070-290 59 59</p>
+            </div>
+            <div class="kontaktForm">
+                <form onsubmit="send()">
+                    <input type="text" id="name" placeholder="Ditt namn:"><br>
+                    <input type="email" id="mail" placeholder="Din e-post:"><br>
+                    <input type="tel" id="phone" placeholder="Ditt telefonnummer:"><br>
+                    <textarea id="message" placeholder="Ditt meddelande:" rows="10"></textarea>
+                    <submit><button>Skicka</button></submit>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="fot">
         Org.nr: 559220-2591<br />
         Godkänd för F-Skatt
     </div>
+
     <script src="javaScript/varaTjanster.js"></script>
-    <script src="javaScript/anchorScroll.js"></script>
+    <script src="javaScript/flytandeScroll.js"></script>
     <script src="javaScript/visaMeny.js"></script>
-    <script src="javaScript/fixaSkarmStorlek.js"></script>  
-    <script src="javaScript/sendMail.js"></script>
-    
+    <script src="javaScript/livaUppRutan.js"></script>
 </body>
 
 </html>

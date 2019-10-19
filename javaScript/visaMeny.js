@@ -1,6 +1,3 @@
-
 function visaMeny() {  
-  
-        $(".mobilMeny").toggle(200);    
-
+        $(".mobilMeny").slideToggle(200);    
 }
