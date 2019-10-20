@@ -1,5 +1,4 @@
 #varaTjanster{
-    background-image: url(/bilder/background.jpg);
     background-color: orange;
     opacity: 0.9;
 }
@@ -42,7 +41,6 @@
 .tjanstBeskrivning{
     width: 100%;
     height: 60%;
-    background-image: url(/bilder/logga.png);
 }
 
 .tjanstBeskrivning ul {
