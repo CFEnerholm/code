@@ -1,5 +1,15 @@
 #varaTjanster{
+
+    background: linear-gradient(#ffa600e7, #ffa600e7),
+    url('../bilder/bg.jpg');
+    background-size: 100% auto;
+
+}
+#varaTjansterBG{
+    width: 100%;
+    height: 100%;
     background-color: orange;
+    opacity: 0.92;
 }
 
 .varaTjansterText{
