@@ -1,3 +1,8 @@
+#startsida{
+    background: linear-gradient(#ffffffe7, #ffffffe7),url('../bilder/bg2.jpg');
+    background-size: auto 100%;
+}
+
 .startsidaTop{
     height: 40%;
     text-align: center;
@@ -19,17 +24,28 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    float: left;
-
 }
 
 .startsidaBottenInfo{
-    height: 60%;
-    width: 23.1%;
+    width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    border-left: 1px solid #3e4b4b30;
-    border-right: 1px solid #3e4b4b30;
-    float: left;
+}
+
+/*För Ipad*/
+@media screen and (min-width: 768px){
+    .startsidaBotten{
+        float: left;
+    }
+    
+    .startsidaBottenInfo{
+        background-color: #ffffffaa;
+        width: 22.5%;
+        float: left;
+    }
+}
+
+/*För större skärmar*/
+@media screen and (min-width: 1024px){    
 
 }

@@ -1,8 +1,7 @@
 #varaTjanster{
-
-    background: linear-gradient(#ffa600e7, #ffa600e7),
-    url('../bilder/bg.jpg');
-    background-size: 100% auto;
+    background: linear-gradient(#ffa600e7, #ffa600e7),url('../bilder/bg2.jpg');
+    background-size: auto 100%;
+    background-color: orange;
 
 }
 #varaTjansterBG{
