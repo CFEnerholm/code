@@ -1,3 +1,8 @@
+.tidigareProjektInnehall{
+  width: 100%;
+  
+}
+
 .bildspel{
     width: 100%;
     height: 25em;
@@ -8,8 +13,8 @@
 }
 
 .bildspelsBild{
-    width: auto;
-    height: 90%;
+    width: 100%;
+    height: auto;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -18,8 +23,8 @@
 }
 
 .bildspelsBild img{
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .bildspelsKnapp{
@@ -54,23 +59,59 @@
 
   .sammarbetsPartners{
     width: 100%;
-    height: 7em;
-    border-radius: 3px 3px 3px 3px;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+    text-align: center;
     float: left;
   }
 
   .sammarbetsPartnersLogga{
-    height: 100%;
-    width: 25%;
+    height: 25%;
+    width: 100%;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     float: left;
   }
 
-  .sammarbetsPartnersLogga img{
-    padding: 15%;
-    height: 70%;
-    width: 70%;
+  .sammarbetsPartnersLoggaBild{
+   height: 60%;
+   width: 60%;
+
   }
 
+  /*För Ipad*/
+@media screen and (min-width: 768px){
+  .sammarbetsPartnersLogga{
+    height: 100%;
+    width: 25%;
+  }
+
+  .bildspelsBild{
+    width: auto;
+    height: 90%;
+  }
+
+  .bildspelsBild img{
+    width: auto;
+    height: 100%;
+}
+
+.sammarbetsPartners{
+  width: 100%;
+  height: 7em;
+}
+
+.sammarbetsPartnersLogga{
+  height: 100%;
+  width: 25%;
+}
+
+
+}
+
+/*För större skärmar*/
+@media screen and (min-width: 1024px){    
+
+}
