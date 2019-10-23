@@ -80,7 +80,9 @@ h1, h2, h3, p{
 
 /*För Ipad*/
 @media screen and (min-width: 768px){
-   
+    .behallare{
+        height: 1024px;
+    }
 }
 
 /*För MacBook 13"*/
