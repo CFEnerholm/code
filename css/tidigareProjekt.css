@@ -58,10 +58,10 @@
 
   .sammarbetsPartners{
     width: 100%;
+    height: 17em;
     border-top: 1px solid orange;
     border-bottom: 1px solid orange;
     text-align: center;
-    float: left;
   }
 
   .sammarbetsPartnersLogga{
@@ -76,9 +76,8 @@
 
   .sammarbetsPartnersLoggaBild{
     margin-left: 20%;
-   height: 60%;
-   width: 60%;
-
+    height: 60%;
+    width: 60%;
   }
 
   /*För Ipad*/

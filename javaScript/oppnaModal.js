@@ -1,19 +1,9 @@
-function showModal(Modal, Element) {
+function showModal(Modal){
     var modal = document.getElementById(Modal);
-    var btn = document.getElementById(Element);
-    var span = document.getElementsByClassName("close")[0];
+    modal.style.display = "block";
+}
 
-    btn.onclick = function () {
-        modal.style.display = "block";
-    }
-
-    span.onclick = function () {
-        modal.style.display = "none";
-    }
-
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
+function hideModal(Modal){
+    var modal = document.getElementById(Modal);
+    modal.style.display = "none";
 }

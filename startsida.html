@@ -100,6 +100,7 @@
             <img src="bilder/icons8-services.png" alt="image">
             <h1>Tidigare projekt</h1>
         </div>
+
         <div class="bildspel">
             <button class="bildspelsKnapp tidigare" onclick="plusDivs(-1)">&#10094;</button>
             <button class="bildspelsKnapp nasta" onclick="plusDivs(1)">&#10095;</button>
@@ -108,19 +109,23 @@
             <img class="bildspelsBild" src="bilder/portfolioBild3.png">
             <img class="bildspelsBild" src="bilder/portfolioBild4.jpg">
         </div>
+
         <h3>Våra sammarbetspartners:</h3>
         <div class="sammarbetsPartners">
-            <div class="sammarbetsPartnersLogga"><img class="sammarbetsPartnersLoggaBild" src="bilder/logga.png"></div>
-            <div class="sammarbetsPartnersLogga"><img class="sammarbetsPartnersLoggaBild" src="bilder/sammarbete1.png">
+            <div class="sammarbetsPartnersLogga">
+                <img class="sammarbetsPartnersLoggaBild" src="bilder/logga.png">
             </div>
-            <div class="sammarbetsPartnersLogga"><img class="sammarbetsPartnersLoggaBild" src="bilder/sammarbete2.png">
+            <div class="sammarbetsPartnersLogga">
+                <img class="sammarbetsPartnersLoggaBild" src="bilder/sammarbete1.png">
             </div>
-            <div class="sammarbetsPartnersLogga"><img class="sammarbetsPartnersLoggaBild" src="bilder/sammarbete3.png">
+            <div class="sammarbetsPartnersLogga">
+                <img class="sammarbetsPartnersLoggaBild" src="bilder/sammarbete2.png">
+            </div>
+            <div class="sammarbetsPartnersLogga">
+                <img class="sammarbetsPartnersLoggaBild" src="bilder/sammarbete3.png">
             </div>
         </div>
     </div>
-
-
 
     <div id="varaTjanster" class="behallare">
         <div class="behallarTop">
@@ -139,7 +144,7 @@
         </div>
 
         <div class="tjansterna">
-            <div id="hemsida" class="tjanst" onclick="showModal('hemsidaModal', 'hemsida')">
+            <div id="hemsida" class="tjanst" onclick="showModal('hemsidaModal')">
                 <div class="tjanstRubrik">
                     <h2>Hemsida</h2>
                 </div>
@@ -153,7 +158,7 @@
                     <h2>Från 3 595kr</h2>
                 </div>
             </div>
-            <div div id="helhetslosning" class="tjanst" onclick="showModal('helhetslosningModal', 'helhetslosning')">
+            <div div id="helhetslosning" class="tjanst" onclick="showModal('helhetslosningModal')">
                 <div class="tjanstRubrik">
                     <h2>Helhetslösningen</h2>
                 </div>
@@ -170,7 +175,7 @@
                     <h2>Från 4 995kr</h2>
                 </div>
             </div>
-            <div div id="tillaggstjanster" class="tjanst" onclick="showModal('tillaggstjansterModal', 'tillaggstjanster')">
+            <div div id="tillaggstjanster" class="tjanst" onclick="showModal('tillaggstjansterModal')">
                 <div class="tjanstRubrik">
                     <h2>Tilläggstjänster</h2>
                 </div>
@@ -220,26 +225,26 @@
         Godkänd för F-Skatt
     </div>
 
-    <div id="hemsidaModal" class="modal">
+    <div id="hemsidaModal" class="modal" onclick="hideModal('hemsidaModal')">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <p>Info om hemsida</p>
+            <h2>Info om hemsida</h2>
         </div>
     </div>
 
-    <div id="helhetslosningModal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Info om helhetslösning</p>
-            </div>
+    <div id="helhetslosningModal" class="modal" onclick="hideModal('helhetslosningModal')">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Info om helhetslösning</h2>
         </div>
+    </div>
 
-        <div id="tillaggstjansterModal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <p>Info om tilläggstjänster</p>
-                </div>
-            </div>
+    <div id="tillaggstjansterModal" class="modal" onclick="hideModal('tillaggstjansterModal')">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Info om tilläggstjänster</h2>
+        </div>
+    </div>
 
     <script src="javaScript/varaTjanster.js"></script>
     <script src="javaScript/flytandeScroll.js"></script>
