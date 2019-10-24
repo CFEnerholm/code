@@ -201,12 +201,12 @@
                 <p>Carl-Fredrik: 070-290 59 59</p>
             </div>
             <div class="kontaktForm">
-                <form onsubmit="send()">
-                    <input type="text" id="name" placeholder="Ditt namn:"><br>
-                    <input type="email" id="mail" placeholder="Din e-post:"><br>
-                    <input type="tel" id="phone" placeholder="Ditt telefonnummer:"><br>
-                    <textarea id="message" placeholder="Ditt meddelande:" rows="10"></textarea>
-                    <submit><button>Skicka</button></submit>
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Ditt namn:"><br>
+                    <input type="email" name="mail" id="mail" placeholder="Din e-post:"><br>
+                    <input type="tel" name="phone" id="phone" placeholder="Ditt telefonnummer:"><br>
+                    <textarea name="message" id="message" placeholder="Ditt meddelande:" rows="10"></textarea>
+                    <submit><button onclick="sendMail()">Skicka</button></submit>
                 </form>
             </div>
         </div>
@@ -216,6 +216,16 @@
         Org.nr: 559220-2591<br />
         Godkänd för F-Skatt
     </div>
+
+    <div id="kontaktModal" class="modal" onclick="hideModal('kontaktModal')">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Tack för ditt mail!
+            </h2>
+        </div>
+    </div>
+    
+    
 
     <div id="hemsidaModal" class="modal" onclick="hideModal('hemsidaModal')">
         <div class="modal-content">
@@ -243,6 +253,7 @@
     <script src="javaScript/visaMeny.js"></script>
     <script src="javaScript/oppnaModal.js"></script>
     <script src="javaScript/bildSpel.js"></script>
+    <script src="javaScript/kontakt.js"></script>
 </body>
 
 </html>
