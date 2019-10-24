@@ -1,6 +1,6 @@
 /**
 
-//<?php 
+
 //if($_POST){
     //$to = "info@nilssonenerholm.se"; // this is your Email address
     //$from = $_POST['mail']; // this is the sender's Email address
@@ -19,7 +19,7 @@
     //header('Location: startsida.html/');
     // You cannot use header and echo together. It's one or the other.
   //  }
-//?>
+
  
 
 <?php
