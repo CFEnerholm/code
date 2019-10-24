@@ -33,3 +33,4 @@ $("#sammarbetsPartnersLoggaBild1").mouseover(function(){
 
   $(".startsidaBottenInfoEtt").animate({opacity: '1'}, 3000);
   $(".startsidaBottenInfoTva").stop().delay(2000).animate({opacity: '1'}, 3000).delay;
+  $(".startsidaBottenInfoTre").stop().delay(4000).animate({opacity: '1'}, 3000).delay;
