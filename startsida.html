@@ -57,7 +57,7 @@
                     accumsan eu felis id congue.
                     Nam vehicula rutrum cursus. In imperdiet dui sed ex maximus pretium. Morbi vestibulum cursus sem ac
                     accumsan. Proin fermentum,
-                   </p>
+                </p>
                 <br>
             </div>
             <div class="startsidaBottenInfoTva">
@@ -69,14 +69,16 @@
                     bibendum porta. Phasellus laoreet a nulla a finibus. Quisque dapibus urna ac felis pellentesque,
                     quis consequat leo sodales. Nam
                     fermentum ornare ipsum in condimentum. Proin turpis lacus, luctus at tempor a, vulputate et ligula.
-                   </p>
+                </p>
                 <br>
             </div>
-            <a href="#tidigareProjekt"><div class="startsidaBottenInfoTre">
-                <br>
-                <h3>Spana in våra tidigare projekt <br> &#xfe40;</h3>
-                <br>
-            </div></a>
+            <a href="#tidigareProjekt">
+                <div class="startsidaBottenInfoTre">
+                    <br>
+                    <h3>Spana in våra tidigare projekt <br> &#xfe40;</h3>
+                    <br>
+                </div>
+            </a>
         </div>
     </div>
 
@@ -98,23 +100,29 @@
         <h3>Våra sammarbetspartners:</h3>
         <div class="sammarbetsPartners">
             <div class="sammarbetsPartnersLogga">
-                <a href="http://www.nilssonenerholm.se" target="_blank"><img id="sammarbetsPartnersLoggaBild1" src="bilder/logga.png"></a>
+                <a href="http://www.nilssonenerholm.se" target="_blank"><img id="sammarbetsPartnersLoggaBild1"
+                        src="bilder/logga.png"></a>
             </div>
             <div class="sammarbetsPartnersLogga">
-                    <a href="http://www.cpanel.com" target="_blank"><img id="sammarbetsPartnersLoggaBild2" src="bilder/sammarbete1.png"></a>
+                <a href="http://www.cpanel.com" target="_blank"><img id="sammarbetsPartnersLoggaBild2"
+                        src="bilder/sammarbete1.png"></a>
             </div>
             <div class="sammarbetsPartnersLogga">
-                    <a href="http://www.misshosting.com" target="_blank"><img id="sammarbetsPartnersLoggaBild3" src="bilder/sammarbete2.png"></a>
+                <a href="http://www.misshosting.com" target="_blank"><img id="sammarbetsPartnersLoggaBild3"
+                        src="bilder/sammarbete2.png"></a>
             </div>
             <div class="sammarbetsPartnersLogga">
-                    <a href="http://www.segelstads.se" target="_blank"><img id="sammarbetsPartnersLoggaBild4" src="bilder/sammarbete3.png"></a>
+                <a href="http://www.segelstads.se" target="_blank"><img id="sammarbetsPartnersLoggaBild4"
+                        src="bilder/sammarbete3.png"></a>
             </div>
         </div>
-        <a href="#varaTjanster"><div class="tidigareProjektBotten">
-            <br>
-            <h3>Kolla på våra tjänster <br> &#xfe40;</h3>
-            <br>
-        </div></a>
+        <a href="#varaTjanster">
+            <div class="tidigareProjektBotten">
+                <br>
+                <h3>Kolla på våra tjänster <br> &#xfe40;</h3>
+                <br>
+            </div>
+        </a>
     </div>
 
     <div id="varaTjanster" class="behallare">
@@ -178,11 +186,13 @@
                 </div>
             </div>
         </div>
-        <a href="#kontakt"><div class="varaTjansterBotten">
-            <br>
-            <h3>Kontakta oss!<br> &#xfe40;</h3>
-            <br>
-        </div></a>
+        <a href="#kontakt">
+            <div class="varaTjansterBotten">
+                <br>
+                <h3>Kontakta oss!<br> &#xfe40;</h3>
+                <br>
+            </div>
+        </a>
     </div>
 
     <div id="kontakt" class="behallare">
@@ -206,15 +216,22 @@
                     <input type="email" name="mail" id="mail" placeholder="Din e-post:"><br>
                     <input type="tel" name="phone" id="phone" placeholder="Ditt telefonnummer:"><br>
                     <textarea name="message" id="message" placeholder="Ditt meddelande:" rows="10"></textarea>
-                    <submit><button onclick="sendMail()">Skicka</button></submit>
+                    <submit><button onclick="sendMail()" onclick="showModal('kontaktModal')">Skicka</button></submit>
                 </form>
             </div>
         </div>
     </div>
 
     <div class="fot">
-        Org.nr: 559220-2591<br />
-        Godkänd för F-Skatt
+        <ul>
+            <li>
+                Org.nr: 559220-2591<br />
+                Godkänd för F-Skatt
+            </li>
+            <li onclick="showModal('intrigitetspolicyModal')">
+                <p>Intrigitetspolicy </p>
+            </li>
+        </ul>
     </div>
 
     <div id="kontaktModal" class="modal" onclick="hideModal('kontaktModal')">
@@ -224,8 +241,14 @@
             </h2>
         </div>
     </div>
-    
-    
+
+    <div id="intrigitetspolicyModal" class="modal" onclick="hideModal('intrigitetspolicyModal')">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Tack för ditt mail!
+            </h2>
+        </div>
+    </div>
 
     <div id="hemsidaModal" class="modal" onclick="hideModal('hemsidaModal')">
         <div class="modal-content">
@@ -253,7 +276,7 @@
     <script src="javaScript/visaMeny.js"></script>
     <script src="javaScript/oppnaModal.js"></script>
     <script src="javaScript/bildSpel.js"></script>
-    <script src="javaScript/kontakt.js"></script>
+    <script src="javaScript/mail.js"></script>
 </body>
 
 </html>
