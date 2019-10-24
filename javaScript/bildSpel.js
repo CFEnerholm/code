@@ -14,4 +14,12 @@ function showDivs(n) {
     x[i].style.display = "none";  
   }
   x[slideIndex-1].style.display = "block";  
+
+  var y = document.getElementsByClassName("bildspelsText");
+  if (n > y.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = y.length}
+  for (i = 0; i < y.length; i++) {
+    y[i].style.display = "none";  
+  }
+  y[slideIndex-1].style.display = "block"; 
 }
