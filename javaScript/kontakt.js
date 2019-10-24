@@ -13,11 +13,6 @@ function sendMail(){
             $('#kontaktModal').fadeIn(1000);
         }
     });
-
-
-
-
-
 }
 
 
