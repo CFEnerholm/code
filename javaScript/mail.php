@@ -29,7 +29,4 @@ if($_POST){
     $phone = $_POST['phone'];
     $message = $_POST['message'];
 
-//send email
-    mail("info@nilssonenerholm.se","Medelande från nilssonenerholm.se",$email,$message);
-}
 ?>
