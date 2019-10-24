@@ -3,8 +3,12 @@
     height: 4em;
     background-color: #3e4b4b; 
     position: fixed;
-    opacity: 0.9;
+    opacity: 0;
     z-index: 5;
+}
+
+.header:hover{
+    opacity: 0.9;
 }
 
 .headerLeft{
