@@ -223,12 +223,13 @@
                 <p>Carl-Fredrik: 070-290 59 59</p>
             </div>
             <div class="kontaktForm">
-                <form>
+                <form id="formMail">
                     <input type="text" name="name" id="name" placeholder="Ditt namn:"><br>
                     <input type="email" name="mail" id="mail" placeholder="Din e-post:"><br>
                     <input type="tel" name="phone" id="phone" placeholder="Ditt telefonnummer:"><br>
                     <textarea name="message" id="message" placeholder="Ditt meddelande:" rows="10"></textarea>
-                    <submit><button onclick="sendMail()" onclick="showModal('kontaktModal')">Skicka</button></submit>
+                    <input type='button' value='Submit' onclick="sendMail()" />
+
                 </form>
             </div>
         </div>

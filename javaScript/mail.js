@@ -7,12 +7,26 @@ function sendMail(){
     };
     $.ajax({
         type: "POST",
-        url: "mail.php",
+        url: "javaScript/mail.php",
         data: data,
         success: function(){
-            $('#kontaktModal').fadeIn(1000);
+            
         }
     });
+    showModal('kontaktModal');
+ $("#formMail").trigger('reset');
+    return false;
+    
 }
 
 
+function mailSkickat(){
+
+    showModal('kontaktModal');
+    $("#formMail").trigger('reset');
+}
+
+function showModal(Modal){
+    var modal = document.getElementById(Modal);
+    modal.style.display = "block";
+}
