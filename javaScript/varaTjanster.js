@@ -3,7 +3,7 @@ $("#sammarbetsPartnersLoggaBild1").mouseover(function(){
   }); 
 
   $("#sammarbetsPartnersLoggaBild1").mouseout(function(){
-    $("#sammarbetsPartnersLoggaBild1").animate({height:'60%', marginLeft:'20%', width:'60%'},'fast');
+    $("#sammarbetsPartnersLoggaBild1").animate({height:'60%', width:'60%'},'fast');
   }); 
 
   $("#sammarbetsPartnersLoggaBild2").mouseover(function(){
@@ -11,7 +11,7 @@ $("#sammarbetsPartnersLoggaBild1").mouseover(function(){
   }); 
 
   $("#sammarbetsPartnersLoggaBild2").mouseout(function(){
-    $("#sammarbetsPartnersLoggaBild2").animate({height:'60%', marginLeft:'20%', width:'60%'},'fast');
+    $("#sammarbetsPartnersLoggaBild2").animate({height:'60%', width:'60%'},'fast');
   }); 
 
   $("#sammarbetsPartnersLoggaBild3").mouseover(function(){
@@ -19,7 +19,7 @@ $("#sammarbetsPartnersLoggaBild1").mouseover(function(){
   }); 
 
   $("#sammarbetsPartnersLoggaBild3").mouseout(function(){
-    $("#sammarbetsPartnersLoggaBild3").animate({height:'60%', marginLeft:'20%', width:'60%'},'fast');
+    $("#sammarbetsPartnersLoggaBild3").animate({height:'60%', width:'60%'},'fast');
   }); 
 
   $("#sammarbetsPartnersLoggaBild4").mouseover(function(){
@@ -27,7 +27,7 @@ $("#sammarbetsPartnersLoggaBild1").mouseover(function(){
   }); 
 
   $("#sammarbetsPartnersLoggaBild4").mouseout(function(){
-    $("#sammarbetsPartnersLoggaBild4").animate({height:'60%', marginLeft:'20%', width:'60%'},'fast');
+    $("#sammarbetsPartnersLoggaBild4").animate({height:'60%', width:'60%'},'fast');
   }); 
 
 
