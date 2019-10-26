@@ -14,17 +14,12 @@ function sendMail(){
         }
     });
     showModal('kontaktModal');
- $("#formMail").trigger('reset');
+    $("#formMail").trigger('reset');
     return false;
     
 }
 
 
-function mailSkickat(){
-
-    showModal('kontaktModal');
-    $("#formMail").trigger('reset');
-}
 
 function showModal(Modal){
     var modal = document.getElementById(Modal);

@@ -19,9 +19,11 @@ form input, textarea{
     width: 95%;
     margin: 1em;
     text-align: left;
+    
 }
 
-form button{
+#buttonMail{
+    width: auto;
     margin: 1em;
     float: right;
 }
