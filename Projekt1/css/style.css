@@ -21,7 +21,7 @@ a:hover{
     cursor: pointer;
 }
 
-.behallare{
+.behallare, .behallareStor{
     padding-top: 4em;
     padding-bottom: 4em;
     width: 100%;
@@ -139,6 +139,11 @@ cursor: pointer;
     .behallare{
         height: 1024px;
     }
+
+    .behallareStor{
+        height: 1440px;
+    }
+
 }
 
 /*För MacBook 13"*/

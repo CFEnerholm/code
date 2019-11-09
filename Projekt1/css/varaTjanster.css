@@ -57,7 +57,7 @@
   
   .tjanstBeskrivning ul li::before {
     content: "\2713";
-    color: orange;
+    color: #ffa500;
     display: inline-block; 
     width: 1em;
     margin-bottom: 1em;

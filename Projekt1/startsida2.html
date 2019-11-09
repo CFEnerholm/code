@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/meny.css">
+    <link rel="stylesheet" href="css/startsida.css">
+    <link rel="stylesheet" href="css/vadViGor.css">
+    <link rel="stylesheet" href="css/varaTjanster.css">
+    <link rel="stylesheet" href="css/varaTjanster2.css">
+    <link rel="stylesheet" href="css/tidigareProjekt.css">
+    <link rel="stylesheet" href="css/kontakt.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Nilsson Enerholm Webb & Systemutveckling AB</title>
+</head>
+
+<body>
+
+    <div class="header" id="header">
+        <div class="headerLeft">
+            <a href="#startsida"><img id="logga" src="bilder/logga.png" alt=""></a>
+        </div>
+        <div class="headerMiddle">
+            <div class="menuBtn"><a href="#varaTjanster2">Våra tjänster</a></div>
+            <div class="menuBtn"><a href="#tidigareProjekt">Tidigare projekt</a></div>
+            <div class="menuBtn"><a href="#kontakt">Kontakt</a></div>
+        </div>
+        <div class="headerRight">
+            <img id="menyBild" src="bilder/icons8-menu.png" alt="" onclick="visaMeny()">
+        </div>
+        <div class="mobilMeny">
+            <a href="#varaTjanster2" onclick="visaMeny()">
+                <div class="mobilMenyKnapp"> Våra tjänster</div>
+            </a>
+            <a href="#tidigareProjekt" onclick="visaMeny()">
+                <div class="mobilMenyKnapp">Tidigare projekt</div>
+            </a>
+            <a href="#kontakt" onclick="visaMeny()">
+                <div class="mobilMenyKnapp"> Kontakt</div>
+            </a>
+        </div>
+    </div>
+
+    <div id="startsida" class="behallare">
+        <div class="startsidaTop">
+            <img src="bilder/logga.png" alt="image" id="storLogga">
+        </div>
+        <div class="startsidaBotten">
+            <div class="startsidaBottenInfoEtt">
+                <br>
+                <h2>Vilka är news</h2>
+                <br>
+                <p>Nilsson Enerholm Webb & Systemutveckling AB bildades i Örebro 2019 av Carl- Fredrik Enerholm och Mats
+                    Nilsson. Vi är två glada utvecklare med digitalisering som vår stora passion. Med
+                    systemvetenskaplia studier vid Örebro Universitet i ryggen kan vi tryggt hjälpa er hela vägen från
+                    ide till färdig
+                    lösning. <a onclick="showModal('omOssModal')"> Mer om oss…</a>
+                </p>
+                <br>
+            </div>
+            <div class="startsidaBottenInfoTva">
+                <br>
+                <h2>Vad news gör</h2>
+                <br>
+                <p>
+                    Vi är webbyrån som skapar nya, moderna och professionella hemsidor som anpassar sig i realtid efter
+                    alla enheter. Vi arbetar med alla faser inom IT- och webbrelaterad utveckling och erbjuder
+                    helhetslösningar med webbhotell, domän och support. Har ni taskigt wi-fi eller vilsen bland alla
+                    smarta produkter? Lugn - vi hjälper er gärna. <a href="#varaTjanster">Läs mer om våra
+                        tjänster...</a>
+                </p>
+                <br>
+            </div>
+            <a href="#varaTjanster2">
+                <div class="startsidaBottenInfoTre">
+                    <br>
+                    <h3>Läs mer om vad vi gör <br> &#xfe40;</h3>
+                    <br>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div id="varaTjanster2" class="behallare">
+        <div class="tjanster2">
+           <h1>Våra Tjänster:</h1>
+        </div>
+        <div class="tjanster2">
+            <h3>Webbutveckling</h3>
+        </div>
+        <div class="tjanster2">
+            <h3>Drift</h3>
+        </div>
+        <div class="tjanster2">
+            <h3>Installation</h3>
+        </div>
+        <div class="tjanster2">
+            <h3>Helhetslösning</h3>
+        </div>
+        <div class="tjanster2">
+            <h3>Begär offert</h3>
+        </div>
+       
+        <div></div>
+
+    </div>
+
+    <div id="tidigareProjekt" class="behallare">
+        <div class="behallarTop">
+            <img src="bilder/icons8-services.png" alt="image">
+            <h1>Tidigare projekt</h1>
+        </div>
+
+        <div class="bildspel">
+            <button class="bildspelsKnapp tidigare" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="bildspelsKnapp nasta" onclick="plusDivs(1)">&#10095;</button>
+            <img class="bildspelsBild" src="bilder/portfolioBild1.png">
+            <img class="bildspelsBild" src="bilder/portfolioBild4.jpg">
+            <div class="bildspelsText">
+                text1<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer diam metus, hendrerit vel
+                venenatis non, tincidunt ac ante. In ac consequat sem. Nulla id pellentesque augue. Sed mi velit,
+                efficitur sit amet rutrum id, ornare ac felis. Quisque ac vehicula ipsum. Vivamus dictum venenatis erat,
+                in viverra enim tempus at. Morbi hendrerit velit non orci tempus, ac imperdiet dolor placerat. Nulla
+                dignissim augue sit amet mi placerat condimentum. Vestibulum ante ipsum primis in faucibus orci luctus
+                et ultrices posuere cubilia Curae; Proin magna libero, malesuada et cursus in, aliquet in odio.
+            </div>
+            <div class="bildspelsText">
+                text2<br>Vestibulum rhoncus, purus quis pulvinar sagittis, dolor ligula congue risus, et egestas lectus
+                urna ornare lectus. Phasellus at enim consectetur, iaculis quam sit amet, volutpat turpis. Fusce
+                bibendum felis lorem, efficitur ullamcorper sem viverra maximus. Suspendisse porttitor venenatis justo
+                at iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                Aenean tristique magna in massa hendrerit, at scelerisque massa faucibus. Pellentesque ac tortor id arcu
+                feugiat pulvinar.
+            </div>
+        </div>
+
+        <!-- <h3>Våra sammarbetspartners:</h3>
+        <div class="sammarbetsPartners">
+            <div class="sammarbetsPartnersLogga">
+                <a href="http://www.nilssonenerholm.se" target="_blank"><img id="sammarbetsPartnersLoggaBild1"
+                        src="bilder/logga.png"></a>
+            </div>
+            <div class="sammarbetsPartnersLogga">
+                <a href="http://www.cpanel.com" target="_blank"><img id="sammarbetsPartnersLoggaBild2"
+                        src="bilder/sammarbete1.png"></a>
+            </div>
+            <div class="sammarbetsPartnersLogga">
+                <a href="http://www.misshosting.com" target="_blank"><img id="sammarbetsPartnersLoggaBild3"
+                        src="bilder/sammarbete2.png"></a>
+            </div>
+            <div class="sammarbetsPartnersLogga">
+                <a href="http://www.segelstads.se" target="_blank"><img id="sammarbetsPartnersLoggaBild4"
+                        src="bilder/sammarbete3.png"></a>
+            </div>
+        </div> -->
+        <a href="#kontakt">
+            <div class="tidigareProjektBotten">
+                <br>
+                <h3>Kolla på våra tjänster <br> &#xfe40;</h3>
+                <br>
+            </div>
+        </a>
+    </div>
+
+    <div id="kontakt" class="behallare">
+        <div class="behallarTop">
+            <img src="bilder/icons8-important_mail.png" alt="image">
+            <h1>Kontakt</h1>
+        </div>
+        <div class="kontakt">
+            <div class="kontaktInfo">
+                <h2>Kontakta oss</h2>
+                <p>Du når oss lättast genom att fylla i vårt kontaktformulär. Vill du hellre kontakt oss via
+                    telefon finns våra kontaktuppgifter här nedan.</p>
+                <br />
+                <h3>Telefon:</h3>
+                <p>Mats: 073-545 15 87 </p>
+                <p>Carl-Fredrik: 070-290 59 59</p>
+            </div>
+            <div class="kontaktForm">
+                <form id="formMail">
+                    <input type="text" name="name" id="name" placeholder="Ditt namn:"><br>
+                    <input type="email" name="mail" id="mail" placeholder="Din e-post:"><br>
+                    <input type="tel" name="phone" id="phone" placeholder="Ditt telefonnummer:"><br>
+                    <textarea name="message" id="message" placeholder="Ditt meddelande:" rows="10"></textarea>
+                    <input id="buttonMail" type='button' value='Skicka' onclick="sendMail()" />
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="fot">
+        <ul>
+            <li>
+                Org.nr: 559220-2591<br />
+                Godkänd för F-Skatt
+            </li>
+            <li onclick="showModal('intrigitetspolicyModal')">
+                <p>Intrigitetspolicy </p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="omOssModal" class="modal" onclick="hideModal('omOssModal')">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Info om oss</h2>
+        </div>
+    </div>
+
+    <div id="kontaktModal" class="modal" onclick="hideModal('kontaktModal')">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Tack för ditt mail!!
+            </h2>
+        </div>
+    </div>
+
+    <div id="intrigitetspolicyModal" class="modal" onclick="hideModal('intrigitetspolicyModal')">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Just nu skiter vi lite i din integritet...
+            </h2>
+        </div>
+    </div>
+
+    <div id="hemsidaModal" class="modal" onclick="hideModal('hemsidaModal')">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Info om hemsida</h2>
+        </div>
+    </div>
+
+    <div id="helhetslosningModal" class="modal" onclick="hideModal('helhetslosningModal')">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Info om helhetslösning</h2>
+        </div>
+    </div>
+
+    <div id="tillaggstjansterModal" class="modal" onclick="hideModal('tillaggstjansterModal')">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Info om tilläggstjänster</h2>
+        </div>
+    </div>
+
+    <script src="javaScript/varaTjanster.js"></script>
+    <script src="javaScript/flytandeScroll.js"></script>
+    <script src="javaScript/visaMeny.js"></script>
+    <script src="javaScript/oppnaModal.js"></script>
+    <script src="javaScript/bildSpel.js"></script>
+    <script src="javaScript/mail.js"></script>
+</body>
+
+</html>
