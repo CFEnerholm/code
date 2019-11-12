@@ -1,0 +1,56 @@
+.contactInfo{
+    width: 100%; 
+}
+
+.contactInfo h2, h3{
+    color: orange;
+}
+
+.contactForm{
+    width: 100%;
+}
+
+form input, textarea{
+    width: 95%;
+    margin: 1em;
+    text-align: left;
+    
+}
+
+#buttonMail{
+    width: auto;
+    margin: 1em;
+    float: right;
+}
+
+/*För Ipad*/
+@media screen and (min-width: 768px){
+        .contact{
+            width: 100%;
+            }
+    
+            .contactInfo{
+                width: 40%;
+                padding-left: 5%;
+                padding-right: 5%;
+               float: left;
+               text-align: left;
+            }
+            
+           .contactInfo h2, .contactInfo h3, .contactInfo p{
+            text-align: left;
+           }
+
+            .contactForm{
+                width: 40%;
+                padding-left: 5%;
+                padding-right: 5%;
+                float: left;                      
+            }
+    }
+    
+/*För större skärmar*/
+@media screen and (min-width: 1024px){    
+
+}
+    

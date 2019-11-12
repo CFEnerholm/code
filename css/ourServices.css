@@ -1,0 +1,90 @@
+#services{
+    height: 15em;
+    padding-top: 0;
+}
+
+#ourServices{
+    padding-bottom: 0;
+}
+
+#serviceBottom{
+    background: url('../bilder/bg2.jpg');
+    background-size: 100% auto;
+    height: 15em;
+    background-position: center;
+}
+
+.service, .serviceRight{
+    width: 29.1%;
+    height: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+}
+
+.service{
+    border-right: 1px solid lightgray;
+}
+
+.process{
+    width: 70%;
+    height: 100%;
+    background-color: #3e4b4bdd;
+    float: left;
+}
+
+.processPart{
+    width: 31%;
+    height: 44%;
+    margin: 1%;
+    float: left;
+}
+
+.processPartLeft{
+    width: 30%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.processPartLeft img{
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.processPartRight{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.processPartRight p{
+    text-align: left;
+    font-size: 0.75em;
+    color: white;
+}
+
+.processPartRight h4{
+    color: white;
+}    
+
+.whyPickUs{
+    width: 30%;
+    height: 100%;
+    background-color: #ffa500dd;
+    float: left;
+    color: #3e4b4b;
+}
+
+/*För Ipad*/
+@media screen and (min-width: 768px){
+
+}
+
+/*För större skärmar*/
+@media screen and (min-width: 1024px){
+}

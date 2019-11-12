@@ -1,0 +1,93 @@
+#formerProjects{
+    padding-bottom: 0em;
+}
+#aProject{
+padding-top: 0em;
+padding-bottom: 0em;
+background-color: white;
+border-top: 1px solid #3e4b4b;
+border-bottom: 1px solid #3e4b4b;
+}
+
+.formerProjects{
+    width: 100%;
+    display: inline-block;
+}
+
+.project{
+    width: 100%;
+    height: 25em;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project img{
+    text-align: center;
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.project p{
+    text-align: center;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#project1{
+    background-image: url(../bilder/sundh/sundh7.jpg);
+    background-size: 100% auto;
+}
+
+#project2{
+    background-image: url(../bilder/segelstads/segelstads1.png);
+    background-size: 100% auto;
+}
+
+.spaceBetweenProjects{
+    width: 100%;
+    height: 6em;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#formerProjectsBottom{
+    background: url('../bilder/bg3.jpg');
+    background-size: 100% auto;
+    height: 15em;
+    background-position: center;
+}
+
+.comments{
+    width: 30%;
+    height: 100%;
+    background-color: #ffa500dd;
+    float: left;
+    color: #3e4b4b;
+}
+
+.costumers{
+    width: 70%;
+    height: 100%;
+    background-color: #3e4b4bdd;
+    float: left;
+    color: white;
+}
+
+/*För Ipad*/
+@media screen and (min-width: 768px){
+.project{
+    width: 50%;
+}
+}
+
+/*För större skärmar*/
+@media screen and (min-width: 1024px){
+}
