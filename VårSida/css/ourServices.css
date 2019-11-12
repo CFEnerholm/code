@@ -20,6 +20,9 @@
     padding-left: 2%;
     padding-right: 2%;
     float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .service{
@@ -73,11 +76,16 @@
 }    
 
 .whyPickUs{
-    width: 30%;
+    width: 26%;
     height: 100%;
-    background-color: #ffa500dd;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #6E9696dd;
     float: left;
     color: #3e4b4b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /*För Ipad*/

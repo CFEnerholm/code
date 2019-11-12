@@ -4,9 +4,9 @@
 #aProject{
 padding-top: 0em;
 padding-bottom: 0em;
-background-color: white;
+/* background-color: white;
 border-top: 1px solid #3e4b4b;
-border-bottom: 1px solid #3e4b4b;
+border-bottom: 1px solid #3e4b4b; */
 }
 
 .formerProjects{
@@ -68,7 +68,7 @@ border-bottom: 1px solid #3e4b4b;
 .comments{
     width: 30%;
     height: 100%;
-    background-color: #ffa500dd;
+    background-color: #6E9696dd;
     float: left;
     color: #3e4b4b;
 }
