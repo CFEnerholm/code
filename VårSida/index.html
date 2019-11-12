@@ -254,9 +254,10 @@
                     <input type="text" name="name" id="name" placeholder="Ditt namn:"><br>
                     <input type="email" name="mail" id="mail" placeholder="Din e-post:"><br>
                     <input type="tel" name="phone" id="phone" placeholder="Ditt telefonnummer:"><br>
-                    <textarea name="message" id="message" placeholder="Ditt meddelande:" rows="10"></textarea> <br>
-                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" required>
-                    <label for="checkbox">Jag har läst och godkänner news <a onclick="showModal('intrigitetspolicyModal')">integritetspolicy</a></label> <br>
+                    <textarea name="message" id="message" placeholder="Ditt meddelande:" rows="10"></textarea>
+                    <table>
+                        <td><input type="checkbox" name="checkbox" id="checkbox" value="checkbox" required ></td><td><label for="checkbox">&nbsp;&nbsp;Jag har läst och godkänner news <a onclick="showModal('intrigitetspolicyModal')">integritetspolicy</a></label></td> <br>
+                    </table>
                     <input id="buttonMail" type='button' value='Skicka' onclick="sendMail()" />               
                 </form>
             </div>

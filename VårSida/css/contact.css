@@ -25,6 +25,9 @@ form input, textarea{
     margin: 1em;
     float: right;
 }
+#checkbox{
+margin-right: 1em;
+}
 
 /*För Ipad*/
 @media screen and (min-width: 768px){
