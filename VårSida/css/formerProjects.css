@@ -42,11 +42,15 @@ border-bottom: 1px solid #3e4b4b; */
 #project1{
     background-image: url(../bilder/sundh/sundh7.jpg);
     background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position-y: center;
 }
 
 #project2{
     background-image: url(../bilder/segelstads/segelstads1.png);
     background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position-y: center;
 }
 
 .spaceBetweenProjects{

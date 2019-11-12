@@ -113,7 +113,7 @@ color: #6E9696;
     animation-duration: 0.6s;
   }
 
-  .modal h1, .modal h2, .modal h3{
+ .modal h2, .modal h3{
     text-align: left;
   }
   
