@@ -4,9 +4,6 @@
 #aProject{
 padding-top: 0em;
 padding-bottom: 0em;
-/* background-color: white;
-border-top: 1px solid #3e4b4b;
-border-bottom: 1px solid #3e4b4b; */
 }
 
 .formerProjects{
@@ -16,7 +13,6 @@ border-bottom: 1px solid #3e4b4b; */
 
 .project{
     width: 100%;
-    height: 25em;
     float: left;
     display: flex;
     flex-direction: column;
@@ -29,6 +25,7 @@ border-bottom: 1px solid #3e4b4b; */
     height: auto;
     margin-left: 40%;
     margin-right: 40%;
+    margin-top: 2em;
 }
 
 .project p{
@@ -37,9 +34,20 @@ border-bottom: 1px solid #3e4b4b; */
     height: auto;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 2em;
 }
 
 #project1{
+    display: none;
+    background-image: url(../bilder/sundh/sundh7.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+#project11{
+    display: block;
+    height: 20em;
     background-image: url(../bilder/sundh/sundh7.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -47,6 +55,16 @@ border-bottom: 1px solid #3e4b4b; */
 }
 
 #project2{
+    display: none;
+    background-image: url(../bilder/segelstads/segelstads1.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+#project22{
+    display: block;
+    height: 20em;
     background-image: url(../bilder/segelstads/segelstads1.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -54,15 +72,16 @@ border-bottom: 1px solid #3e4b4b; */
 }
 
 .spaceBetweenProjects{
+    display: none;
     width: 100%;
     height: 6em;
     background-color: inherit;
-    display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 #formerProjectsBottom{
+    display: none;
     background: url('../bilder/bg3.jpg');
     background-size: 100% auto;
     height: 15em;
@@ -87,11 +106,35 @@ border-bottom: 1px solid #3e4b4b; */
 
 /*För Ipad*/
 @media screen and (min-width: 768px){
+    #formerProjectsBottom{
+        display: block;
+    }
+
 .project{
     width: 50%;
-}
+    height: 25em;
 }
 
+#project1{
+    display: block;
+}
+
+#project11{
+    display: none;
+}
+
+#project2{
+    display: block;
+}
+
+#project22{
+    display: none;
+}
+
+.spaceBetweenProjects{
+    display: flex;
+}
+}
 /*För större skärmar*/
 @media screen and (min-width: 1024px){
 }
