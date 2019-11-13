@@ -1,0 +1,19 @@
+html, body, h1{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top{
+    width: 90%;
+    height: 10em;
+    padding-left: 10%;
+    background-color: #0cb8b6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top h1{
+    color: white;
+}
