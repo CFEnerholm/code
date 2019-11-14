@@ -17,13 +17,13 @@
 
 <body>
     <div class="topOfMenu"></div>
-    <div class="menu">    
-            <div class="menuBtn"><a class="marked" href="Segelstads.html">START</a></div>
-            <div class="menuBtn"><a href="bemanning.html">BEMANNING</a></div>
-            <div class="menuBtn"><a href="omOss.html">OM OSS</a></div>
-            <div class="menuBtn"><a href="bliKonsult.html">BLI KONSULT</a></div>
-            <div class="menuBtn"><a href="offertForfragan.html">OFFERT FÖRFRÅGAN</a></div>
-            <div class="menuBtn"><a href="kontakt.html">KONTAKT</a></div>
+    <div class="menu">
+        <div class="menuBtn"><a class="marked" href="Segelstads.html">START</a></div>
+        <div class="menuBtn"><a href="bemanning.html">BEMANNING</a></div>
+        <div class="menuBtn"><a href="omOss.html">OM OSS</a></div>
+        <div class="menuBtn"><a href="bliKonsult.html">BLI KONSULT</a></div>
+        <div class="menuBtn"><a href="offertForfragan.html">OFFERT FÖRFRÅGAN</a></div>
+        <div class="menuBtn"><a href="kontakt.html">KONTAKT</a></div>
     </div>
     <div class="top">
         <h1>Segelstads Rehab AB</h1>
@@ -31,17 +31,19 @@
     </div>
 
     <div id="logInModal" class="modal">
-            <div class="modal-content">
-                För att komma vidare vänligen skriv in <br>
-                ditt lösenord tillhanda hållt av news <br> <br>
-                <form id="logInForm">
-                        <label id="passwordLbl" for="password"></label> <br>
-                        <input type="password" name="password" id="password" label=""><br> <br>
-                        <input id="btnLogIn" type='button' value='logIn' onclick="logIn()" /> 
-                </form>
-            </div>
+        <div class="modal-content">
+            <p>Här bygger vi på: </p><br><br>
+            <a href="http://www.nilssonenerholm.se" target="_blank"><img src="bilder/loggaliten.png" alt=""></a><br>
+            <p>Ny webbplats för Segelstads Rehab AB. För att komma in i byggvärmen vänligen skriv in det lösenord du fått av oss!</p><br><br>
+            <form id="logInForm">
+                <label id="passwordLbl" for="password"></label> <br>
+                <input type="password" name="password" id="password" label=""><br> <br>
+                <input id="btnLogIn" type='button' value='Logga In' onclick="logIn()" />
+            </form>
         </div>
+    </div>
     <script src="javaScript/logIn.js"></script>
     <script src="javaScript/alive.js"></script>
 </body>
+
 </html>
