@@ -1,5 +1,5 @@
-  $(".topInfo").stop().delay(1000).animate({opacity: '1'}, 3000);
-  $(".topBtn").stop().delay(4000).animate({opacity: '1'}, 3000).delay;
+  $(".topInfo").stop().delay(400).animate({opacity: '1'}, 3000);
+  $(".topBtn").stop().delay(3000).animate({opacity: '1'}, 3000).delay;
 
   $('a').click(function(){
     $('html, body').animate({
