@@ -25,7 +25,7 @@
 
 .menuBtn a{
     text-decoration: none;
-    color: #0f0f0f;
+    color: rgb(15, 15, 15);
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -34,9 +34,9 @@
 }
 
 .menuBtn a:hover{
-    color: #0cb8b6; 
+    color: rgb(12, 184, 182); 
 }
 
 .marked{
-    border-bottom: 5px solid #0B9E9C;
+    border-bottom: 5px solid hsl(179, 87%, 33%);
 }

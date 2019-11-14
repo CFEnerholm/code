@@ -17,10 +17,10 @@
   }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: rgb(254, 254, 254);
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid rgb(136, 136, 136);
     width: 40%;
     height: 60%;
     overflow: scroll;
