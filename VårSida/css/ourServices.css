@@ -33,7 +33,7 @@
     height: 25%;
     padding-left: 2%;
     padding-right: 2%;
-    background-color: #6E9696dd;
+    background-color: rgba(110, 150, 150, 0.867);
     float: left;
     color: #3e4b4b;
     display: flex;
@@ -44,7 +44,7 @@
 .process{
     width: 100%;
     height: 75%;
-    background-color: #3e4b4bdd;
+    background-color: rgba(62, 75, 75, 0.867);
     float: left;
 }
 

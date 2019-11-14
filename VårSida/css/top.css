@@ -1,5 +1,5 @@
 #top{
-    background: linear-gradient(#ffffff6d, #ffffff6d),url('../bilder/bg1.jpg');
+    background: linear-gradient(rgba(255, 255, 255, 0.427), rgba(255, 255, 255, 0.427)),url('../bilder/bg1.jpg');
     background-size: auto 100%;
     background-repeat: no-repeat;
 }
@@ -26,7 +26,7 @@
 }
 
 .topInfo{
-    background-color: #ffffffaa;
+    background-color: rgba(255, 255, 255, 0.667);
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -48,7 +48,7 @@
     }
 
     .topBottom{
-        background-color: #ffffffaa;
+        background-color: rgba(255, 255, 255, 0.667);
     }
     
     .topInfo{

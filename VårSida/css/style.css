@@ -10,7 +10,7 @@ h1, h2, h3, p{
     text-align: center;
     padding: 0;
     margin: 0;
-    color: #3e4b4b;
+    color: rgb(62, 75, 75);
 }
 
 h4{
@@ -53,7 +53,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #3e4b4b;
+    background-color: rgb(62, 75, 75);
     color: grey; 
 }
 
@@ -94,10 +94,10 @@ color: #6E9696;
   }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: rgb(254, 254, 254);
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid rgb(136, 136, 136);
     width: 80%;
     height: 60%;
     overflow: scroll;
