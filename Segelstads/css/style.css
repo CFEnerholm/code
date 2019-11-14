@@ -16,6 +16,7 @@ html, body, h1, h3{
 }
 
 .top h1, .top h3{
+    opacity: 0;
     color: white;
     padding-left: 10%;
 }
