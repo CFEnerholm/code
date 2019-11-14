@@ -16,6 +16,31 @@
 
 <body>
     <div class="topOfMenu"></div>
+    <div class="mobileMenuOpen">
+        <img src="bilder/menu.png" alt="Meny" onclick="showMenu()">
+    </div>
+
+    <div class="mobileMenu">
+        <a href="Segelstads.html" onclick="showMenu()">
+            <div class="mobileMenuBtn">START</div>
+        </a>
+        <a href="bemanning.html" onclick="showMenu()">
+            <div class="mobileMenuBtn">BEMANNING</div>
+        </a>
+        <a href="omOss.html" onclick="showMenu()">
+            <div class="mobileMenuBtn">OM OSS</div>
+        </a>
+        <a href="bliKonsult.html" onclick="showMenu()">
+            <div class="mobileMenuBtn">BLI KONSULT</div>
+        </a>
+        <a href="offertForfragan.html" onclick="showMenu()">
+            <div class="mobileMenuBtn">OFFERT FÖRFRÅGAN</div>
+        </a>
+        <a href="kontakt.html" onclick="showMenu()">
+            <div class="mobileMenuBtn">KONTAKT</div>
+        </a>
+    </div>
+    
     <div class="menu">    
             <div class="menuBtn"><a class="marked" href="Segelstads.html">START</a></div>
             <div class="menuBtn"><a href="bemanning.html">BEMANNING</a></div>
@@ -29,5 +54,6 @@
         <h3>Vi bemannar vården</h3>
     </div>
     <script src="javascript/alive.js"></script>
+    <script src="javascript/menu.js"></script>
 </body>
 </html>

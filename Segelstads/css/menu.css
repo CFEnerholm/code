@@ -1,14 +1,66 @@
 .topOfMenu{
-    width: 100%;
+    width: 80%;
     height: 5em;
     background-image: url(../bilder/segelstadsLogga.png);
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: auto 60%;
     background-position-x: 12.5%;
+    float: left;
+}
+
+.mobileMenuOpen{
+    height: 5em;
+    width: 20%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mobileMenuOpen img{
+    display: block;
+    width: 2.5em;
+    height: 50%;
+}
+
+.mobileMenu{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255);
+    position: absolute;
+    top: 5em;
+    z-index: 4;
+}
+
+.mobileMenuBtn{
+    padding: 1em;
+}
+
+.mobileMenu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
 }
 
 .menu{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+   
+}
+
+/*För större skärmar*/
+@media screen and (min-width: 1024px){
+    .mobileMenuOpen img{
+        display: none;
+    }
+
+
+.menu{
+    display: block;
     width: 90%;
     height: 3em;
     background-color: white;
@@ -38,5 +90,6 @@
 }
 
 .marked{
-    border-bottom: 5px solid hsl(179, 87%, 33%);
+    border-bottom: 5px solid rgb(11, 157, 155);
+}
 }
