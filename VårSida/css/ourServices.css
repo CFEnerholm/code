@@ -1,5 +1,5 @@
 #services{
-    height: 15em;
+    height: 45em;
     padding-top: 0;
 }
 
@@ -7,38 +7,50 @@
     padding-bottom: 0;
 }
 
-#serviceBottom{
-    background: url('../bilder/bg2.jpg');
-    background-size: 100% auto;
-    height: 15em;
-    background-position: center;
-}
-
 .service, .serviceRight{
-    width: 29.1%;
-    height: 100%;
+    width: 96%;
+    height: 31%;
     padding-left: 2%;
     padding-right: 2%;
-    float: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .service{
-    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+#serviceBottom{
+    background: url('../bilder/bg2.jpg');
+    background-size: auto 100%;
+    height: 35em;
+    background-position: center;
+}
+
+.whyPickUs{
+    width: 96%;
+    height: 25%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #6E9696dd;
+    float: left;
+    color: #3e4b4b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .process{
-    width: 70%;
-    height: 100%;
+    width: 100%;
+    height: 75%;
     background-color: #3e4b4bdd;
     float: left;
 }
 
 .processPart{
-    width: 31%;
-    height: 44%;
+    width: 44%;
+    height: 31%;
     margin: 1%;
     float: left;
 }
@@ -75,21 +87,42 @@
     color: white;
 }    
 
-.whyPickUs{
-    width: 26%;
-    height: 100%;
-    padding-left: 2%;
-    padding-right: 2%;
-    background-color: #6E9696dd;
-    float: left;
-    color: #3e4b4b;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 /*För Ipad*/
 @media screen and (min-width: 768px){
+    #services{
+        height: 15em;
+    }
+
+    .service, .serviceRight{
+        width: 29.1%;
+        height: 100%;
+        float: left;
+    }
+
+    .service{
+        border-right: 1px solid lightgray;
+        border-bottom: none;
+    }
+
+    #serviceBottom{
+        background-size: 100% auto;
+        height: 15em;
+    }
+    
+    .process{
+        width: 70%;
+        height: 100%;
+    }
+    
+    .processPart{
+        width: 31%;
+        height: 44%;
+    }
+
+    .whyPickUs{
+        width: 26%;
+        height: 100%;
+    }
 
 }
 
