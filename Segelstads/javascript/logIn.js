@@ -8,7 +8,7 @@ $(document).ready(function () {
 });
 
 function logIn() {
-    if ($("#password").val() == "test") {
+    if ($("#password").val() == "DaciaFredde") {
         var modal = document.getElementById('logInModal');
         modal.style.display = "none";
         inloggad == true;
