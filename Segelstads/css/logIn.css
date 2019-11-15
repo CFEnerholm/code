@@ -21,7 +21,7 @@
     margin: auto;
     padding: 20px;
     border: 1px solid rgb(136, 136, 136);
-    width: 40%;
+    width: 80%;
     height: 60%;
     overflow: scroll;
     text-align: center;
@@ -45,4 +45,18 @@
 
   #passwordLbl{
       color: red;
+  }
+
+  @media screen and (min-width: 768px){
+   
+    .modal-content {
+      width: 60%;
+    }
+  }
+  
+  /*För större skärmar*/
+  @media screen and (min-width: 1024px){
+    .modal-content {
+      width: 40%;
+  }
   }
