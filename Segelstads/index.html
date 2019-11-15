@@ -16,49 +16,58 @@
 </head>
 
 <body>
-    <div class="topOfMenu"></div>
-    <div class="mobileMenuOpen">
-        <img src="bilder/menu.png" alt="Meny" onclick="showMenu()">
-    </div>
+    <div id="page-container">
+        <div id="content-wrap">
+            <div class="topOfMenu"></div>
+            <div class="mobileMenuOpen">
+                <img src="bilder/menu.png" alt="Meny" onclick="showMenu()">
+            </div>
 
-    <div class="mobileMenu">
-        <a href="Segelstads.html" onclick="showMenu()">
-            <div class="mobileMenuBtn">START</div>
-        </a>
-        <a href="bemanning.html" onclick="showMenu()">
-            <div class="mobileMenuBtn">BEMANNING</div>
-        </a>
-        <a href="omOss.html" onclick="showMenu()">
-            <div class="mobileMenuBtn">OM OSS</div>
-        </a>
-        <a href="bliKonsult.html" onclick="showMenu()">
-            <div class="mobileMenuBtn">BLI KONSULT</div>
-        </a>
-        <a href="offertForfragan.html" onclick="showMenu()">
-            <div class="mobileMenuBtn">OFFERT FÖRFRÅGAN</div>
-        </a>
-        <a href="kontakt.html" onclick="showMenu()">
-            <div class="mobileMenuBtn">KONTAKT</div>
-        </a>
-    </div>
-    <div class="menu">
-        <div class="menuBtn"><a class="marked" href="Segelstads.html">START</a></div>
-        <div class="menuBtn"><a href="bemanning.html">BEMANNING</a></div>
-        <div class="menuBtn"><a href="omOss.html">OM OSS</a></div>
-        <div class="menuBtn"><a href="bliKonsult.html">BLI KONSULT</a></div>
-        <div class="menuBtn"><a href="offertForfragan.html">OFFERT FÖRFRÅGAN</a></div>
-        <div class="menuBtn"><a href="kontakt.html">KONTAKT</a></div>
-    </div>
-    <div class="top">
-        <h1>Segelstads Rehab AB</h1>
-        <h3>Vi bemannar vården</h3>
-    </div>
+            <div class="mobileMenu">
+                <a href="Segelstads.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">START</div>
+                </a>
+                <a href="bemanning.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">BEMANNING</div>
+                </a>
+                <a href="omOss.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">OM OSS</div>
+                </a>
+                <a href="bliKonsult.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">BLI KONSULT</div>
+                </a>
+                <a href="offertForfragan.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">OFFERT FÖRFRÅGAN</div>
+                </a>
+                <a href="kontakt.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">KONTAKT</div>
+                </a>
+            </div>
+            <div class="menu">
+                <div class="menuBtn"><a class="marked" href="Segelstads.html">START</a></div>
+                <div class="menuBtn"><a href="bemanning.html">BEMANNING</a></div>
+                <div class="menuBtn"><a href="omOss.html">OM OSS</a></div>
+                <div class="menuBtn"><a href="bliKonsult.html">BLI KONSULT</a></div>
+                <div class="menuBtn"><a href="offertForfragan.html">OFFERT FÖRFRÅGAN</a></div>
+                <div class="menuBtn"><a href="kontakt.html">KONTAKT</a></div>
+            </div>
+            <div class="top">
+                <h1>Segelstads Rehab AB</h1>
+                <h3>Vi bemannar vården</h3>
+            </div>
+        </div>
 
+        <div id="foot" class="container">
+            <p>&copy; 2019 Segelstads Rehab AB All Rights Reserved </p>
+            <p>Developed by <a href="http://www.nilssonenerholm.se" target="_blank">news</a></p>
+        </div>
+    </div>
     <div id="logInModal" class="modal">
         <div class="modal-content">
             <p>Här bygger vi på: </p><br><br>
             <a href="http://www.nilssonenerholm.se" target="_blank"><img src="bilder/loggaliten.png" alt=""></a><br>
-            <p>Ny webbplats för Segelstads Rehab AB. För att komma in i byggvärmen vänligen skriv in det lösenord du fått av oss!</p><br><br>
+            <p>Ny webbplats för Segelstads Rehab AB. För att komma in i byggvärmen vänligen skriv in det lösenord du
+                fått av oss!</p><br><br>
             <form id="logInForm">
                 <label id="passwordLbl" for="password"></label> <br>
                 <input type="password" name="password" id="password" label=""><br> <br>

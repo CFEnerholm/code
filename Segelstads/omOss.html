@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/omOss.css">
 
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -15,45 +16,152 @@
 </head>
 
 <body>
-    <div class="topOfMenu"></div>
-    <div class="mobileMenuOpen">
-        <img src="bilder/menu.png" alt="Meny" onclick="showMenu()">
+    <div id="page-container">
+        <div id="content-wrap">
+
+            <div class="topOfMenu"></div>
+            <div class="mobileMenuOpen">
+                <img src="bilder/menu.png" alt="Meny" onclick="showMenu()">
+            </div>
+
+            <div class="mobileMenu">
+                <a href="Segelstads.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">START</div>
+                </a>
+                <a href="bemanning.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">BEMANNING</div>
+                </a>
+                <a href="omOss.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">OM OSS</div>
+                </a>
+                <a href="bliKonsult.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">BLI KONSULT</div>
+                </a>
+                <a href="offertForfragan.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">OFFERT FÖRFRÅGAN</div>
+                </a>
+                <a href="kontakt.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">KONTAKT</div>
+                </a>
+            </div>
+
+            <div class="menu">
+                <div class="menuBtn"><a href="Segelstads.html">START</a></div>
+                <div class="menuBtn"><a href="bemanning.html">BEMANNING</a></div>
+                <div class="menuBtn"><a class="marked" href="omOss.html">OM OSS</a></div>
+                <div class="menuBtn"><a href="bliKonsult.html">BLI KONSULT</a></div>
+                <div class="menuBtn"><a href="offertForfragan.html">OFFERT FÖRFRÅGAN</a></div>
+                <div class="menuBtn"><a href="kontakt.html">KONTAKT</a></div>
+            </div>
+
+            <div class="top">
+                <h1>Om oss</h1>
+                <h3>På Segelstads Rehab AB</h3>
+            </div>
+
+
+            <div id="valuesHeading" class="container">
+                <h4>Vad vi står för</h4>
+                <h2>VÅRA VÄRDERINGAR</h2>
+            </div>
+            <div id="values" class="container">
+                <div class="value">
+                    <div class="valueImg">
+                        <img src="bilder/Values/handshake.png" alt="">
+                    </div>
+                    <div class="valueText">
+                        <h6>PERSONLIGHET</h6>
+                        <p>Vi har som målsättning att alltid träffa våra samarbetspartners för att förstå och lära
+                            känna
+                            verksamheten innan vi inleder ett samarbete. Detta för att vi tror på goda relationer
+                            och att de
+                            blir längre och bättre om vi förstår varandra.</p>
+                    </div>
+                </div>
+                <div class="value">
+                    <div class="valueImg">
+                        <img src="bilder/Values/heart.png" alt="">
+                    </div>
+                    <div class="valueText">
+                        <h6>ENGAGEMANG</h6>
+                        <p>Vi har ett stort engagemang och brinner för våra yrken. Vi tror att när man älskar sitt
+                            jobb blir
+                            man
+                            en bättre och mer engagerad medarbetare och konsult.</p>
+                    </div>
+                </div>
+                <div class="value">
+                    <div class="valueImg">
+                        <img src="bilder/Values/phone.png" alt="">
+                    </div>
+                    <div class="valueText">
+                        <h6>TILLGÄNGLIGHET</h6>
+                        <p>Vi är tillgängliga när ni behöver. En förfrågan behandlas i möjligaste mån redan samma
+                            dag och
+                            uppstår det några frågor under pågående uppdrag är vi alltid snabba med återkoppling.
+                        </p>
+                    </div>
+                </div>
+                <div class="value">
+                    <div class="valueImg">
+                        <img src="bilder/Values/knowledge.png" alt="">
+                    </div>
+                    <div class="valueText">
+                        <h6>KOMPETENS</h6>
+                        <p>Samtliga konsulter är legitimerade. Då vi är mycket engagerade i våra yrken har vi alla
+                            under vår
+                            yrkesverksamma tid också förkovrat och vidareutbildat oss utefter intresse och behov.
+                        </p>
+                    </div>
+                </div>
+                <div class="value">
+                    <div class="valueImg">
+                        <img src="bilder/Values/plus.png" alt="">
+                    </div>
+                    <div class="valueText">
+                        <h6>EFFEKTIVITET</h6>
+                        <p>Vi jobbar effektivt och strukturerat. För oss innebär det att vi under en arbetsdag
+                            planerar vår
+                            tid
+                            för att täcka de behov kunden har.</p>
+                    </div>
+                </div>
+                <div class="value">
+                    <div class="valueImg">
+                        <img src="bilder/Values/people.png" alt="">
+                    </div>
+                    <div class="valueText">
+                        <h6>FLEXIBILITET</h6>
+                        <p>Vi har flera konsulter inom varje område. Detta gör att vi oftast kan anpassa oss efter
+                            kundens
+                            behov.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="ceoHeading" class="container">
+                <h4>VD har ordet</h4>
+                <h2>REBECKA SEGELSTAD</h2>
+            </div>
+            <div id="ceoSpeaks" class="container">
+
+            </div>
+            <div id="ourTeamHeading" class="container">
+                <h4>Det här är vi</h4>
+                <h2>VÅRT TEAM</h2>
+            </div>
+            <div id="ourTeam" class="container">
+
+            </div>
+        </div>
+
+        <div id="foot" class="container">
+            <p>&copy; 2019 Segelstads Rehab AB All Rights Reserved </p>
+            <p>Developed by <a href="http://www.nilssonenerholm.se" target="_blank">news</a></p>
+        </div>
     </div>
 
-    <div class="mobileMenu">
-        <a href="Segelstads.html" onclick="showMenu()">
-            <div class="mobileMenuBtn">START</div>
-        </a>
-        <a href="bemanning.html" onclick="showMenu()">
-            <div class="mobileMenuBtn">BEMANNING</div>
-        </a>
-        <a href="omOss.html" onclick="showMenu()">
-            <div class="mobileMenuBtn">OM OSS</div>
-        </a>
-        <a href="bliKonsult.html" onclick="showMenu()">
-            <div class="mobileMenuBtn">BLI KONSULT</div>
-        </a>
-        <a href="offertForfragan.html" onclick="showMenu()">
-            <div class="mobileMenuBtn">OFFERT FÖRFRÅGAN</div>
-        </a>
-        <a href="kontakt.html" onclick="showMenu()">
-            <div class="mobileMenuBtn">KONTAKT</div>
-        </a>
-    </div>
-    
-    <div class="menu">    
-            <div class="menuBtn"><a href="Segelstads.html">START</a></div>
-            <div class="menuBtn"><a href="bemanning.html">BEMANNING</a></div>
-            <div class="menuBtn"><a class="marked" href="omOss.html">OM OSS</a></div>
-            <div class="menuBtn"><a href="bliKonsult.html">BLI KONSULT</a></div>
-            <div class="menuBtn"><a href="offertForfragan.html">OFFERT FÖRFRÅGAN</a></div>
-            <div class="menuBtn"><a href="kontakt.html">KONTAKT</a></div>
-    </div>
-    <div class="top">
-        <h1>Om oss</h1>
-        <h3>På Segelstads Rehab AB</h3>
-    </div>
     <script src="javascript/alive.js"></script>
     <script src="javascript/menu.js"></script>
 </body>
+
 </html>

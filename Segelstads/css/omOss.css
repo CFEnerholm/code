@@ -1,0 +1,101 @@
+#valuesHeading, #ceoHeading, #ourTeamHeading{
+
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+
+#valuesHeading h4, #ceoHeading h4, #ourTeamHeading h4{
+    width: fit-content;
+    font-weight: normal;
+    border-bottom: 2px solid rgb(12, 184, 182);
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#values{
+  height: 72em; 
+}
+
+.value{
+   width: 98%;
+   padding-right: 2%;
+   height: 12em;
+   float: left; 
+}
+
+.valueText{
+    width: 80%;
+    height: 100%;
+    float: left; 
+}
+
+.valueText p{
+    font-weight: 100; 
+    font-size: 0.75em;
+}
+
+.valueImg{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.valueImg img{
+    padding-top: 25%;
+    width: 75%;
+}
+
+.valueImg img:hover{
+        -webkit-filter: grayscale(100%); 
+        filter: grayscale(100%);
+}
+
+#ceoHeading{
+    background-color: rgb(235, 235, 235);
+}
+
+#ceoSpeaks{
+    height: 72em;
+    background-color: rgb(235, 235, 235);
+}
+
+#ourTeam{
+    height: 72em;
+}
+
+@media screen and (min-width: 768px){
+    #values{
+        height: 36em;  
+      }
+
+    .value{
+       width: 48%; 
+    }
+
+    #ceoSpeaks{
+        height: 36em;
+    }
+
+    #ourTeam{
+        height: 36em;
+    }
+}
+
+/*För MacBook 13"*/
+@media screen and (min-width: 1024px){
+    #values{
+        height: 24em;  
+      }
+
+    .value{
+       width: 31%; 
+    }
+
+    #ceoSpeaks{
+        height: 24em;
+    }
+
+    #ourTeam{
+        height: 24em;
+    }
+}
