@@ -1,5 +1,4 @@
 #valuesHeading, #ceoHeading, #ourTeamHeading{
-
     padding-top: 4em;
     padding-bottom: 2em;
 }
@@ -41,7 +40,6 @@
 }
 
 .valueImg img{
-    padding-top: 25%;
     width: 75%;
 }
 
@@ -59,8 +57,111 @@
     background-color: rgb(235, 235, 235);
 }
 
+.corpInfo{
+    font-style: italic;
+    border-bottom: 1px solid  rgba(12, 184, 182);
+}
+
+.ceoSpeaksLeft{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background: url('../bilder/OmOss/vd.JPG');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;    
+}
+
+.ceoSpeaksRight{
+    width: 70%;
+    height: 100%;
+    padding-left: 5%;
+    float: left;
+}
+
 #ourTeam{
-    height: 72em;
+   height: 960em;
+}
+
+.teamMate{
+    width: 100%;
+    height: 80em;
+    float: left;
+}
+
+.teamMateImg{
+    width: 100%;
+}
+
+.teamMateImg img{
+    width: 100%;
+    height: auto;
+}
+
+.teamMateInfo{
+    width: 100%;
+}
+
+.teamMateInfo h3{
+    color: rgba(12, 184, 182);
+}
+
+
+.teamMateInfo h3, .teamMateInfo h4{
+    font-weight: normal;
+}
+
+.teamMateInfo p{
+    font-size: 0.85em;
+}
+
+#contact{
+    height: 8em;
+    background-color: rgb(254, 104, 50);
+    color: white;
+    margin-bottom: 2em;
+}
+
+.contactLeft{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+}
+
+.contactRight{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    text-align: right;
+}
+
+.contactRight a{
+    text-decoration: none;
+    color: white;
+}
+
+.contactBtn:hover{
+    color: black;
+    background-color: white;
+}
+
+.contactBtn{
+    width: fit-content;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 2px solid white;
+}
+
+.contactBtn:hover{
+    background-color: white;
 }
 
 @media screen and (min-width: 768px){
@@ -73,12 +174,28 @@
     }
 
     #ceoSpeaks{
-        height: 36em;
+        height: 44em;
     }
 
     #ourTeam{
-        height: 36em;
+        height: 160em;
     }
+
+    .teamMate{
+        width: 31.2%;
+        height: 40em;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .contactRight{
+        width: 30%;
+    }
+
+    .contactLeft{
+        width: 70%;
+    }
+
 }
 
 /*För MacBook 13"*/
@@ -92,10 +209,23 @@
     }
 
     #ceoSpeaks{
-        height: 24em;
+        height: 40em;
     }
 
     #ourTeam{
-        height: 24em;
+        height: 126em
+    }
+
+    .teamMate{
+        width: 23%;
+        height: 42em;
+    }
+
+    .contactRight{
+        width: 20%;
+    }
+
+    .contactLeft{
+        width: 80%;
     }
 }
