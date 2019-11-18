@@ -10,7 +10,10 @@
 }
 
 .contactForm{
-    width: 100%;
+    width: 96%;
+    padding-top: 3em;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 form input, textarea{

@@ -50,28 +50,33 @@ a:hover{
  
 .foot{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: rgb(62, 75, 75);
     color: grey; 
-}
-
-.foot li{
-    display: inline;
-    text-decoration: none;
-    margin-left: 3em;
     float: left;
 }
 
-li p{
-    cursor: pointer;
+.footInner, .footInner2{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    width: fit-content;
+    height: fit-content;
     color: grey;
-    }
+}
 
-li :hover{
-cursor: pointer;
-color: #6E9696;
+.footInner p, .footInner2 p{
+    font-size: 0.85em;
+    color: grey;
+    text-align: left;
+}
+
+.footInner2{
+    cursor: pointer;
+}
+
+.footInner2 p:hover{
+    color: #6E9696;
 }
 
 /* The Modal (background) */
@@ -168,6 +173,19 @@ color: #6E9696;
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .footInner, .footInner2{
+        display: block;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
+        float: left;
+    }
+
+    .footInner{
+        border-right: 1px solid grey;
     }
 }
 
