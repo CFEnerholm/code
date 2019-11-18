@@ -1,4 +1,8 @@
 function sendMail(){
+    var isValid = document.querySelector('form').reportValidity();
+    if (!isValid) {
+        return false;
+    }
     var data = {
         name: $("#name").val(),
         mail: $("#mail").val(),
