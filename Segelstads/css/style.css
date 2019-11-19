@@ -9,6 +9,9 @@ html, body, h1, h3{
 
 .fillColorGreenAtTop{
     width: 100%;
+    background: linear-gradient(rgba(12, 184, 181, 0.867), rgba(12, 184, 182, 0.867)),url('../bilder/topImage.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     background-color: rgba(12, 184, 182);
 }
 
@@ -42,9 +45,6 @@ p{
 
 #top{
     height: 10em;
-    background: linear-gradient(rgba(12, 184, 181, 0.867), rgba(12, 184, 182, 0.867)),url('../bilder/topImage.jpg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
