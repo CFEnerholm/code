@@ -4,7 +4,27 @@
 }
 
 html, body, h1, h3{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.fillColorGreenAtTop{
+    width: 100%;
+    background-color: rgba(12, 184, 182);
+}
+
+.fillColorOrange{
+    width: 100%;
+    background-color: rgb(254, 104, 50);
+}
+
+.fillColorGreen{
+    width: 100%;
+    background-color: rgba(12, 184, 182);
+}
+
+.fillColorGrey{
+    width: 100%;
+    background-color: rgb(235, 235, 235);
 }
 
 p{
@@ -20,8 +40,7 @@ p{
     padding-bottom: 2.5rem;
 }
 
-.top{
-    width: 100%;
+#top{
     height: 10em;
     background: linear-gradient(rgba(12, 184, 181, 0.867), rgba(12, 184, 182, 0.867)),url('../bilder/topImage.jpg');
     background-size: 100% auto;
@@ -31,15 +50,14 @@ p{
     justify-content: center;
 }
 
-.top h1, .top h3{
+#top h1, #top h3{
     opacity: 0;
     color: white;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .container{
     width: 96%;
-    height: fit-content;
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -161,7 +179,23 @@ p{
 @media screen and (min-width: 1440px){
     .container{
         max-width: 1440px;
-        margin-left: auto;
+        padding-left: auto;
         margin-right: auto;
+    }
+
+    .test{
+        display: none;
+    }
+
+    .fillColorOrange{
+        background-color: white;
+    }
+    
+    .fillColorGreen{
+        background-color: white;
+    }
+    
+    .fillColorGrey{
+        background-color: white;
     }
 }
