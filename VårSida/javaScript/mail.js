@@ -1,6 +1,9 @@
 function sendMail(){
     var isValid = document.querySelector('form').reportValidity();
-    if (!isValid) {
+    if(!$('#lastName').val()){
+    
+   
+    if (!isValid  ) {
         return false;
     }
     var data = {
@@ -20,7 +23,7 @@ function sendMail(){
     showModal('kontaktModal');
     $("#formMail").trigger('reset');
     return false;
-    
+}
 }
 
 

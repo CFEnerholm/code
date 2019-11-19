@@ -32,6 +32,10 @@ form input, textarea{
 margin-right: 1em;
 }
 
+form #lastName{
+    display: none;
+}
+
 /*För Ipad*/
 @media screen and (min-width: 768px){
         .contact{
