@@ -4,7 +4,11 @@
 }
 
 html, body, h1, h3{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    font-weight: 100; 
 }
 
 #page-container {
@@ -40,8 +44,56 @@ html, body, h1, h3{
     padding-right: 2%;
 }
 
-#foot{
+#contact{
+    height: 8em;
+    background-color: rgb(254, 104, 50);
+    color: white;
+    margin-bottom: 2em;
+}
 
+.contactLeft{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+}
+
+.contactRight{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    text-align: center;
+}
+
+.contactRight a{
+    text-decoration: none;
+    color: white;
+}
+
+.contactBtn:hover{
+    color: black;
+    background-color: white;
+}
+
+.contactBtn{
+    width: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: 2px solid white;
+}
+
+.contactBtn:hover{
+    background-color: white;
+}
+
+#foot{
     position: absolute;
     bottom: 0;
     height: 3rem;
@@ -50,7 +102,7 @@ html, body, h1, h3{
 }
 
 #foot p{
-    font-size: 0.75em;
+    font-size: 0.85em;
     color: grey;
 }
 
@@ -66,11 +118,32 @@ html, body, h1, h3{
 
 /*För Ipad*/
 @media screen and (min-width: 768px){
+    .contactRight{
+        width: 30%;
+    }
 
+    .contactLeft{
+        width: 70%;
+    }
+
+    .contactBtn{
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
 }
 
 /*För MacBook 13"*/
 @media screen and (min-width: 1024px){
+
+    .contactRight{
+        width: 20%;
+    }
+
+    .contactLeft{
+        width: 80%;
+    }
 
 }
 
