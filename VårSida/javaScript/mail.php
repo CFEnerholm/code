@@ -1,9 +1,9 @@
 
 <?php
 if($_POST){
-    $to = "info@nilssonenerholm.se";
-    $subject = "Medelande från nilssonenerholm.se";
-    $subject2 = "Kopia på det formulär du skicka på nilssonenerholm.se";
+    $to = "info@newsab.se";
+    $subject = "Medelande från newsab.se";
+    $subject2 = "Kopia på det formulär du skicka på newsab.se";
     $name = $_POST['name'];
     $from = $_POST['mail'];
     $phone = $_POST['phone'];
