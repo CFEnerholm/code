@@ -12,18 +12,18 @@
 }
 
 #services{
-    height: 296;
+    height: 184;
 }
 
 .service{
     width: 100%;
-    height: 12em;
+    height: 13em;
     float: left;
 }
 
 .services{
     width: 100%;
-    height: 68em;
+    height: 40em;
     float: left;
 }
 
@@ -60,7 +60,7 @@
 }
 
 #formerClients{
-    height: 22em;
+    height: 37em;
     margin-bottom: 2em;
 }
 
@@ -77,6 +77,10 @@
 @media screen and (min-width: 480px){
     #services{
         height: 204;
+    }
+
+    .service{
+        height: 12em;
     }
     
     .services{
