@@ -17,16 +17,58 @@
 }
 
 form input, textarea{
+    font-size: 120%;
+    border-radius: 5px;
+    border: 1px solid  rgb(62, 75, 75);
+    
+    background-repeat: no-repeat;
+    color: rgb(62, 75, 75);
     width: 95%;
     margin: 1em;
     text-align: left;
-    
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(110, 150, 150, 0.867); 
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:  rgba(110, 150, 150, 0.867);
+  }
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color:  rgba(110, 150, 150, 0.867);
+  }
+
+#name{
+    background-image: url("../bilder/form/icons8-unicorn.png");
+    text-indent: 2em;
+    background-position: 0.2em;
+}
+#phone{
+    background-image: url("../bilder/form/icons8-phone.png");
+    text-indent: 2em;
+    background-position: 0.2em;
+}
+
+#mail{
+    background-image: url("../bilder/form/icons8-email.png");
+    text-indent: 2em;
+    background-position: 0.2em;
+}
+
+#message{
+    background-image: url("../bilder/form/icons8-pencil_tip.png");
+    text-indent: 2em;
 }
 
 #buttonMail{
     width: auto;
     margin: 1em;
     float: right;
+    color:   rgb(62, 75, 75);
+    background-color: inherit;
+    border-color: rgb(62, 75, 75);
+    border-radius: 5px;
+    
 }
 #checkbox{
 margin-right: 1em;
