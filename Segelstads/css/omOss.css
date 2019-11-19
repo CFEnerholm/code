@@ -40,6 +40,8 @@
 
 .valueImg img{
     width: 75%;
+    height: 10em;
+    overflow: hidden;
 }
 
 .valueImg img:hover{
