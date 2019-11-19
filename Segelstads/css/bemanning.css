@@ -12,7 +12,7 @@
 }
 
 #services{
-    height: 152;
+    height: 296;
 }
 
 .service{
@@ -23,7 +23,7 @@
 
 .services{
     width: 100%;
-    height: 26em;
+    height: 68em;
     float: left;
 }
 
@@ -55,28 +55,54 @@
 
 .client{
     width: 100%;
-    height: 10em;
+    height: 8em;
     float: left;
 }
 
-@media screen and (min-width: 480px){
+#formerClients{
+    height: 22em;
+    margin-bottom: 2em;
+}
 
+.opinion{
+    width: 90%;
+    padding: 5%;
+    border-bottom: 1px solid white;
+}
+
+.opinion p, .opinion h5{
+    color: white;
+} 
+
+@media screen and (min-width: 480px){
+    #services{
+        height: 204;
+    }
+    
+    .services{
+        height: 45em;
+    }
+
+    #formerClients{
+        height: 35em;
+    }
 }
 
 
 @media screen and (min-width: 768px){ 
     #services{
-        height: 102em;
+        height: 92em;
     }
 
     .service{
         width: 45%;
+        height: 12em;
         padding-right: 5%;
     }
 
     .services{
         width: 46%;
-        height: 45em;
+        height: 40em;
         padding-left: 2%;
         padding-right: 2%;
     }
@@ -93,14 +119,25 @@
     }
     
     #clients{
-        height: 10em;
+        height: 9em;
     }
     
     .client{
         width: 45%;
         padding-right: 5%;
-        height: 10em;
+        height: 8em;
         float: left;
+    }
+
+    #formerClients{
+        height: 27em;
+    }
+
+    .opinion{
+        width: 40%;
+        padding: 5%;
+        float: left;
+        border-bottom: none;
     }
 }
 
@@ -112,5 +149,9 @@
     .services{
         width: 21%;
         height: 26em;
+    }
+
+    #formerClients{
+        height: 24em;
     }
 }
