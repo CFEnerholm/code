@@ -58,20 +58,20 @@
 
 @media screen and (min-width: 1024px){
     #kontaktContactForm{
-        height: 70em;
+        height: 45em;
         margin-bottom: 2em;
        }
        
        .kontaktContactFormLeft{
            width: 69%;
-       height: 70em;
+       height: 45em;
        margin-right: 2.5%;
        
        }
        
        .kontaktContactFormRight{
            width: 25%;
-       height: 35em;
+       height: 45em;
        padding-left: 2.5%;
        border-left: 2px solid rgb(12, 184, 182);
        }
