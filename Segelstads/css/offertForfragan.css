@@ -11,6 +11,31 @@
     margin-bottom: 0.5em;
 }
 
+#offer{
+height: 8em;
+}
+
+#offertForfraganContactForm{
+ height: 45em;
+ margin-bottom: 2em;
+}
+
+.offertForfraganContactFormLeft{
+    width: 100%;
+    height: 35em;
+    float: left;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offertForfraganContactFormRight{
+    width: 100%;
+    height: 10em;
+    float: left;
+}
 
 @media screen and (min-width: 480px){
 
@@ -18,9 +43,48 @@
 
 
 @media screen and (min-width: 768px){
-
+    #offer{
+        height: 6em;
+        }
+        
+        #offertForfraganContactForm{
+         height: 40em;
+         margin-bottom: 2em;
+        }
+        
+        .offertForfraganContactFormLeft{
+            width: 70%;
+            height: 40em;
+        }
+        
+        .offertForfraganContactFormRight{
+            width: 25%;
+            height: 40em;
+            padding-left: 5%
+        }
 }
 
 @media screen and (min-width: 1024px){
-
+    #offer{
+        height: 6em;
+        }
+        
+        #offertForfraganContactForm{
+         height: 35em;
+         margin-bottom: 2em;
+        }
+        
+        .offertForfraganContactFormLeft{
+            width: 69%;
+        height: 35em;
+        margin-right: 2.5%;
+        
+        }
+        
+        .offertForfraganContactFormRight{
+            width: 25%;
+        height: 35em;
+        padding-left: 2.5%;
+        border-left: 2px solid rgb(12, 184, 182);
+        }
 }

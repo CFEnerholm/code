@@ -64,35 +64,39 @@
                 <h2>SKICKA ETT MEDDELANDE</h2>
             </div>
 
-            <div id="contactForm" class="container">
+            <div id="kontaktContactForm" class="container">
+                <div class="kontaktContactFormLeft">
 
-                <div class="contactForm">
-                    <form id="formMail" enctype="multipart/form-data" accept-charset="utf-8">
-                        <input type="text" name="name" id="name" placeholder="Namn:"><br>
+                        <div class="contactForm">
+                                <form id="formMail" enctype="multipart/form-data" accept-charset="utf-8">
+                                    <input type="text" name="name" id="name" placeholder="Namn:"><br>
+            
+                                    <input type="text" name="lastName" id="lastName" placeholder="Ingen Reklam Tack!">
+            
+                                    <input type="email" name="mail" id="mail" required placeholder="E-post:"><br>
+            
+                                    <input type="tel" name="phone" id="phone" placeholder="Telefon:"><br>
+            
+                                    <textarea name="message" id="message" required placeholder="Meddelande:" rows="10"></textarea>
+            
+                                    <input type="file" name="file" id="file">
+            
+                                    <table>
+                                        <td><input type="checkbox" name="checkbox" id="checkbox" value="checkbox" required></td>
+                                        <td><label for="checkbox">&nbsp;&nbsp;Jag har läst och godkänner Segelstads <a
+                                                    onclick="showModal('intrigitetspolicyModal')">integritetspolicy</a></label>
+                                        </td>
+                                        <br>
+                                    </table>
+            
+                                    <input id="buttonMail" type='button' value='Skicka' onclick="sendMail()" />
+            
+                                </form>
+                            </div>
 
-                        <input type="text" name="lastName" id="lastName" placeholder="Ingen Reklam Tack!">
-
-                        <input type="email" name="mail" id="mail" required placeholder="E-post:"><br>
-
-                        <input type="tel" name="phone" id="phone" placeholder="Telefon:"><br>
-
-                        <textarea name="message" id="message" required placeholder="Meddelande:" rows="10"></textarea>
-
-                        <input type="file" name="file" id="file">
-
-                        <table>
-                            <td><input type="checkbox" name="checkbox" id="checkbox" value="checkbox" required></td>
-                            <td><label for="checkbox">&nbsp;&nbsp;Jag har läst och godkänner Segelstads <a
-                                        onclick="showModal('intrigitetspolicyModal')">integritetspolicy</a></label>
-                            </td>
-                            <br>
-                        </table>
-
-                        <input id="buttonMail" type='button' value='Skicka' onclick="sendMail()" />
-                        
-                    </form>
                 </div>
-
+                <div class="kontaktContactFormRight">
+                </div>
             </div>
         </div>
 
