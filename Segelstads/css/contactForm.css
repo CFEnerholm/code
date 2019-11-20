@@ -7,28 +7,36 @@
 }
 
 .contactForm{
-    width: 96%;
-    padding-left: 2%;
-    padding-right: 2%;
+    width: 100%;
+   
 }
 
 form input, textarea{
-    font-size: 120%;
+    font-size: 100%;
     color: black;
     width: 95%;
-    
     text-align: left;
+    margin-bottom: 1em;
+    margin-top: 0.2em;
+    padding: 1em;
+    border: none;
+    background-color: rgb(235, 235, 235);
+}
+
+
+input:active{
+  border-color: rgb(12, 184, 182);
 }
 
 form label{
   text-align: left;
-  margin: 0;
-  padding:0;
-
+  width: 95%;
+  
 }
 
 #file{
   font-size: 80%;
+  background-color: inherit;
 }
 
 /* 
@@ -148,9 +156,8 @@ form #lastName{
            }
 
             .contactForm{
-                width: 90%;
-                padding-left: 5%;
-                padding-right: 5%;
+                width: 100%;
+               
                 float: left;                      
             }
     }

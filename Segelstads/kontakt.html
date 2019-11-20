@@ -68,21 +68,21 @@
                 <div class="kontaktContactFormLeft">
                         <div class="contactForm">
                             <form id="formMail" action="" method="POST">
-                                        <label for="name">Ditt Namn (obligatoriskt)</label>
-                                        <input type="text" name="name" id="name"><br>
+                                        <label for="name"><p> Ditt Namn (obligatoriskt)</p></label>
+                                        <input type="text" name="name" id="name" required><br>
                                         <input type="text" name="lastName" id="lastName" placeholder="Ingen Reklam Tack!">
-                                        <label for="mail">Din Epost (obligatoriskt)</label>
+                                        <label for="mail"><p> Din Epost (obligatoriskt)</p></label>
                                         <input type="email" name="mail" id="mail" required ><br>
-                                        <label for="phone">Telefonnummer </label>
+                                        <label for="phone"><p>Telefonnummer</p></label>
                                         <input type="tel" name="phone" id="phone" ><br>
-                                        <label for="message">Ditt Meddelande (obligatoriskt)</label>
-                                        <textarea name="message" id="message" required rows="10"></textarea>
-                                        <label for="message">Vill du bifoga en fil?<br>Max storlek:  4MB Tillåtna filtyper är: pdf,doc,docx,jpg,jpeg,png</label>
+                                        <label for="message"><p> Ditt Meddelande (obligatoriskt)</p></label>
+                                        <textarea name="message" id="message" required rows="10"></textarea><br>
+                                        <label for="message"><p>Vill du bifoga en fil?<br>Max storlek:  4MB Tillåtna filtyper är: pdf, doc, docx, jpg, jpeg, png</p></label>
                                         <input type="file" name="file" id="file">
                                         <table>
                                         <td><input type="checkbox" name="checkbox" id="checkbox" value="checkbox" required></td>
-                                        <td><label for="checkbox">&nbsp;&nbsp;Jag har läst och godkänner Segelstads <a
-                                                   onclick="showModal('intrigitetspolicyModal')">integritetspolicy</a></label>
+                                        <td><label for="checkbox"><p> &nbsp;&nbsp;Jag har läst och godkänner Segelstads <a
+                                                   onclick="showModal('intrigitetspolicyModal')">integritetspolicy</a></p></label>
                                         </td>
                                         <br>
                                     </table>
