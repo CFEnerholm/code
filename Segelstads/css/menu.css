@@ -1,5 +1,4 @@
 #topOfMenu{
-    width: 100%;
     height: 5em;
     background-image: url(../bilder/segelstadsLogga.png);
     background-repeat: no-repeat;
@@ -58,7 +57,7 @@
     height: 4em;
     background-color: white;
     text-align: center;
-    padding-left: 5%;
+    /* padding-left: 5%; */
 }
 
 .menuBtn{
