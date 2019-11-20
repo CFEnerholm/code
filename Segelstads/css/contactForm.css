@@ -11,7 +11,7 @@
    
 }
 
-form input, textarea{
+form input, textarea, select, option{
     font-size: 100%;
     color: black;
     width: 95%;
@@ -69,7 +69,7 @@ form label{
     padding-right: 1em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    float: left;
+    float: right;
     color: white;
     background-color:  rgb(12, 184, 182);
     border: none;

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/offertForfragan.css">
+    <link rel="stylesheet" href="css/contactForm.css">
 
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -75,8 +76,42 @@
             <div id="offertForfraganContactForm" class="container">
                 <div class="offertForfraganContactFormLeft">
 
-                    <!-- HÄR SKA FORMEN INFOGAS -->
-                    <h1>HÄR SKA DET VA EN FORM</h1>
+                        <div class="contactForm">
+                                <form id="formMail" action="" method="POST">
+                                        <label for="companyName"><p> Företagets Namn (obligatoriskt)</p></label>
+                                        <input type="text" name="companyName" id="companyName" required><br>
+                                        <label for="orgId"><p> Organisationsnummer (obligatoriskt)</p></label>
+                                            <input type="text" name="orgId" id="orgId" required><br>
+                                            <label for="name"><p> Kontaktperson Namn (obligatoriskt)</p></label>
+                                            <input type="text" name="name" id="name" required><br>
+                                            <input type="text" name="lastName" id="lastName" placeholder="Ingen Reklam Tack!">
+                                            <label for="mail"><p> Din Epost (obligatoriskt)</p></label>
+                                            <input type="email" name="mail" id="mail" required ><br>
+                                            <label for="phone"><p>Telefonnummer</p></label>
+                                            <input type="tel" name="phone" id="phone" ><br>
+                                            <label for="job">
+                                                    <p>Välj personalbehov</p>
+                                                </label>
+                                                <select name="job" id="job">
+                                                    <option value="arbetsterapi">Arbetsterapi</option>
+                                                    <option value="handrehabilitering">Handrehabilitering</option>
+                                                    <option value="fysioterapi">Fysioterapi</option>
+                                                    <option value="administation">Administration</option>
+                                                    <option value="tbildning">Utbildning</option>
+                                                    <option value="annat">Annat</option>
+                                                </select>
+                                            <label for="message"><p> Ditt Meddelande (obligatoriskt)</p></label>
+                                            <textarea name="message" id="message" required rows="10"></textarea><br>
+                                            <table>
+                                            <td><input type="checkbox" name="checkbox" id="checkbox" value="checkbox" required></td>
+                                            <td><label for="checkbox"><p> &nbsp;&nbsp;Jag har läst och godkänner Segelstads <a
+                                                       onclick="showModal('intrigitetspolicyModal')">integritetspolicy</a></p></label>
+                                            </td>
+                                            <br>
+                                        </table>
+                                        <input id="buttonMail" type='button' value='Skicka' onclick="sendMail()" />  
+                                </form>
+                            </div>
 
                 </div>
                 <div class="offertForfraganContactFormRight">
