@@ -66,37 +66,32 @@
 
             <div id="kontaktContactForm" class="container">
                 <div class="kontaktContactFormLeft">
-
                         <div class="contactForm">
-                                <form id="formMail" action="" method="POST">
-                                    <input type="text" name="name" id="name" placeholder="Namn:"><br>
-            
-                                    <input type="text" name="lastName" id="lastName" placeholder="Ingen Reklam Tack!">
-            
-                                    <input type="email" name="mail" id="mail" required placeholder="E-post:"><br>
-            
-                                    <input type="tel" name="phone" id="phone" placeholder="Telefon:"><br>
-            
-                                    <textarea name="message" id="message" required placeholder="Meddelande:" rows="10"></textarea>
-            
-                                    <input type="file" name="file" id="file">
-            
-                                    <table>
+                            <form id="formMail" action="" method="POST">
+                                        <label for="name">Ditt Namn (obligatoriskt)</label>
+                                        <input type="text" name="name" id="name"><br>
+                                        <input type="text" name="lastName" id="lastName" placeholder="Ingen Reklam Tack!">
+                                        <label for="mail">Din Epost (obligatoriskt)</label>
+                                        <input type="email" name="mail" id="mail" required ><br>
+                                        <label for="phone">Telefonnummer </label>
+                                        <input type="tel" name="phone" id="phone" ><br>
+                                        <label for="message">Ditt Meddelande (obligatoriskt)</label>
+                                        <textarea name="message" id="message" required rows="10"></textarea>
+                                        <label for="message">Vill du bifoga en fil?<br>Max storlek:  4MB Tillåtna filtyper är: pdf,doc,docx,jpg,jpeg,png</label>
+                                        <input type="file" name="file" id="file">
+                                        <table>
                                         <td><input type="checkbox" name="checkbox" id="checkbox" value="checkbox" required></td>
                                         <td><label for="checkbox">&nbsp;&nbsp;Jag har läst och godkänner Segelstads <a
-                                                    onclick="showModal('intrigitetspolicyModal')">integritetspolicy</a></label>
+                                                   onclick="showModal('intrigitetspolicyModal')">integritetspolicy</a></label>
                                         </td>
                                         <br>
                                     </table>
-            
-                                    <input id="buttonMail" type='button' value='Skicka' onclick="sendMail()" />
-                                    
-                                </form>
-                            </div>
-                   
-                    </div>
-                    <div class="kontaktContactFormRight">
+                                    <input id="buttonMail" type='button' value='Skicka' onclick="sendMail()" />  
+                            </form>
+                        </div>
                 </div>
+                    <div class="kontaktContactFormRight">
+                    </div>
             </div>
 
             <div id="foot" class="container">
