@@ -1,7 +1,7 @@
 
 <?php
 if($_POST){
-    $to = "info@segelstads.se";
+    $to = "info@newsab.se";
     $subject = "Medelande från segelstads.se";
     $subject2 = "Kopia på det formulär du skicka på segelstads.se";
     $name = $_POST['name'];
@@ -14,7 +14,7 @@ if($_POST){
     $headers2 = "From:" . $to;
 
     $mail->addAttachment($mail_attachment);
-    
+
     mail($to,$subject,$message,$headers); //send email
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
 
