@@ -1,0 +1,191 @@
+#doADifferenceHeading, #qualityHeading, #applyHeading{
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+
+#doADifferenceHeading h4, #qualityHeading h4, #applyHeading h4{
+    width: fit-content;
+    font-weight: normal;
+    border-bottom: 2px solid rgb(12, 184, 182);
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#offer{
+    height: 40em;
+}
+
+.offerLeft{
+    width: 100%;
+    height: 22em;
+    float: left;
+}
+
+.offerRight{
+    width: 100%;
+    height: 17em;
+    margin-bottom: 1em;
+    float: left;
+    background: linear-gradient(rgba(12, 184, 181, 0.2), rgba(12, 184, 182, 0.2)),url('../bilder/meeting.JPG');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+#qualityHeading{
+    background-color: rgb(235, 235, 235);
+}
+
+#quality{
+    height: 40em;
+    background-color: rgb(235, 235, 235);
+}
+
+.qualityLeft{
+    width: 100%;
+    height: 17em;
+    margin-bottom: 1em;
+    float: left;
+    background: linear-gradient(rgba(12, 184, 181, 0.2), rgba(12, 184, 182, 0.2)),url('../bilder/meeting.JPG');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.qualityRight{
+    width: 100%;
+    height: 22em;
+    float: left;
+}
+
+#apply{
+    height: 45em;
+    margin-bottom: 2em;
+}
+
+.applyLeft{
+    width: 100%;
+    height: 10em;
+    float: left;
+}
+
+.applyRight{
+    width: 100%;
+    height: 35em;
+    float: left;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (min-width: 480px){
+
+
+}
+
+
+@media screen and (min-width: 768px){
+    #offer{
+        height: 26em;
+    }
+
+    .offerLeft{
+        width: 45%;
+        height: 26;
+        padding-right: 5%;
+    }
+    
+    .offerRight{
+        width: 50%;
+        height: 21em;
+        margin-bottom: 5em;
+    }
+
+    #quality{
+        height: 26em;
+    }
+
+    #qualityHeading{
+        padding-left: 55%;
+    }
+
+    .qualityLeft{       
+        width: 50%;
+        height: 21em;
+        margin-bottom: 5em;
+    }
+    
+    .qualityRight{
+        width: 45%;
+        height: 26em;
+        padding-left: 5%;
+    }
+
+    #apply{
+        height: 40em;
+    }
+
+    .applyLeft{
+        width: 25%;
+        height: 40em;
+        padding-right: 5%;
+    }
+    
+    .applyRight{
+        width: 70%;
+        height: 40em;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #offer{
+        height: 22em;
+    }
+
+    .offerLeft{
+        width: 45%;
+        height: 22em;
+        padding-right: 5%;
+    }
+    
+    .offerRight{
+        height: 17em;
+        margin-bottom: 5em;
+        background-size: 100% auto;
+        width: 50%;
+    }  
+
+    #quality{
+        height: 22em;
+    }
+
+    .qualityLeft{
+        height: 17em;
+        margin-bottom: 5em;
+        background-size: 100% auto;
+        width: 50%;
+    }
+    
+    .qualityRight{
+        width: 45%;
+        height: 22em;
+        padding-left: 5%;
+    }
+
+    #apply{
+        height: 35em;
+    }
+
+    .applyLeft{
+        width: 25%;
+        height: 35em;
+        padding-right: 2.5%;
+        border-right: 2px solid rgb(12, 184, 182);
+    }
+    
+    .applyRight{
+        width: 69%;
+        height: 35em;
+        margin-left: 2.5%;
+    }
+}
