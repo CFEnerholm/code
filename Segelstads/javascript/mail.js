@@ -20,12 +20,13 @@ function sendMail(){
         // data: data,
         data:formData,
         async: false,
+        contentType: false,
+		cache: false,
+		processData:false,
         success: function(){  
         },
 
-            cache: false,
-            contentType: false,
-            processData: false
+            
     });
 
     showModal('kontaktModal');
