@@ -1,0 +1,26 @@
+#offerHeading{
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+
+#offerHeading h4{
+    width: fit-content;
+    font-weight: normal;
+    border-bottom: 2px solid rgb(12, 184, 182);
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+
+@media screen and (min-width: 480px){
+
+}
+
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 1024px){
+
+}
