@@ -11,12 +11,8 @@
     margin-bottom: 0.5em;
 }
 
-.contactInfo{
-    width: 100%; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+#contactForm{
+    height: 50em;
 }
 
 @media screen and (min-width: 480px){

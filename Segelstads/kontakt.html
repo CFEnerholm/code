@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/kontact.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/kontakt.css">
+    <link rel="stylesheet" href="css/contactForm.css">
 
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -63,46 +63,43 @@
                 <h4>Kontakta Segelstads Rehab AB</h4>
                 <h2>SKICKA ETT MEDDELANDE</h2>
             </div>
-        </div>
 
-        <div id="mainContent">
-            <div class="contact">
-                <div class="contactInfo">
-                    <h2>Kontakta oss</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero quas dolore repellendus,
-                        pariatur eum ullam. A, facere aspernatur minima velit quas laborum ut libero sequi facilis,
-                        porro cumque, quidem deserunt.</p>
-                    <br />
+            <div id="contactForm" class="container">
 
-                </div>
                 <div class="contactForm">
                     <form id="formMail" enctype="multipart/form-data" accept-charset="utf-8">
                         <input type="text" name="name" id="name" placeholder="Namn:"><br>
+
                         <input type="text" name="lastName" id="lastName" placeholder="Ingen Reklam Tack!">
+
                         <input type="email" name="mail" id="mail" required placeholder="E-post:"><br>
+
                         <input type="tel" name="phone" id="phone" placeholder="Telefon:"><br>
+
                         <textarea name="message" id="message" required placeholder="Meddelande:" rows="10"></textarea>
+
                         <input type="file" name="file" id="file">
+
                         <table>
                             <td><input type="checkbox" name="checkbox" id="checkbox" value="checkbox" required></td>
                             <td><label for="checkbox">&nbsp;&nbsp;Jag har läst och godkänner Segelstads <a
-                                        onclick="showModal('intrigitetspolicyModal')">integritetspolicy</a></label></td>
+                                        onclick="showModal('intrigitetspolicyModal')">integritetspolicy</a></label>
+                            </td>
                             <br>
                         </table>
+
                         <input id="buttonMail" type='button' value='Skicka' onclick="sendMail()" />
+                        
                     </form>
                 </div>
+
             </div>
-            <div class="space"></div>
         </div>
 
-    </div>
-    </div>
-
-    <div id="foot" class="container">
-        <p>&copy; 2019 Segelstads Rehab AB All Rights Reserved </p>
-        <p>Developed by <a href="http://www.newsab.se" target="_blank">news</a></p>
-    </div>
+        <div id="foot" class="container">
+            <p>&copy; 2019 Segelstads Rehab AB All Rights Reserved </p>
+            <p>Developed by <a href="http://www.newsab.se" target="_blank">news</a></p>
+        </div>
     </div>
     <div id="kontaktModal" class="modal" onclick="hideModal('kontaktModal')">
         <div class="modal-content">
