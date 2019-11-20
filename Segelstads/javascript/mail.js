@@ -11,22 +11,19 @@ function sendMail(){
     //     mail: $("#mail").val(),
     //     phone: $("#phone").val(),
     //     message: $("#message").val()
-    var formData = new FormData($(this)[0]);
+    var formData = new FormData($('#formMail')[0]);
 
     };
     $.ajax({
         type: "POST",
         url: "javascript/mail.php",
-        // data: data,
-        data:formData,
-        async: false,
+        data: formData,
+        success: function () {
+           alert(data);
+        },
         contentType: false,
 		cache: false,
 		processData:false,
-        success: function(){  
-        },
-
-            
     });
 
     showModal('kontaktModal');

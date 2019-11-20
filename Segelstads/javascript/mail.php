@@ -1,4 +1,4 @@
-
+<!-- 
 <?php
 if($_POST){
     $to = "info@newsab.se";
@@ -7,6 +7,7 @@ if($_POST){
     $name = $_POST['name'];
     $from = $_POST['mail'];
     $phone = $_POST['phone'];
+    $file = "";
     $message = $name .  " skrev:" . "\n\n" . $_POST['message'] . "\n\n"  . $_POST['name'] . "\n" . $_POST['mail'] . "\n" . $_POST['phone'];
     $message2 = "Här är en kopia på ditt meddelande " . $first_name . "\n\n" . $_POST['message'];
     
@@ -15,11 +16,11 @@ if($_POST){
     $headers2 = "From:" . $to;
 
     if(is_array($_FILES)) {
-        $mail->AddAttachment($_FILES['attachmentFile']['tmp_name'],$_FILES['attachmentFile']['name']); 
+        $file->AddAttachment($_FILES['attachmentFile']['tmp_name'],$_FILES['attachmentFile']['name']); 
     }
 
-    mail($to,$subject,$message,$headers); //send email
+    mail($to,$subject,$message,$headers,); //send email
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
 
 }
-?>
+?> -->
