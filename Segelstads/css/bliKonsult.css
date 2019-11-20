@@ -11,6 +11,11 @@
     margin-bottom: 0.5em;
 }
 
+#doADifferenceHeading{
+    width: 50%;
+    float: left;
+}
+
 #offer{
     height: 40em;
 }
@@ -25,10 +30,11 @@
     width: 90%;
     padding-right: 5%;
     padding-left: 5%;
+    margin-top: 4em;
     height: 18em;
     float: left;
     background: linear-gradient(rgba(12, 184, 181, 0.7), rgba(12, 184, 182, 0.7)),url('../bilder/green.jpg');
-    overflow: hidden;
+    background-size: auto 100%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -98,7 +104,7 @@
     }
 
     .offerLeft{
-        width: 45%;
+        width: 95%;
         height: 26;
         padding-right: 5%;
     }
@@ -147,19 +153,26 @@
 }
 
 @media screen and (min-width: 1024px){
+    #doADifferenceHeading{
+        width: 50%;
+        float: left;
+    }
+
     #offer{
-        height: 22em;
+        height: 30em;
     }
 
     .offerLeft{
-        width: 45%;
+        width: 95%;
         height: 22em;
         padding-right: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     .offerRight{
-        height: 22em;
-        background-size: 100% auto;
+        height: 26em;
         width: 40%;
     }  
 
