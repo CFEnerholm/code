@@ -13,6 +13,8 @@ if($_POST){
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
 
+    $mail->addAttachment($mail_attachment);
+    
     mail($to,$subject,$message,$headers); //send email
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
 
