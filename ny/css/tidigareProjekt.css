@@ -6,7 +6,7 @@ background-color: black;
     border-bottom: 2px solid white;
 }
 
-#logo{
+#logo, #menuImage{
     -webkit-filter: invert(100%);
 }
 
@@ -15,12 +15,17 @@ background-color: black;
 }
 
 
-h2, h6{
+h2, h5, h6{
     text-align: center;
 }
 
 h6{
     padding-top: 27em;
+    color: rgba(110, 150, 150);
+}
+
+h5{
+    padding-top: 1em;
     color: rgba(110, 150, 150);
 }
 
@@ -36,9 +41,59 @@ h2{
     border-bottom: 2px solid white;
 }
 
-#job{
-    height: 70em;
+#projects{
+    height: 25em;
+    padding-bottom: 5em;
 }
+
+.project1{
+    width: 40%;
+    padding-top: 5em;
+    padding-left: 10%;
+    height: 20em;
+    float: left;
+}
+
+.project2{
+    width: 40%;
+    padding-top: 5em;
+    padding-right: 10%;
+    height: 20em;
+    float: left;
+}
+
+.projectTop{
+    width: 100%;
+    height: 13em;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projectTop img{
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.projectBottom{
+    width: 100%;
+    height: 4em;
+    background-color: lightgrey;
+}
+
+.project1:hover .projectTop img{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.project2:hover .projectTop img{
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+}
+
+
 
 @media screen and (min-width: 480px){
 
