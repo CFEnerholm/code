@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/varaTjanster.css">
+
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>NEWS - Våra Tjänster</title>
+</head>
+
+<body>
+    <div class="header" id="header">
+        <div class="headerLeft">
+            <a href="#top"><img id="logo" src="bilder/logga.png" alt=""></a>
+        </div>
+        <div class="headerMiddle">
+            <div class="menuBtn"><a href="varaTjanster.html">Vad vi gör</a></div>
+            <div class="menuBtn"><a href="tidigareProjekt.html">Tidigare projekt</a></div>
+            <div class="menuBtn"><a href="kontakt.html">Kontakt</a></div>
+        </div>
+        <div class="headerRight">
+            <img id="menuImage" src="bilder/icons8-menu.png" alt="" onclick="showMenu()">
+        </div>
+        <div class="mobileMenu">
+            <a href="#ourServices" onclick="showMenu()">
+                <div class="mobileMenuBtn"> Vad vi gör</div>
+            </a>
+            <a href="#formerProjects" onclick="showMenu()">
+                <div class="mobileMenuBtn">Tidigare projekt</div>
+            </a>
+            <a href="#contact" onclick="showMenu()">
+                <div class="mobileMenuBtn"> Kontakt</div>
+            </a>
+        </div>
+    </div>
+
+    <div id="page-container">
+        <div id="content-wrap">
+            <div class="mobileMenu">
+                <a href="index.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">START</div>
+                </a>
+            </div>
+
+            <div id="topImage" class="containerFullWidth">
+                <h6>Från ide till färdig lösning</h6>
+                <h2>VAD VI GÖR</h2>
+            </div>
+
+            <div id="homepage" class="container">
+                <div class="homepageInfo">Med en bakgrund i systemvetenskapliga studier bygger vi webbplatser från
+                    grunden. Det ger oss möjlighet att styra funktion och design fritt efter dina önskemål.
+                    <br><br>
+                    Är du osäker på hur du vill ha det eller känner att du inte har tiden eller intresset hjälper vi
+                    dig. Vårt mål är att du ska bli nöjd med slutresultatet!</div>
+                <div class="homepageInfo">Utöver utvecklande av unika webbplatser driver vi vårt eget webbhotell. Det
+                    ger oss möjlighet att skapa en helhetslösning med eget domännamn, tillhörande e-postadresser och
+                    hosting. Vi sköter även underhåll och uppdateringar av din webbplats. Vill du läsa mer om vår
+                    helhetslösning klickar du här.
+                    <br><br>
+                    Har du mer specifika behov så hjälper vi dig självklart med det!</div>
+                <div class="homepageInfo2">
+                    Förutom att vara en webbyrå så finns möjligheten att hyra in oss som konsulter. Vi har erfarenhet
+                    inom Java, C#, MySQL, .NET, HTML/CSS, Javascript m.m.
+                    <br><br>
+                    Vi kan även hjälpa dig med nätverk, wifi och smarta produkter till din verksamhet.
+                </div>
+            </div>
+
+            <div id="middleImage" class="containerFullWidth">
+                    <h6>Vi sköter allt som rör din webbplats</h6>
+                    <h2>SÅ DU KAN FOKUSERA PÅ DET DU VILL</h2>
+                </div>
+                <div id="homepage" class="container">
+                      
+                </div>
+        </div>
+        <div id="foot" class="container">
+            <p>&copy; 2019 Nilsson Enerholm Webb & Systemutveckling AB All Rights Reserved </p>
+            <p>Developed by <a href="http://www.newsab.se" target="_blank">news</a></p>
+        </div>
+    </div>
+
+    <script src="javascript/alive.js"></script>
+    <script src="javascript/menu.js"></script>
+</body>
+
+</html>

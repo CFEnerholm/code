@@ -1,0 +1,167 @@
+.contactForm{
+    width: 100%;
+   
+}
+
+form input, textarea, select, option{
+    font-size: 100%;
+    color: black;
+    width: 95%;
+    text-align: left;
+    margin-bottom: 1em;
+    margin-top: 0.2em;
+    padding: 0.5em;
+    border: none;
+    background-color: rgba(110, 150, 150, 0.15);
+}
+
+
+input:active{
+  border-color: rgba(110, 150, 150);
+}
+
+form label{
+  text-align: left;
+  width: 95%;
+  
+}
+
+#file{
+  font-size: 80%;
+  background-color: inherit;
+}
+
+/* 
+#name{
+    background-image: url("../bilder/form/icons8-unicorn.png");
+    text-indent: 2em;
+    background-position: 0.2em;
+}
+#phone{
+    background-image: url("../bilder/form/icons8-phone.png");
+    text-indent: 2em;
+    background-position: 0.2em;
+}
+
+#mail{
+    background-image: url("../bilder/form/icons8-email.png");
+    text-indent: 2em;
+    background-position: 0.2em;
+}
+
+#message{
+    background-image: url("../bilder/form/icons8-pencil_tip.png");
+    text-indent: 2em;
+    background-position-x : 0.2em;
+} */
+
+#buttonMail{
+    width: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    float: right;
+    color: white;
+    background-color: rgba(110, 150, 150);
+    border: none; 
+    margin-right: 5%;
+}
+
+#buttonMail:hover{
+  color: rgba(110, 150, 150);
+  background-color: white;
+  border: 1px solid rgba(110, 150, 150); 
+}
+
+#checkbox{
+margin-right: 1em;
+}
+
+form #lastName{
+    display: none;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+.modal-content {
+    background-color: rgb(254, 254, 254);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(136, 136, 136);
+    width: 80%;
+    height: 60%;
+    overflow: scroll;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+
+ .modal h2, .modal h3{
+    text-align: left;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+/*För Ipad*/
+@media screen and (min-width: 768px){
+        .contact{
+            width: 100%;
+            }
+    
+            .contactInfo{
+                width: 100%;
+                padding-left: 5%;
+                padding-right: 5%;
+                float: left;
+                text-align: left;
+                padding-top: 10em;
+            }
+            
+           .contactInfo h2, .contactInfo h3, .contactInfo p{
+            text-align: left;
+           }
+
+            .contactForm{
+                width: 100%;
+               
+                float: left;                      
+            }
+    }
+    
+/*För större skärmar*/
+@media screen and (min-width: 1024px){    
+
+}
+    
