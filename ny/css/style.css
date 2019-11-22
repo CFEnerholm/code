@@ -55,6 +55,12 @@ html, body, h1, h3{
     color:rgba(110, 150, 150);
 }
 
+
+
+.hiddenTest { /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/
+    opacity: 0;
+  }
+
 @media screen and (min-width: 480px){
     .container{
         max-width: 480px;

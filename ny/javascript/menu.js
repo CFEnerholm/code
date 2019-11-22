@@ -2,7 +2,6 @@ function showMenu() {
         $(".mobileMenu").toggle(200);    
 }
 
-
 $(document).ready(function() {
         var headerTop = $('#header').offset().top;
         var headerBottom = headerTop + 1; // Sub-menu should appear after this distance from top.
@@ -12,6 +11,7 @@ $(document).ready(function() {
                 if (($("#header").is(":visible") === false)) {
                     $('#header').fadeIn('slow');
                     $('#bigLogo').hide();
+                   
                 }
             } else {
                 if ($("#header").is(":visible")) {
@@ -20,4 +20,9 @@ $(document).ready(function() {
                 }
             }
         });
+
+        
+
     });
+
+  
