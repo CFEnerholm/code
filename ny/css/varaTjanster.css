@@ -10,6 +10,7 @@
 }
 
 h2, h6{
+    position: relative;
     text-align: center;
 }
 
@@ -83,14 +84,14 @@ h6{
 }
 
 
-.homepageInfo ul{
+.homepageInfo ul, .homepageInfo2 ul{
     padding-top: 3em;
     padding-left: 15%;
     text-align: left;
 }
 
-.homepageInfo li{
-    padding-bottom: 0.5em;
+.homepageInfo li, .homepageInfo2 li{
+    padding-bottom: 1em;
 }
 
 
