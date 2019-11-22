@@ -17,7 +17,7 @@ h6{
     color: rgba(110, 150, 150);
 }
 
-#homepage{
+#homepage, #homepage2{
     height: 30em;
 }
 
@@ -30,14 +30,33 @@ h6{
     margin-bottom: 6em;
     float: left;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+}
+
+.homepageInfo p, .homepageInfo2 p{
+    padding-top: 3em;
 }
 
 .homepageInfo{
     border-right: 1px solid rgba(110, 150, 150);
 }
+
+.buttonContact{
+    width: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    float: right;
+    color: white;
+    background-color: rgba(110, 150, 150);
+    border: none; 
+}
+
+.buttonContact:hover{
+    color: rgba(110, 150, 150);
+    background-color: white;
+    border: 1px solid rgba(110, 150, 150); 
+  }
 
 #middleImage{
     height: 25em;
@@ -61,7 +80,17 @@ h6{
 
 #middleImage h6{
     padding-top: 26em;
+}
 
+
+.homepageInfo ul{
+    padding-top: 3em;
+    padding-left: 15%;
+    text-align: left;
+}
+
+.homepageInfo li{
+    padding-bottom: 0.5em;
 }
 
 
