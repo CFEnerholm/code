@@ -57,9 +57,19 @@ html, body, h1, h3{
 
 
 
-.hiddenTest { /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/
+.fadeIn, .fadeInDelay500, .fadeInDelay1000 { /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/
     opacity: 0;
   }
+
+.swipeInFromLeft{ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/
+    position: relative;
+    left: -2000px
+}
+
+.swipeInFromRight{ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/
+    position: relative;
+    left: 2000px;
+}
 
 @media screen and (min-width: 480px){
     .container{
