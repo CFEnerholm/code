@@ -55,8 +55,6 @@ html, body, h1, h3{
     color:rgba(110, 150, 150);
 }
 
-
-
 .fadeIn, .fadeInDelay500, .fadeInDelay1000, .fadeInDelay1500 { /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/
     opacity: 0;
   }
@@ -69,6 +67,16 @@ html, body, h1, h3{
 .swipeInFromRight, .swipeInFromRightDelay500, .swipeInFromRightDelay1000, .swipeInFromRightDelay1500{ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/
     position: relative;
     left: 2000px;
+}
+
+.swipeInFromBottom{
+    position: relative;
+    bottom: -2000px;
+}
+
+.swipeInFromTop{
+    position: relative;
+    bottom: 2000px;
 }
 
 @media screen and (min-width: 480px){

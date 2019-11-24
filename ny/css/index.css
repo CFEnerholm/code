@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-image: url(../bilder/top/startPage.jpg);
+    background-size: 100% auto;
+    overflow: hidden;
+}
+
+.page{
+    width: 100%;
+    height: 100vh;
+}
+
+.content{
+    width: 33.3333%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content img{
+ width: 100%;
+}
+
+.buttonBox{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 15em;
+}
+
+#button{
+    width: 33%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    float: left;
+    color: white;
+    background-color: rgba(110, 150, 150);
+    border: 1px solid rgba(110, 150, 150); 
+  }
+  
+  #button:hover{
+    color: rgba(110, 150, 150);
+    background-color: white;
+  }
+
+  .fadeIn, .fadeIn2{ 
+    opacity: 0;
+  }
+
+.swipeInFromBottom{
+    position: relative;
+    bottom: -2000px;
+    opacity: 0.9;
+}
+
+.swipeInFromTop{
+    position: relative;
+    bottom: 2000px;
+    opacity: 0.9;
+}
