@@ -26,13 +26,13 @@ $(document).ready(function () {
 
         $('.swipeInFromTop').each( function(i){
        
-                $(this).delay(3200).animate({'opacity':'1'},1000); 
+                $(this).delay(1200).animate({'opacity':'1'},1000); 
                    
         }); 
 
         $('.swipeInFromBottom').each( function(i){
        
-            $(this).delay(4000).animate({'opacity':'1'},1000); 
+            $(this).delay(2000).animate({'opacity':'1'},1000); 
                
     }); 
     });
