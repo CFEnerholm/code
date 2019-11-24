@@ -57,7 +57,7 @@ html, body, h1, h3{
 
 
 
-.fadeIn, .fadeInDelay500, .fadeInDelay1000 { /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/
+.fadeIn, .fadeInDelay500, .fadeInDelay1000, .fadeInDelay1500 { /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/
     opacity: 0;
   }
 
@@ -66,7 +66,7 @@ html, body, h1, h3{
     left: -2000px
 }
 
-.swipeInFromRight{ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/
+.swipeInFromRight, .swipeInFromRightDelay500, .swipeInFromRightDelay1000, .swipeInFromRightDelay1500{ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/
     position: relative;
     left: 2000px;
 }
