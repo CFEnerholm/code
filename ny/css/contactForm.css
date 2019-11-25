@@ -6,11 +6,11 @@
 form input, textarea, select, option{
   font-size: 100%;
   color: black;
-  width: 95%;
+  width: 98.6%;
   text-align: left;
   margin-bottom: 1em;
   margin-top: 0.2em;
-  padding: 0.5em;
+  padding: 0.7%;
   border: none;
   background-color: rgba(110, 150, 150, 0.15);
 }
