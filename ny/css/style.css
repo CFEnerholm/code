@@ -25,6 +25,7 @@ html, body, h1, h3{
     width: 96%;
     padding-left: 2%;
     padding-right: 2%;
+    overflow: hidden;
 }
 
 .container{

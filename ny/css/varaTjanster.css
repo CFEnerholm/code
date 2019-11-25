@@ -1,8 +1,9 @@
 #topImage{
     height: 25em;
-    background-image: url(../bilder/top/top1.jpg);
+    background-image: url(../bilder/top/vadViGorTop.jpg);
     background-size: auto 100%;
     background-position-y: center;
+    background-position-x: center;
     border-bottom: 2px solid rgba(110, 150, 150);
     display: flex;
     flex-direction: column;
@@ -17,27 +18,33 @@ h6{
     color: rgba(110, 150, 150);
 }
 
-#homepage, #homepage2{
-    height: 30em;
+#homepage{
+    height: 51em;
 }
 
 .homepageInfo, .homepageInfo2{
-    width: 28.8%;
+    height: 16em;
+}
+
+.homepageInfo, .homepageInfo2, .packageInfo, .packageInfo2, .packageInfo3{
+    width: 96%;
     padding-left: 2%;
     padding-right: 2%;
-    height: 18em;
-    margin-top: 6em;
-    margin-bottom: 6em;
-    float: left;
+    margin-top: 1em;
     text-align: center;
 }
 
-.homepageInfo p, .homepageInfo2 p{
+.homepageInfo p, .homepageInfo2 p, .packageInfo p, .packageInfo2 p, .packageInfo3 p{
     padding-top: 3em;
 }
 
-.homepageInfo{
-    border-right: 1px solid rgba(110, 150, 150);
+.homepageInfo, .packageInfo, .packageInfo2{
+    border-bottom: 1px solid rgba(110, 150, 150);
+}
+
+.homepageInfo a, .homepageInfo2 a, .packageInfo3 a{
+    color: black;
+    text-decoration: none;
 }
 
 .buttonContact{
@@ -46,21 +53,19 @@ h6{
     padding-right: 1em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    float: right;
     color: white;
     background-color: rgba(110, 150, 150);
-    border: none; 
+    border: 1px solid rgba(110, 150, 150); 
 }
 
-.buttonContact:hover{
+.homepageInfo a:hover, .buttonContact:hover{
     color: rgba(110, 150, 150);
     background-color: white;
-    border: 1px solid rgba(110, 150, 150); 
   }
 
 #middleImage{
     height: 25em;
-    background-image: url(../bilder/top/top4.jpg);
+    background-image: url(../bilder/top/vadViGorMiddle.jpg);
     background-size: auto 100%;
     background-position-y: center;
     border-top: 2px solid rgba(110, 150, 150);
@@ -68,10 +73,6 @@ h6{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-#middleImage h2, #middleImage h6{
-    padding-left: 55%;
 }
 
 #middleImage h2{
@@ -82,19 +83,54 @@ h6{
     padding-top: 26em;
 }
 
+#package{
+    height: 55em;
+}
 
-.homepageInfo ul, .homepageInfo2 ul{
+.packageInfo{
+    height: 18em;
+}
+
+.packageInfo2{
+    height: 22em;
+}
+
+.packageInfo3{
+    height: 12em;
+}
+
+.packageInfo ul, .packageInfo2 ul, .packageInfo3 ul{
     padding-top: 3em;
     padding-left: 15%;
     text-align: left;
 }
 
-.homepageInfo li, .homepageInfo2 li{
+.packageInfo li, .packageInfo2 li, .packageInfo3 li{
     padding-bottom: 1em;
 }
 
 
 @media screen and (min-width: 480px){
+    #homepage, #package{
+        height: 50em;
+    }
+
+    .homepageInfo, .homepageInfo2, .packageInfo, .packageInfo3{
+        height: 14em;
+    }
+
+    .packageInfo2{
+        height: 19em;
+    }
+
+    #middleImage h2, #middleImage h6{
+        padding-left: 55%;
+    }
+}
+
+
+/*För Ipad*/
+@media screen and (min-width: 768px){
     #topImage{
         background-size: 100% auto;
     }
@@ -102,17 +138,37 @@ h6{
     #middleImage{
         background-size: 100% auto;
     }
-}
 
+    #homepage, #package{
+        height: 30em;
+    }
 
-/*För Ipad*/
-@media screen and (min-width: 768px){
+    .homepageInfo, .homepageInfo2, .packageInfo, .packageInfo2, .packageInfo3{
+        width: 28.8%;
+        height: 20em;
+        margin-top: 5em;
+        margin-bottom: 5em;
+        float: left;
+    }
 
+    .homepageInfo, .packageInfo, .packageInfo2{
+        border-right: 1px solid rgba(110, 150, 150);
+        border-bottom: none;
+    }
 }
 
 /*För MacBook 13"*/
 @media screen and (min-width: 1024px){
+    #homepage, #package{
+        height: 30em;
+    }
 
+    .homepageInfo, .homepageInfo2, .packageInfo, .packageInfo2, .packageInfo3{
+        width: 28.8%;
+        height: 18em;
+        margin-top: 6em;
+        margin-bottom: 6em;
+    }
 }
 
 @media screen and (min-width: 1440px){

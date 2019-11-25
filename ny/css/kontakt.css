@@ -1,8 +1,12 @@
+.header{
+    background-color: rgb(213, 213, 213); 
+}
 #topImage{
     height: 25em;
-    background-image: url(../bilder/top/top3.jpg);
+    background-image: url(../bilder/top/kontaktTop.jpg);
     background-size: auto 100%;
     background-position-y: center;
+    background-position-x: center;
     border-bottom: 2px solid rgba(110, 150, 150);
     display: flex;
     flex-direction: column;

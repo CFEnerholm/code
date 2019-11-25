@@ -1,12 +1,13 @@
 #topImage{
     height: 25em;
-    background-image: url(../bilder/top/top7.jpg);
+    background-image: url(../bilder/top/newsab.seTop.jpg);
     background-size: auto 100%;
     background-position-y: center;
+    background-position-x: center;
     border-bottom: 2px solid rgba(110, 150, 150);
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 }
 
 h2, h6{
@@ -15,6 +16,7 @@ h2, h6{
 }
 
 h6{
+    padding-top: 13em;
     color: rgba(110, 150, 150);
 }
 

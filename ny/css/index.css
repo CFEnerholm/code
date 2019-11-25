@@ -6,7 +6,10 @@
 
 body{
     background-image: url(../bilder/top/startPage.jpg);
-    background-size: 100% auto;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: auto 100%;
+
     overflow: hidden;
 }
 
@@ -15,8 +18,7 @@ body{
     height: 100vh;
 }
 
-.content{
-    width: 33.3333%;
+.content, .contentMiddle{
     height: 100%;
     float: left;
     background-color: white;
@@ -26,8 +28,16 @@ body{
     justify-content: center;
 }
 
-.content img{
- width: 100%;
+.content{
+    width: 25%;
+}
+
+.contentMiddle{
+    width: 50%;
+}
+
+.contentMiddle img{
+    width: 100%;
 }
 
 .buttonBox{
@@ -38,12 +48,10 @@ body{
 }
 
 #button{
-    width: 33%;
-    margin-left: 30%;
-    margin-right: 30%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     float: left;
@@ -72,3 +80,29 @@ body{
     bottom: 2000px;
     opacity: 0.9;
 }
+
+@media screen and (min-width: 768px){
+    .content, .contentMiddle{
+        width: 33.3333%;
+    }
+
+    #button{
+        width: 45%;
+        margin-left: 27.5%;
+        margin-right: 27.5%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    body{
+        background-size: 100% auto;  
+    }
+
+    #button{
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    }
