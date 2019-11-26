@@ -17,11 +17,11 @@ form input, textarea, select, option{
 
 
 input:active{
-  border-color: rgba(110, 150, 150);
+  border-color: rgb(110, 150, 150);
 }
 
 form label{
-  color: rgba(110, 150, 150);
+  color: rgb(110, 150, 150);
   text-align: left;
   width: 95%;
   
@@ -40,15 +40,15 @@ form label{
   padding-bottom: 0.5em;
   float: right;
   color: white;
-  background-color: rgba(110, 150, 150);
+  background-color: rgb(110, 150, 150);
   border: none; 
   margin-right: 5%;
 }
 
 #buttonMail:hover{
-  color: rgba(110, 150, 150);
+  color: rgb(110, 150, 150);
   background-color: white;
-  border: 1px solid rgba(110, 150, 150); 
+  border: 1px solid rgb(110, 150, 150); 
 }
 
 #checkbox{

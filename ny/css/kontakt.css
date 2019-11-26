@@ -7,7 +7,7 @@
     background-size: auto 100%;
     background-position-y: center;
     background-position-x: center;
-    border-bottom: 2px solid rgba(110, 150, 150);
+    border-bottom: 2px solid rgb(110, 150, 150);
     position: relative;
     z-index: 1;   
 }
@@ -22,7 +22,7 @@ h6{
 }
 
 h1, h3, h6{
-    color: rgba(110, 150, 150);
+    color: rgb(110, 150, 150);
 }
 
 #contact{

@@ -30,6 +30,7 @@ html, body, h1, h3{
     width: 96%;
     padding-left: 2%;
     padding-right: 2%;
+    overflow: hidden;
 }
 
 #foot{
@@ -53,7 +54,7 @@ html, body, h1, h3{
 
 #foot a:hover{
     text-decoration: none;
-    color:rgba(110, 150, 150);
+    color:rgb(110, 150, 150);
 }
 
 .fadeIn, .fadeInDelay500, .fadeInDelay1000, .fadeInDelay1500 { /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/ /*HÄR!!!!*/
