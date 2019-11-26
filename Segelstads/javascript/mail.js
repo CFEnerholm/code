@@ -1,4 +1,4 @@
-function sendMail(){
+function sendMail(_url){
     var isValid = document.querySelector('form').reportValidity();
     if(!$('#lastName').val()){
 
@@ -11,7 +11,7 @@ function sendMail(){
     };
     $.ajax({
         type: "POST",
-        url: "mail/mail.php",
+        url: _url,
         data: formData,
         contentType: false,
 		cache: false,
