@@ -71,7 +71,7 @@ h6{
 
 #middleImage{
     height: 25em;
-    background-image: url(../bilder/top/vadViGorMiddle.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.523), rgba(255, 255, 255, 0.523)), url(../bilder/top/vadViGorMiddle.jpg);
     background-size: auto 100%;
     background-position-y: center;
     border-top: 2px solid rgba(110, 150, 150);
@@ -79,6 +79,7 @@ h6{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 #middleImage h2{
