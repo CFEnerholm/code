@@ -22,9 +22,7 @@ html, body, h1, h3{
 }
 
 .containerFullWidth{
-    width: 96%;
-    padding-left: 2%;
-    padding-right: 2%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -39,6 +37,8 @@ html, body, h1, h3{
     bottom: 0;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #foot p{
@@ -108,11 +108,13 @@ html, body, h1, h3{
     }
 }
 
-@media screen and (min-width: 1441px){
+@media screen and (min-width: 1440px){
     .container{
         max-width: 1440px;
         padding-left: auto;
         margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .containerFullWidth{

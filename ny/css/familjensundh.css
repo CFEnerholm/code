@@ -5,6 +5,8 @@
     background-position-y: center;
     background-position-x: center;
     border-bottom: 2px solid rgba(110, 150, 150);
+    position: relative;
+    z-index: 1;   
 }
 
 h2, h6{

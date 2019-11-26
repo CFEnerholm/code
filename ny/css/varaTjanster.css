@@ -5,9 +5,11 @@
     background-position-y: center;
     background-position-x: center;
     border-bottom: 2px solid rgba(110, 150, 150);
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
+    position: relative;
+    z-index: 1;   
 }
 
 h2, h6{
@@ -16,6 +18,10 @@ h2, h6{
 
 h6{
     color: rgba(110, 150, 150);
+}
+
+#topImage h6{
+    padding-top: 15em;
 }
 
 #homepage{
@@ -80,6 +86,7 @@ h6{
 }
 
 #middleImage h6{
+    color: white;
     padding-top: 26em;
 }
 

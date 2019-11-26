@@ -18,8 +18,11 @@ h2, h3, h5, h6{
 }
 
 h6{
-    padding-top: 7em;
     color: rgba(110, 150, 150);
+}
+
+#topImage h6{
+    padding-top: 9em;
 }
 
 h5{
@@ -38,13 +41,12 @@ h2, h3{
     background-position-y: center;
     background-position-x: center;
     border-bottom: 2px solid white;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
+    position: relative;
+    z-index: 1;   
 }
 
 #projects{
-    height: 57em;
+    height: 63em;
     padding-bottom: 5em;
 }
 
@@ -54,6 +56,7 @@ h2, h3{
     padding-top: 0em;
     height: 19em;
     float: left;
+    margin-bottom: 2em;
 }
 
 .projectTop{
@@ -98,6 +101,7 @@ h2, h3{
         padding-top: 5em;
         height: 17em;
         float: left;
+        margin-bottom: 0;
     }
     
     .projectTop{
