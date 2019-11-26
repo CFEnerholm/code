@@ -20,7 +20,21 @@ h6{
 }
 
 #content{
-    height: 30em;
+    height: 25em;
+}
+
+.leftContent, .middleContent, .rightContent{
+    width: 96%;
+    padding-top: 2em;
+    height: 25em;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    float: left;
+}
+
+.leftContent, .rightContent{
+    display: none;
 }
 
 @media screen and (min-width: 480px){
@@ -32,6 +46,19 @@ h6{
 @media screen and (min-width: 768px){
     #topImage{
         background-size: 100% auto;
+    }
+    
+    #content{
+        height: 25em;
+    }
+
+    .leftContent, .middleContent, .rightContent{
+        width: 29.333%;
+        height: 22em;
+        padding-top: 3em;
+    }
+    .leftContent, .rightContent{
+        display: block;
     }
 }
 

@@ -19,24 +19,28 @@ h6{
 }
 
 #content{
-    height: 30em;
+    height: 56em;
 }
 
 .leftContent, .middleContent, .rightContent{
-    width: 29.333%;
-    height: 22em;
-    padding-top: 3em;
+    width: 96%;
     padding-left: 2%;
     padding-right: 2%;
     text-align: center;
     float: left;
 }
 
+.leftContent{
+    padding-top: 2em;
+    height: 14em;
+}
 
+.middleContent, .rightContent{
+    height: 20em;
+}
 
 .middleContent img{
     width: 100%;
-    padding-top: 2em;
 }
 
 .rightContent a{
@@ -60,22 +64,40 @@ h6{
   }
 
 @media screen and (min-width: 480px){
-    #topImage{
-        background-size: 100% auto;
-    }
+
 }
 
 
 /*För Ipad*/
 @media screen and (min-width: 768px){
+    #topImage{
+        background-size: 100% auto;
+    }
 
+    #content{
+        height: 25em;
+    }
+
+    .leftContent, .middleContent, .rightContent{
+        width: 29.333%;
+        height: 22em;
+        padding-top: 3em;
+    }
+
+    .middleContent img{
+        padding-top: 5em;
+    }
 }
 
 /*För MacBook 13"*/
 @media screen and (min-width: 1024px){
-
+    .middleContent img{
+        padding-top: 2em;
+    }
 }
 
 @media screen and (min-width: 1440px){
-
+    .middleContent img{
+        padding-top: 0em;
+    }
 }

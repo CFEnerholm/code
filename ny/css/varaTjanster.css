@@ -1,3 +1,7 @@
+.header{
+    background-color: rgb(232, 234, 235); 
+}
+
 #topImage{
     height: 25em;
     background-image: url(../bilder/top/vadViGorTop.jpg);

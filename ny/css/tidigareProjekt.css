@@ -27,7 +27,7 @@ h6{
 
 h5{
     padding-top: 1em;
-    color: (110, 150, 150);
+    color: rgb(110, 150, 150);
 }
 
 h2, h3{
@@ -151,7 +151,7 @@ h2, h3{
     }
     
     .projectTop{
-        height: 13em;
+        height: 15em;
     }
 
     .projectBottom{
