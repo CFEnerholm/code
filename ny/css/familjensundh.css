@@ -41,13 +41,15 @@ h6{
 
 }
 
-
-/*För Ipad*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 600px){
     #topImage{
         background-size: 100% auto;
     }
-    
+}
+
+
+/*För Ipad*/
+@media screen and (min-width: 768px){    
     #content{
         height: 25em;
     }
