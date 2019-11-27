@@ -3,6 +3,7 @@
     background-image: url('../bilder/top/segelstads.seTop.jpg');
     background-size: auto 100%;
     background-position-y: center;
+    background-position-x: center;
     border-bottom: 2px solid rgb(110, 150, 150);
     position: relative;
     z-index: 1;   
@@ -14,7 +15,7 @@ h2, h6{
 }
 
 h6{
-    padding-top: 20em;
+    padding-top: 17em;
     color: rgb(110, 150, 150);
 }
 
@@ -63,17 +64,15 @@ h6{
     background-color: white;
   }
 
-@media screen and (min-width: 480px){
-
+@media screen and (min-width: 600px){
+    #topImage{
+        background-size: 100% auto;
+    }
 }
 
 
 /*För Ipad*/
 @media screen and (min-width: 768px){
-    #topImage{
-        background-size: 100% auto;
-    }
-
     #content{
         height: 25em;
     }
