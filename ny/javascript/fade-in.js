@@ -14,21 +14,21 @@ $(document).ready(function () {
     });
 
     $('.header2').each(function (i) {
-        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+        var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
         var bottom_of_window = $(window).scrollTop() + $(window).height();
         if (bottom_of_window > bottom_of_object) {
 
-            $(this).delay(900).animate({ 'opacity': '0.9' }, 1500);
+            $(this).delay(900).animate({ 'opacity': '0.9' }, 1000);
 
         }
     });
 
     $('.header').each(function (i) {
-        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+        var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
         var bottom_of_window = $(window).scrollTop() + $(window).height();
         if (bottom_of_window > bottom_of_object) {
 
-            $(this).delay(2500).animate({ 'opacity': '0.9' }, 1500);
+            $(this).delay(2500).animate({ 'opacity': '0.9' }, 1000);
 
         }
     });
@@ -42,7 +42,7 @@ function Go() {
 
         $('.fadeIn').each(function (i) {
 
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
 
             /* If the object is completely visible in the window, fade it it */
@@ -54,7 +54,7 @@ function Go() {
         });
 
         $('.fadeInDelay500').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).delay(500).animate({ 'opacity': '1' }, 1000);
@@ -62,7 +62,7 @@ function Go() {
         });
 
         $('.fadeInDelay1000').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).delay(1000).animate({ 'opacity': '1' }, 1000);
@@ -70,7 +70,7 @@ function Go() {
         });
 
         $('.fadeInDelay1500').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).delay(1500).animate({ 'opacity': '1' }, 1000);
@@ -78,7 +78,7 @@ function Go() {
         });
 
         $('.swipeInFromLeft').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).animate({ "left": "0px" }, "slow");
@@ -86,7 +86,7 @@ function Go() {
         });
 
         $('.swipeInFromRight').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).animate({ "left": "0px" }, "slow");
@@ -94,7 +94,7 @@ function Go() {
         });
 
         $('.swipeInFromRightDelay500').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).delay(500).animate({ "left": "0px" }, "slow");
@@ -102,7 +102,7 @@ function Go() {
         });
 
         $('.swipeInFromRightDelay1000').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).delay(1000).animate({ "left": "0px" }, "slow");
@@ -110,7 +110,7 @@ function Go() {
         });
 
         $('.swipeInFromRightDelay1500').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).delay(1500).animate({ "left": "0px" }, "slow");
@@ -121,7 +121,7 @@ function Go() {
 
         $('.fadeIn').each(function (i) {
 
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
 
             /* If the object is completely visible in the window, fade it it */
@@ -133,7 +133,7 @@ function Go() {
         });
 
         $('.fadeInDelay500').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).animate({ 'opacity': '1' }, 1000);
@@ -141,7 +141,7 @@ function Go() {
         });
 
         $('.fadeInDelay1000').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).animate({ 'opacity': '1' }, 1000);
@@ -149,15 +149,15 @@ function Go() {
         });
 
         $('.fadeInDelay1500').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
-            if (bottom_of_window > bottom_of_object) {
+            if (bottom_of_window > (bottom_of_object)) {
                 $(this).animate({ 'opacity': '1' }, 1000);
             }
         });
 
         $('.swipeInFromLeft').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).animate({ "left": "0px" }, "slow");
@@ -165,7 +165,7 @@ function Go() {
         });
 
         $('.swipeInFromRight').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).animate({ "left": "0px" }, "slow");
@@ -173,7 +173,7 @@ function Go() {
         });
 
         $('.swipeInFromRightDelay500').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).animate({ "left": "0px" }, "slow");
@@ -181,7 +181,7 @@ function Go() {
         });
 
         $('.swipeInFromRightDelay1000').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).animate({ "left": "0px" }, "slow");
@@ -189,7 +189,7 @@ function Go() {
         });
 
         $('.swipeInFromRightDelay1500').each(function (i) {
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 7);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_object) {
                 $(this).animate({ "left": "0px" }, "slow");

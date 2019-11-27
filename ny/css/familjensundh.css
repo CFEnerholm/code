@@ -51,20 +51,20 @@ h6{
     #content{
         height: 25em;
     }
+}
+
+/*För MacBook 13"*/
+@media screen and (min-width: 1024px){
+    .leftContent, .rightContent{
+        display: block;
+    }
+
 
     .leftContent, .middleContent, .rightContent{
         width: 29.333%;
         height: 22em;
         padding-top: 3em;
     }
-    .leftContent, .rightContent{
-        display: block;
-    }
-}
-
-/*För MacBook 13"*/
-@media screen and (min-width: 1024px){
-
 }
 
 @media screen and (min-width: 1440px){
