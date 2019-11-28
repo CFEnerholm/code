@@ -27,6 +27,8 @@ form label{
   
 }
 
+
+
 #file{
   font-size: 80%;
   background-color: inherit;
@@ -53,6 +55,7 @@ form label{
 
 #checkbox{
   margin-right: 1em;
+  margin-bottom: 0em;
 }
 
 form #lastName{
