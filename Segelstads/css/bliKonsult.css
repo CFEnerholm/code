@@ -85,10 +85,7 @@
     float: left;
 }
 
-#checkbox{
-    margin-right: 1em;
-    margin-bottom: 0em;
-  }
+
 
 @media screen and (min-width: 480px){
     #offer{
