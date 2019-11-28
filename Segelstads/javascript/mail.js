@@ -12,7 +12,7 @@ function sendMail(){
     };
     $.ajax({
         type: "POST",
-        url: "../mail/mailKonsult.php",
+        url: "mail/mail.php",
         data: formData,
         contentType: false,
 		cache: false,
