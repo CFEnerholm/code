@@ -1,0 +1,23 @@
+.fadeIn{
+    opacity: 0;
+  }
+
+.swipeInFromLeft{
+    position: relative;
+    left: -2000px
+}
+
+.swipeInFromRight{
+    position: relative;
+    left: 2000px;
+}
+
+.swipeInFromBottom{
+    position: relative;
+    bottom: -2000px;
+}
+
+.swipeInFromTop{
+    position: relative;
+    bottom: 2000px;
+}
