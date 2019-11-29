@@ -69,19 +69,19 @@
 }
 
 #bliKonsultContactForm{
-    height: 46em;
+    height: 63.5em;
     margin-bottom: 2em;
 }
 
 .bliKonsultContactFormLeft{
     width: 100%;
-    height: 10em;
+    height: 16em;
     float: left;
 }
 
 .bliKonsultContactFormRight{
     width: 100%;
-    height: 36em;
+    height: 47.5em;
     float: left;
 }
 
@@ -98,25 +98,17 @@
     }
     
     .offerRight{
-
         height: 31em;
     }
 
     #bliKonsultContactForm{
-        height: 56em;
+        height: 57.5em;
     }
 
     .bliKonsultContactFormLeft{
-
-        height: 10em;
         padding-right: 5%;
+        height: 10em;
     }
-    
-    .bliKonsultContactFormRight{
-
-        height: 46em;
-    }
-
 }
 
 
@@ -163,18 +155,17 @@
     }
 
     #bliKonsultContactForm{
-        height: 46em;
+        height: 48em;
     }
 
     .bliKonsultContactFormLeft{
         width: 25%;
-        height: 46em;
+        height: 47.5em;
         padding-right: 5%;
     }
     
     .bliKonsultContactFormRight{
         width: 70%;
-
     }
 }
 
@@ -213,9 +204,6 @@
         width: 45%;
         height: 22em;
         padding-left: 5%;
-    }
-
-    #bliKonsultContactForm{
     }
 
     .bliKonsultContactFormLeft{

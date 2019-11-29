@@ -12,41 +12,32 @@
 }
 
 #offer{
-height: 8em;
+height: 11em;
 }
 
 #offertForfraganContactForm{
- height: 45em;
- margin-bottom: 2em;
+ height: 54em;
+ margin-bottom: 4em;
 }
 
 .offertForfraganContactFormLeft{
     width: 100%;
-    height: 35em;
+    height: 54em;
     float: left;
+
+
 }
 
 .offertForfraganContactFormRight{
     width: 100%;
-    height: 10em;
+    height: 0em;
     float: left;
 }
 
 @media screen and (min-width: 480px){
-    #offertForfraganContactForm{
-        height: 58em;
-        margin-bottom: 2em;
-       }
-       
-       .offertForfraganContactFormLeft{
-           width: 100%;
-           height: 6em;
-       }
-       
-       .offertForfraganContactFormRight{
-           width: 100%;
-           height: 52em;
-       }
+    #offer{
+        height: 9em;
+        }
 }
 
 
@@ -55,18 +46,13 @@ height: 8em;
         height: 6em;
         }
         
-        #offertForfraganContactForm{
-         height: 52em;
-        }
-        
         .offertForfraganContactFormLeft{
             width: 70%;
-            height: 52em;
         }
         
         .offertForfraganContactFormRight{
             width: 25%;
-            height: 52em;
+            height: 54em;
             padding-left: 5%
         }
 }
@@ -74,10 +60,6 @@ height: 8em;
 @media screen and (min-width: 1024px){
     #offer{
         height: 6em;
-        }
-        
-        #offertForfraganContactForm{
-         height: 52em;
         }
         
         .offertForfraganContactFormLeft{

@@ -101,10 +101,21 @@ form label{
     float: right;
     color: white;
     background-color:  rgb(12, 184, 182);
-    border: none;
-    
-    
+    border: 1px solid rgb(12, 184, 182); 
 }
+
+#buttonMail:hover{
+  width: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  float: right;
+  color: rgb(12, 184, 182);
+  background-color:  white;
+  border: 1px solid rgb(12, 184, 182); 
+}
+
 #checkbox{
 margin-right: 1em;
 }

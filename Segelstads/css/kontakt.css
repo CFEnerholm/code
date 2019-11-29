@@ -18,20 +18,19 @@
 }
 
 #kontaktContactForm{
-    height: 45em;
-    margin-bottom: 2em;
+    height: 42em;
+    margin-bottom: 4em;
    }
    
    .kontaktContactFormLeft{
        width: 100%;
-       height: 35em;
+       height: 42em;
        float: left;
-      
    }
    
    .kontaktContactFormRight{
        width: 100%;
-       height: 10em;
+       height: 0em;
        float: left;
    }
 
@@ -42,38 +41,33 @@
 
 @media screen and (min-width: 768px){
     #kontaktContactForm{
-        height: 40em;
         margin-bottom: 2em;
        }
        
        .kontaktContactFormLeft{
            width: 70%;
-           height: 40em;
        }
        
        .kontaktContactFormRight{
            width: 25%;
-           height: 40em;
+           height: 42em;
            padding-left: 5%
        }
 }
 
 @media screen and (min-width: 1024px){
     #kontaktContactForm{
-        height: 45em;
         margin-bottom: 2em;
        }
        
        .kontaktContactFormLeft{
-           width: 69%;
-       height: 45em;
+        width: 69%;
        margin-right: 2.5%;
        
        }
        
        .kontaktContactFormRight{
            width: 25%;
-       height: 45em;
        padding-left: 2.5%;
        border-left: 2px solid rgb(12, 184, 182);
        }
