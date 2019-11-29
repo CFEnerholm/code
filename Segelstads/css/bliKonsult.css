@@ -12,12 +12,12 @@
 }
 
 #offer{
-    height: 58em;
+    height: 64em;
 }
 
 .offerLeft{
     width: 100%;
-    height: 18em;
+    height: 32em;
     float: left;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
     padding-right: 5%;
     padding-left: 5%;
     margin-top: 4em;
-    height: 26em;
+    height: 28em;
     float: left;
     background: linear-gradient(rgba(12, 184, 181, 0.7), rgba(12, 184, 182, 0.7)),url('../bilder/green.jpg');
     background-size: auto 100%;
@@ -48,7 +48,7 @@
 }
 
 #quality{
-    height: 40em;
+    height: 48em;
     background-color: rgb(235, 235, 235);
 }
 
@@ -64,24 +64,24 @@
 
 .qualityRight{
     width: 100%;
-    height: 22em;
+    height: 30em;
     float: left;
 }
 
 #bliKonsultContactForm{
-    height: 63.5em;
+    height: 62.5em;
     margin-bottom: 2em;
 }
 
 .bliKonsultContactFormLeft{
     width: 100%;
-    height: 16em;
+    height: 13em;
     float: left;
 }
 
 .bliKonsultContactFormRight{
     width: 100%;
-    height: 47.5em;
+    height: 49.5em;
     float: left;
 }
 
@@ -101,8 +101,27 @@
         height: 31em;
     }
 
+    
+#quality{
+    height: 40em;
+}
+
+.qualityLeft{
+
+    height: 17em;
+}
+
+.qualityRight{
+
+    height: 22em;
+}
+
     #bliKonsultContactForm{
         height: 57.5em;
+    }
+
+    .bliKonsultContactFormRight{
+        height: 47.5em;
     }
 
     .bliKonsultContactFormLeft{
