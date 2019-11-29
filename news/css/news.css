@@ -20,13 +20,13 @@ h6{
 }
 
 #content{
-    height: 25em;
+    height: 51em;
 }
 
 .leftContent, .middleContent, .rightContent{
     width: 96%;
     padding-top: 2em;
-    height: 25em;
+    height: 15em;
     padding-left: 2%;
     padding-right: 2%;
     text-align: center;
@@ -56,6 +56,13 @@ h6{
 @media screen and (min-width: 480px){
     #topImage{
         background-size: 100% auto;
+    }
+    #content{
+        height: 42em;
+    }
+    
+    .leftContent, .middleContent, .rightContent{
+        height: 12em;
     }
 }
 
