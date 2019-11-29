@@ -33,10 +33,6 @@ h6{
     float: left;
 }
 
-.leftContent, .rightContent{
-    display: none;
-}
-
 .rightContent a{
     text-decoration: none;
 }
@@ -74,9 +70,6 @@ h6{
         width: 29.333%;
         height: 22em;
         padding-top: 3em;
-    }
-    .leftContent, .rightContent{
-        display: block;
     }
 }
 
