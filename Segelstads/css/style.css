@@ -8,7 +8,6 @@ html, body, h1, h3{
 }
 
 .fillColorGreenAtTop{
-    overflow: hidden;
     width: 100%;
     background: linear-gradient(rgba(12, 184, 181, 0.867), rgba(12, 184, 182, 0.867)),url('../bilder/topImage.jpg');
     background-size: 100% auto;
@@ -17,13 +16,11 @@ html, body, h1, h3{
 }
 
 .fillColorOrange{
-    overflow: hidden;
     width: 100%;
     background-color: rgb(254, 104, 50);
 }
 
 .fillColorGreenBackground{
-    overflow: hidden;
     width: 100%;
     background: linear-gradient(rgba(12, 184, 181, 0.867), rgba(12, 184, 182, 0.867)),url('../bilder/Bemanning/bg.jpg');
     background-size: auto 100%;
@@ -32,7 +29,6 @@ html, body, h1, h3{
 }
 
 .fillColorGrey{
-    overflow: hidden;
     width: 100%;
     background-color: rgb(235, 235, 235);
 }
@@ -44,7 +40,6 @@ p{
 #page-container {
     position: relative;
     min-height: 100vh;
-    overflow: hidden;
   }
 
 #content-wrap {
@@ -64,10 +59,10 @@ p{
 }
 
 .container{
+    overflow: hidden;
     width: 96%;
     padding-left: 2%;
     padding-right: 2%;
-    overflow: hidden;
 }
 
 #contact{
