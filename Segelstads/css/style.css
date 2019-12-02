@@ -114,6 +114,29 @@ p{
     background-color: white;
 }
 
+.phone{
+    height: 4em;
+    width: 100%;
+    padding-top: 2em;
+    float: left;
+}
+
+.phoneLeft{
+    height: 100%;
+    width: 15%;
+    float: left;
+}
+
+.phoneRight{
+    height: 100%;
+    width: 85%;
+    float: left;
+}
+
+.phoneRight h3{
+    color: rgba(12, 184, 182);
+}
+
 #foot{
     position: absolute;
     bottom: 0;

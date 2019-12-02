@@ -69,12 +69,12 @@
 }
 
 #bliKonsultContactForm{
-    height: 66.5em;
+    height: 71.5em;
 }
 
 .bliKonsultContactFormLeft{
     width: 100%;
-    height: 13em;
+    height: 18em;
     float: left;
 }
 
@@ -116,7 +116,7 @@
 }
 
     #bliKonsultContactForm{
-        height: 57.5em;
+        height: 65.5em;
     }
 
     .bliKonsultContactFormRight{
@@ -125,7 +125,7 @@
 
     .bliKonsultContactFormLeft{
         padding-right: 5%;
-        height: 10em;
+        height: 15em;
     }
 }
 
@@ -173,7 +173,7 @@
     }
 
     #bliKonsultContactForm{
-        height: 48em;
+        height: 50em;
     }
 
     .bliKonsultContactFormLeft{
