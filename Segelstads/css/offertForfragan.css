@@ -16,20 +16,18 @@ height: 11em;
 }
 
 #offertForfraganContactForm{
- height: 58em;
+    height: 76em;
+    }
+
+.offertForfraganContactFormRight{
+    width: 100%;
+    height: 54em;
+    float: left;
 }
 
 .offertForfraganContactFormLeft{
     width: 100%;
-    height: 54em;
-    float: left;
-
-
-}
-
-.offertForfraganContactFormRight{
-    width: 100%;
-    height: 0em;
+    height: 18em;
     float: left;
 }
 
@@ -37,6 +35,18 @@ height: 11em;
     #offer{
         height: 9em;
         }
+
+        #offertForfraganContactForm{
+            height: 74em;
+           }
+           
+           .offertForfraganContactFormRight{
+               height: 54em;
+           }
+           
+           .offertForfraganContactFormLeft{
+               height: 16em;
+           }
 }
 
 
@@ -44,15 +54,19 @@ height: 11em;
     #offer{
         height: 6em;
         }
+
+        #offertForfraganContactForm{
+            height: 58em;
+           }
         
-        .offertForfraganContactFormLeft{
+        .offertForfraganContactFormRight{
             width: 70%;
         }
         
-        .offertForfraganContactFormRight{
+        .offertForfraganContactFormLeft{
             width: 25%;
             height: 54em;
-            padding-left: 5%
+            padding-right: 5%;
         }
 }
 
@@ -61,14 +75,14 @@ height: 11em;
         height: 6em;
         }
         
-        .offertForfraganContactFormLeft{
+        .offertForfraganContactFormRight{
         width: 69%;
-        margin-right: 2.5%;
+        margin-left: 2.5%;
         
         }
         
-        .offertForfraganContactFormRight{
-        padding-left: 2.5%;
-        border-left: 2px solid rgb(12, 184, 182);
+        .offertForfraganContactFormLeft{
+        padding-right: 2.5%;
+        border-right: 2px solid rgb(12, 184, 182);
         }
 }

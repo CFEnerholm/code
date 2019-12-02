@@ -18,7 +18,7 @@
 }
 
 #kontaktContactForm{
-    height: 46em;
+    height: 72em;
    }
    
    .kontaktContactFormLeft{
@@ -28,9 +28,15 @@
    }
    
    .kontaktContactFormRight{
+       display: none;
        width: 100%;
        height: 0em;
        float: left;
+   }
+
+   .kontaktContactFormRightMobile{
+    width: 100%;
+    height: 26em;
    }
 
 @media screen and (min-width: 480px){
@@ -40,14 +46,19 @@
 
 @media screen and (min-width: 768px){
     #kontaktContactForm{
-        margin-bottom: 2em;
+        height: 46em;
        }
        
        .kontaktContactFormLeft{
            width: 70%;
        }
+
+       .kontaktContactFormRightMobile{
+           display: none;
+       }
        
        .kontaktContactFormRight{
+           display: block;
            width: 25%;
            height: 42em;
            padding-left: 5%

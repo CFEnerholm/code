@@ -66,65 +66,80 @@
                 <h2>EFTERFRÅGA OFFERT</h2>
             </div>
             <div id="offertForfraganContactForm" class="container">
+
                 <div class="offertForfraganContactFormLeft">
-                        <div class="contactForm">
-                                <form id="formMail" action="" method="POST">
-                                        <label for="companyName"><p> Företagets Namn (obligatoriskt)</p></label>
-                                        <input type="text" name="companyName" id="companyName" required><br>
-                                        <label for="orgId"><p> Organisationsnummer (obligatoriskt)</p></label>
-                                            <input type="text" name="orgId" id="orgId" required><br>
-                                            <label for="name"><p> Kontaktperson Namn (obligatoriskt)</p></label>
-                                            <input type="text" name="name" id="name" required><br>
-                                            <input type="text" name="lastName" id="lastName" placeholder="Ingen Reklam Tack!">
-                                            <label for="mail"><p> Din Epost (obligatoriskt)</p></label>
-                                            <input type="email" name="mail" id="mail" required ><br>
-                                            <label for="phone"><p>Telefonnummer</p></label>
-                                            <input type="tel" name="phone" id="phone" ><br>
-                                            <label for="job">
-                                                    <p>Välj personalbehov</p>
-                                                </label>
-                                                <select name="job" id="job" class="select-css">
-                                                    <option value="arbetsterapi">Arbetsterapi</option>
-                                                    <option value="handrehabilitering">Handrehabilitering</option>
-                                                    <option value="fysioterapi">Fysioterapi</option>
-                                                    <option value="administation">Administration</option>
-                                                    <option value="tbildning">Utbildning</option>
-                                                    <option value="annat">Annat</option>
-                                                </select>
-                                            <label for="message"><p> Ditt Meddelande (obligatoriskt)</p></label>
-                                            <textarea name="message" id="message" required rows="10"></textarea><br>
-                                            <table>
-                                            <td><input type="checkbox" name="checkbox" id="checkbox" value="checkbox" required></td>
-                                            <td><label for="checkbox"><p> &nbsp;&nbsp;Jag har läst och godkänner Segelstads <a
-                                                       onclick="showModal('intrigitetspolicyModal')">integritetspolicy</a></p></label>
-                                            </td>
-                                            <br>
-                                        </table>
-                                        <input id="buttonMail" type='button' value='Skicka' onclick="sendMail('mailOffert.php')" />  
-                                </form>
-                            </div>
+                    <p>
+                        Här kan du göra en kostnadsfri offertförfrågan. Fyll i formuläret med begärda uppgifter.
+                        I meddelandefältet kan du beskriva ditt behov och uppdraget mer utförligt.
+                        <br><br>
+                        Vi återkommer till dig så
+                        snart vi gått igenom din förfrågan.
+                        Ring oss gärna om du har frågor!
+                        <br><br>
+                        Välkommen!
+                    </p>
+                    <div class="phone">
+                        <div class="phoneLeft">
+                            <img src="bilder/phone.png" alt="">
+                        </div>
+                        <div class="phoneRight">
+                            <h3>+46 76-853 93 35</h3>
+                            <p>Måndag - Fredag 08:00-17:00</p>
+                        </div>
+                    </div>
 
                 </div>
                 <div class="offertForfraganContactFormRight">
-                        <p>
-                                Här kan du göra en kostnadsfri offertförfrågan. Fyll i formuläret med begärda uppgifter.
-                                I meddelandefältet kan du beskriva ditt behov och uppdraget mer utförligt. 
-                                <br><br>
-                                Vi återkommer till dig så
-                                snart vi gått igenom din förfrågan.
-                                Ring oss gärna om du har frågor!
-                                <br><br>
-                                Välkommen!
-                            </p>
-                            <div class="phone">
-                                    <div class="phoneLeft">
-                                        <img src="bilder/icons8-speaker_phone.png" alt="">
-                                    </div>
-                                    <div class="phoneRight">
-                                        <h3>+46 76-853 93 35</h3>
-                                        <p>Måndag - Fredag 08:00-17:00</p>
-                                    </div>
-                                </div>
+                    <div class="contactForm">
+                        <form id="formMail" action="" method="POST">
+                            <label for="companyName">
+                                <p> Företagets Namn (obligatoriskt)</p>
+                            </label>
+                            <input type="text" name="companyName" id="companyName" required><br>
+                            <label for="orgId">
+                                <p> Organisationsnummer (obligatoriskt)</p>
+                            </label>
+                            <input type="text" name="orgId" id="orgId" required><br>
+                            <label for="name">
+                                <p> Kontaktperson Namn (obligatoriskt)</p>
+                            </label>
+                            <input type="text" name="name" id="name" required><br>
+                            <input type="text" name="lastName" id="lastName" placeholder="Ingen Reklam Tack!">
+                            <label for="mail">
+                                <p> Din Epost (obligatoriskt)</p>
+                            </label>
+                            <input type="email" name="mail" id="mail" required><br>
+                            <label for="phone">
+                                <p>Telefonnummer</p>
+                            </label>
+                            <input type="tel" name="phone" id="phone"><br>
+                            <label for="job">
+                                <p>Välj personalbehov</p>
+                            </label>
+                            <select name="job" id="job" class="select-css">
+                                <option value="arbetsterapi">Arbetsterapi</option>
+                                <option value="handrehabilitering">Handrehabilitering</option>
+                                <option value="fysioterapi">Fysioterapi</option>
+                                <option value="administation">Administration</option>
+                                <option value="tbildning">Utbildning</option>
+                                <option value="annat">Annat</option>
+                            </select>
+                            <label for="message">
+                                <p> Ditt Meddelande (obligatoriskt)</p>
+                            </label>
+                            <textarea name="message" id="message" required rows="10"></textarea><br>
+                            <table>
+                                <td><input type="checkbox" name="checkbox" id="checkbox" value="checkbox" required></td>
+                                <td><label for="checkbox">
+                                        <p> &nbsp;&nbsp;Jag har läst och godkänner Segelstads <a
+                                                onclick="showModal('intrigitetspolicyModal')">integritetspolicy</a></p>
+                                    </label>
+                                </td>
+                                <br>
+                            </table>
+                            <input id="buttonMail" type='button' value='Skicka' onclick="sendMail('mailOffert.php')" />
+                        </form>
+                    </div>
                 </div>
             </div>
             <div id="foot" class="container">
@@ -133,78 +148,78 @@
             </div>
         </div>
         <div id="kontaktModal" class="modal" onclick="hideModal('kontaktModal')">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <br><br><br><br><br>
-                    <p><img src="bilder/icons8-paper_plane_filled.png" alt=""></p>
-                    <h1>Tack för ditt mail!</h1> <br>
-                    <p> Vi återkommer så snart vi kan med svar </p><br><br>
-                </div>
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <br><br><br><br><br>
+                <p><img src="bilder/icons8-paper_plane_filled.png" alt=""></p>
+                <h1>Tack för ditt mail!</h1> <br>
+                <p> Vi återkommer så snart vi kan med svar </p><br><br>
             </div>
-            <div id="intrigitetspolicyModal" class="modal" onclick="hideModal('intrigitetspolicyModal')">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <h1>Integritetspolicy</h1> <br>
-                    <h2>Information till kunder och leverantörer</h2>
-                    <h3>Allmänt</h3>
-                    Enligt dataskyddsförordningen (GDPR) ska den registrerade få information när dennes personuppgifter
-                    behandlas.
-                    Sådan information ska lämnas av den personuppgiftsansvarige när uppgifterna samlas in, men även när den
-                    registrerade
-                    begär det. GDPR ställer vissa krav på vilken information som ska tillhandahållas den registrerade.
-                    Nilsson
-                    Enerholm Webb & Systemutveckling AB,
-                    559220-2591 värnar om er personliga integritet och vi strävar alltid efter att skydda era
-                    personuppgifter på
-                    bästa sätt.
-                    <br><br>
-                    <h3>Varför sparar vi dina personuppgifter?</h3>
-                    Vi behöver spara och behandla personuppgifter om dig, så som kontaktuppgifter (namn, adress,
-                    e-postadress
-                    etc.). Syftet med en
-                    sådan behandling är för att kunna leverera avtalad tjänst och/eller vara.
-                    Vi har fått dina uppgifter från dig eller ditt företag vilket är ett nödvändigt krav för att ingå ett
-                    avtal.
-                    Vi tillämpar
-                    vid var tid gällande integritetslagstiftning vid all behandling av personuppgifter. Den rättsliga
-                    grunden
-                    för att behandla
-                    dina personuppgifter är för att kunna ingå avtal samt för att kunna fullgöra eventuella
-                    garantiåtaganden.
-                    Dina uppgifter
-                    kommer att sparas till dess att garantin har gått ut. Kontaktuppgifter till er sparas även så länge ni
-                    är
-                    kund hos oss.
-                    <br><br>
-                    <h3>Hur skyddar vi dina personuppgifter?</h3>
-                    De personuppgifter vi behandlar om dig finns i våra behörighetsskyddade affärssystem. Vi kan även komma
-                    att
-                    dela dina
-                    personuppgifter med en tredje part, förutsatt att vi är skyldiga att göra så enligt lag. Däremot kommer
-                    vi
-                    aldrig att överföra
-                    dina uppgifter till ett land utanför EU. För att skydda dina
-                    personuppgifter finns flera säkerhetsåtgärder. Uppgifter som lagras digitalt skyddas av antivirusprogram
-                    och
-                    brandväggar.
-                    På så sätt förhindras obehörig tillgång till våra IT-system.
-                    <br><br>
-                    <h3>Dina rättigheter</h3>
-                    Du har rätt att kontakta oss om du vill ha ut information om de
-                    uppgifter vi har om dig, för att begära rättelse, överföring eller för att begära att vi begränsar
-                    behandlingen, för
-                    att göra invändningar eller begära radering av dina uppgifter. Detta gör du enklast genom att kontakta
-                    oss
-                    via email
-                    på info@nilssonenerholm.se. Om du har klagomål på vår behandling av dina personuppgifter har du
-                    rätt att inge klagomål till tillsynsmyndigheten Datainspektionen.
-                </div>
+        </div>
+        <div id="intrigitetspolicyModal" class="modal" onclick="hideModal('intrigitetspolicyModal')">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1>Integritetspolicy</h1> <br>
+                <h2>Information till kunder och leverantörer</h2>
+                <h3>Allmänt</h3>
+                Enligt dataskyddsförordningen (GDPR) ska den registrerade få information när dennes personuppgifter
+                behandlas.
+                Sådan information ska lämnas av den personuppgiftsansvarige när uppgifterna samlas in, men även när den
+                registrerade
+                begär det. GDPR ställer vissa krav på vilken information som ska tillhandahållas den registrerade.
+                Nilsson
+                Enerholm Webb & Systemutveckling AB,
+                559220-2591 värnar om er personliga integritet och vi strävar alltid efter att skydda era
+                personuppgifter på
+                bästa sätt.
+                <br><br>
+                <h3>Varför sparar vi dina personuppgifter?</h3>
+                Vi behöver spara och behandla personuppgifter om dig, så som kontaktuppgifter (namn, adress,
+                e-postadress
+                etc.). Syftet med en
+                sådan behandling är för att kunna leverera avtalad tjänst och/eller vara.
+                Vi har fått dina uppgifter från dig eller ditt företag vilket är ett nödvändigt krav för att ingå ett
+                avtal.
+                Vi tillämpar
+                vid var tid gällande integritetslagstiftning vid all behandling av personuppgifter. Den rättsliga
+                grunden
+                för att behandla
+                dina personuppgifter är för att kunna ingå avtal samt för att kunna fullgöra eventuella
+                garantiåtaganden.
+                Dina uppgifter
+                kommer att sparas till dess att garantin har gått ut. Kontaktuppgifter till er sparas även så länge ni
+                är
+                kund hos oss.
+                <br><br>
+                <h3>Hur skyddar vi dina personuppgifter?</h3>
+                De personuppgifter vi behandlar om dig finns i våra behörighetsskyddade affärssystem. Vi kan även komma
+                att
+                dela dina
+                personuppgifter med en tredje part, förutsatt att vi är skyldiga att göra så enligt lag. Däremot kommer
+                vi
+                aldrig att överföra
+                dina uppgifter till ett land utanför EU. För att skydda dina
+                personuppgifter finns flera säkerhetsåtgärder. Uppgifter som lagras digitalt skyddas av antivirusprogram
+                och
+                brandväggar.
+                På så sätt förhindras obehörig tillgång till våra IT-system.
+                <br><br>
+                <h3>Dina rättigheter</h3>
+                Du har rätt att kontakta oss om du vill ha ut information om de
+                uppgifter vi har om dig, för att begära rättelse, överföring eller för att begära att vi begränsar
+                behandlingen, för
+                att göra invändningar eller begära radering av dina uppgifter. Detta gör du enklast genom att kontakta
+                oss
+                via email
+                på info@nilssonenerholm.se. Om du har klagomål på vår behandling av dina personuppgifter har du
+                rätt att inge klagomål till tillsynsmyndigheten Datainspektionen.
             </div>
+        </div>
 
         <script src="javascript/mail.js"></script>
-    <script src="javascript/animation.js"></script>
-    <script src="javascript/menu.js"></script>
-    <script src="javascript/openModal.js"></script>
+        <script src="javascript/animation.js"></script>
+        <script src="javascript/menu.js"></script>
+        <script src="javascript/openModal.js"></script>
 </body>
 
 </html>
