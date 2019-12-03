@@ -15,6 +15,14 @@ html, body, h1, h3{
     background-color: rgba(12, 184, 182);
 }
 
+.fillStartTop{
+    width: 100%;
+    background-image: url(../bilder/top.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(12, 184, 182);
+}
+
 .fillColorOrange{
     width: 100%;
     background-color: rgb(254, 104, 50);
@@ -26,6 +34,11 @@ html, body, h1, h3{
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-color: rgba(12, 184, 182);
+}
+
+.fillColorGreen{
+    width: 100%;
+    background-color: rgba(12, 184, 182, 0.8);
 }
 
 .fillColorGrey{
@@ -224,6 +237,10 @@ p{
 /*För MacBook 13"*/
 @media screen and (min-width: 1024px){
 
+    .fillStartTop{
+        background-size: 100% auto;
+    }
+
     .container{
         max-width: 1024px;
         margin-left: auto;
@@ -256,6 +273,14 @@ p{
 
     .test{
         display: none;
+    }
+
+    .fillStartTop{
+        max-width: 1440px;
+        padding-left: 0%;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .fillColorOrange{
