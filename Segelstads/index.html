@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/logIn.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animations.css">
 
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -18,47 +20,201 @@
 <body>
     <div id="page-container">
         <div id="content-wrap">
-                <div id="topOfMenu" class="container">
-                        <img src="bilder/menu.png" alt="Meny" onclick="showMenu()">
+            <div id="topOfMenu" class="container">
+                <img src="bilder/menu.png" alt="Meny" onclick="showMenu()">
+            </div>
+
+            <div class="mobileMenu">
+                <a href="Segelstads.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">START</div>
+                </a>
+                <a href="bemanning.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">BEMANNING</div>
+                </a>
+                <a href="omOss.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">OM OSS</div>
+                </a>
+                <a href="bliKonsult.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">BLI KONSULT</div>
+                </a>
+                <a href="offertForfragan.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">OFFERT FÖRFRÅGAN</div>
+                </a>
+                <a href="kontakt.html" onclick="showMenu()">
+                    <div class="mobileMenuBtn">KONTAKT</div>
+                </a>
+            </div>
+
+            <div id="menu" class="container">
+                <div class="menuBtn"><a href="Segelstads.html">START</a></div>
+                <div class="menuBtn"><a href="bemanning.html">BEMANNING</a></div>
+                <div class="menuBtn"><a href="omOss.html">OM OSS</a></div>
+                <div class="menuBtn"><a href="bliKonsult.html">BLI KONSULT</a></div>
+                <div class="menuBtn"><a href="offertForfragan.html">OFFERT FÖRFRÅGAN</a></div>
+                <div class="menuBtn"><a href="kontakt.html">KONTAKT</a></div>
+            </div>
+            <!-- 
+            <div class="fillColorGreenAtTop">
+                <div id="top" class="container">
+                    <h1>Segelstads Rehab AB</h1>
+                    <h3>Vi bemannar vården</h3>
+                </div>
+            </div> -->
+
+            <div id="startTop" class="container">
+                <div class="startTopText fadeIn">
+                    <h2>NÄR VI BEHÖVER</h2>
+                    <h1>KONSULTER</h1>
+                    <br>
+                    <p>Vi på Segelstads Rehab AB är fokuserade på att hjälpa er verksamhet med kompetens inom
+                        paramedicin. Våra konsulter är experter inom arbetsterapi och rehabilitering. Vi erbjuder även
+                        utbildning.</p>
+
+                    <a href="omOss.html">
+                        <div id="button">
+                            LÄS MER
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div id="newsHeading" class="container">
+                <h4 class="swipeInFromLeft">Vad händer på Segelstads Rehab just nu</h4>
+                <h2 class="swipeInFromRight">NYHETER</h2>
+            </div>
+            <div class="news container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <div class="news1">
+                        <div class="news1Left">
+                            <img src="bilder/news/news1.jpg" alt="">
+                        </div>
+                        <div class="news1Right">
+                            <h3>NY UTBILDNING</h3>
+                            <br>
+                            <p>From oktober 2019 kan Segelstads Rehab erbjuda utbildning i fysioterapi. Det är med stor
+                                glädje </p>
+                            <div class="news2Right">
+                                <a href="offertForfragan.html">
+                                    <div id="button">
+                                        EFTERFRÅGA OFFERT
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-        
-                    <div class="mobileMenu">
-                        <a href="Segelstads.html" onclick="showMenu()">
-                            <div class="mobileMenuBtn">START</div>
-                        </a>
-                        <a href="bemanning.html" onclick="showMenu()">
-                            <div class="mobileMenuBtn">BEMANNING</div>
-                        </a>
-                        <a href="omOss.html" onclick="showMenu()">
-                            <div class="mobileMenuBtn">OM OSS</div>
-                        </a>
-                        <a href="bliKonsult.html" onclick="showMenu()">
-                            <div class="mobileMenuBtn">BLI KONSULT</div>
-                        </a>
-                        <a href="offertForfragan.html" onclick="showMenu()">
-                            <div class="mobileMenuBtn">OFFERT FÖRFRÅGAN</div>
-                        </a>
-                        <a href="kontakt.html" onclick="showMenu()">
-                            <div class="mobileMenuBtn">KONTAKT</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <div class="news2">
+                        <div class="news2Left">
+                            <h3>NY LEVERANTÖR AV WEBBLÖSNINGAR</h3>
+                            <br>
+                            <p>Från och med december 2019 har Segelstads Rehab AB tecknat nytt avtal med NEWS gällande
+                                skötsel och utveckling av webbtjänster. Detta betyder till en början att vår nya hemsida
+                                lanseras och får ett litet ansiktslyft.
+                                <br> <br>
+                                På ett mer långsiktigt plan hoppas vi att detta kan resultera i en digitalisering av vår
+                                verksamhet och möjlighet att erbjuda olika typer av online lösningar för dig som kund.
+                                Ett exempel på detta skulle kunna vara en online baserad utbildning som du som kund kan
+                                ta del av när det passar dig bäst.</p>
+                        </div>
+                        <div class="news2Right">
+                            <img src="bilder/news/news2.png" alt="">
+                            <div id="button">
+                                LÄS MER
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <div class="news3">
+                        <div class="news3Left">
+                            <h3>VÄLKOMMEN MADS</h3>
+                            <br>
+                            <p>Vi på Segelstdas är glada att hälsa Mads Nielsen välkommen till vårt team.
+                                <br><br>
+                                Mads kommer närmast från en tjänst på Tuborg som arbetsteraput där han arbetat med nya
+                                tekniker så som ölhävningar och snapsterapi.
+                                <br><br>
+                                "Det bliver virkelig sjovt at tage denne nye udfordring på. Jeg har altid haft en drøm
+                                om at få et job i Sverige, og det føles virkelig vidunderligt, at dette nu bliver en
+                                realitet" säger Mads som startar sin tjänst 1 januari 2020.
+                            </p>
+                        </div>
+                        <div class="news3Right">
+                            <img src="bilder/news/news3.jpg" alt="">
+                            <div id="button">
+                                LÄS MER
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+
+            <div id="servicesHeading" class="container">
+                <h4 class="swipeInFromLeft">Vårdbemanning med kvalitet</h4>
+                <h2 class="swipeInFromRight">VI ERBJUDER</h2>
+            </div>
+            <div id="services" class="container">
+                <div class="services">
+                   
+                    <img src="bilder/Bemanning/arbetsterapeut700x700.jpg" alt="">
+                    <h3>ARBETSTERAPI</h3>
+                    <p>
+                            Vi gör kvalitativa utredningar om aktivitetsförmåga. Vi kan vara rådgivande på förändringar för att underlätta individers vardag
+                    </p>
+                </div>
+                <div class="services">
+             
+                    <img src="bilder/Bemanning/handterapeut700x700.jpg" alt="">
+                    <h3>HANDREHAB</h3>
+                    <p>
+                            Vår kunskap inom handrehabilitering gör oss lämpade för att ta uppdrag inom primärvård och på specialistkliniker.
+                    </p>
+                </div>
+                <div class="services">
+                
+                    <img src="bilder/Bemanning/sjukgymnast1700x700.jpg" alt="">
+                    <h3>FYSIOTERAPI</h3>
+                    <p>
+                            Vi har bred erfarenhet av flera inriktningar och kan både behandla på plats samt ge råd om träning att göra hemma.
+                    </p>
+                </div>
+                <div class="services">
+             
+                    <img src="bilder/Bemanning/utbildning700x700.jpg" alt="">
+                    <h3>UTBILDNING</h3>
+                    <p>
+                            Vi har erfarenhet av att utbilda vårdpersonal samt kan hjälpa företag med ergonomiska förflyttningar och ergonomi.
+                    </p>
+                </div>
+            </div>
+            <div class="fillColorOrange">
+                <div id="contact" class="container">
+                    <div class="contactLeft">
+                        <h4 class="swipeInFromLeft">Vill du veta mer om vad vi erbjuder</h4>
+                        <h2 class="swipeInFromRight">LÄS MER</h2>
+                    </div>
+                    <div class="contactRight">
+                        <a href="bemanning.html">
+                            <div class="contactBtn fadeIn">
+                                <h5>VÅRA TJÄNSTER</h5>
+                            </div>
                         </a>
                     </div>
-        
-                    <div id="menu" class="container">
-                        <div class="menuBtn"><a href="Segelstads.html">START</a></div>
-                        <div class="menuBtn"><a href="bemanning.html">BEMANNING</a></div>
-                        <div class="menuBtn"><a href="omOss.html">OM OSS</a></div>
-                        <div class="menuBtn"><a href="bliKonsult.html">BLI KONSULT</a></div>
-                        <div class="menuBtn"><a href="offertForfragan.html">OFFERT FÖRFRÅGAN</a></div>
-                        <div class="menuBtn"><a href="kontakt.html">KONTAKT</a></div>
-                    </div>
-        
-                    <div class="fillColorGreenAtTop">
-            <div id="top" class="container">
-                <h1>Segelstads Rehab AB</h1>
-                <h3>Vi bemannar vården</h3>
+                </div>
+
             </div>
         </div>
-        </div>
+
         <div id="foot" class="container">
             <p>&copy; 2019 Segelstads Rehab AB All Rights Reserved </p>
             <p>Developed by <a href="http://www.newsab.se" target="_blank">news</a></p>
@@ -78,8 +234,9 @@
         </div>
     </div>
     <script src="javascript/logIn.js"></script>
-    <script src="javascript/alive.js"></script>
+    <script src="javascript/animation.js"></script>
     <script src="javascript/menu.js"></script>
+    <script src="javascript/slideShow.js"></script>
 </body>
 
 </html>
