@@ -269,10 +269,10 @@
             <a href="http://www.nilssonenerholm.se" target="_blank"><img src="bilder/loggaliten.png" alt=""></a><br>
             <p>Ny webbplats för Segelstads Rehab AB. För att komma in i byggvärmen vänligen skriv in det lösenord du
                 fått av oss!</p><br><br>
-            <form id="logInForm">
+            <form id="logInForm" onsubmit="logIn()" action="javascript:void(0)">
                 <label id="passwordLbl" for="password"></label> <br>
                 <input type="password" name="password" id="password" label=""><br> <br>
-                <input id="btnLogIn" type='button' value='Logga In' onclick="logIn()" />
+                <input id="btnLogIn" type='submit' value='Logga In' onclick="logIn()" />
             </form>
         </div>
     </div>

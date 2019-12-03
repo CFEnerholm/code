@@ -7,6 +7,8 @@ $(document).ready(function () {
     }
 });
 
+
+
 function logIn() {
     if ($("#password").val() == "DaciaFredde") {
         var modal = document.getElementById('logInModal');
