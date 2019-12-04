@@ -4,12 +4,12 @@
 
 .swipeInFromLeft{
     position: relative;
-    left: -2000px
+    left: -200px
 }
 
 .swipeInFromRight{
     position: relative;
-    left: 2000px;
+    right: -200px;
 }
 
 .swipeInFromBottom{

@@ -1,3 +1,3 @@
 function showMenu() {  
-        $(".mobileMenu").toggle(200);    
+        $(".mobileMenu").slideToggle(1000);    
 }
