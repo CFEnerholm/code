@@ -59,6 +59,52 @@
     float: left;
 }
 
+.clientsLogo{
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.clientsLogo1{
+    width: 96px;
+    height: 80px;
+    background-image: url(../bilder/kunder/achima_care_fristaden-320x267.jpg);
+    background-size: 90% 90%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.clientsLogo2{
+    width: 96px;
+    height: 80px;
+    background-image: url(../bilder/kunder/Flen_vardcentralen_centrum500-320x267.png);
+    background-size: 90% 90%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    float: left;
+    border-left: 1px solid rgba(12, 184, 182, 0.5);
+}
+
+.clientsLogo3{
+    width: 96px;
+    height: 80px;
+    background-image: url(../bilder/kunder/lo-tco_rattsskydd-320x267.jpg);
+    background-size: 90% 90%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    float: left;
+    border-left: 1px solid rgba(12, 184, 182, 0.5);
+}
+
+.clientsLogo1:hover, .clientsLogo2:hover, .clientsLogo3:hover{
+    background-size: 99% 99%;  
+}
+
 #formerClients{
     height: 43em;
     margin-bottom: 2em;
@@ -85,6 +131,34 @@
     
     .services{
         height: 45em;
+    }
+
+    .clientsLogo{
+        height: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+    }
+
+    .clientsLogo1{
+        width: 159px;
+        height: 133px;
+    }
+
+    .clientsLogo2{
+        width: 159px;
+        height: 133px;
+        border-left: 1px solid rgba(12, 184, 182, 0.5);
+    }
+
+    .clientsLogo3{
+        width: 159px;
+        height: 133px;
+        border-left: 1px solid rgba(12, 184, 182, 0.5);
+    }
+
+    .clientsLogo1:hover, .clientsLogo2:hover, .clientsLogo3:hover{
+        background-size: 99% 99%;  
     }
 
     #formerClients{
@@ -133,6 +207,29 @@
         float: left;
     }
 
+    .clientsLogo{
+        height: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3em;
+    }
+
+    .clientsLogo1{
+        width: 160px;
+    }
+
+    .clientsLogo2{
+        width: 160px;
+    }
+
+    .clientsLogo3{
+        width: 160px;
+    }
+
+    .clientsLogo1:hover, .clientsLogo2:hover, .clientsLogo3:hover{
+        background-size: 99% 99%;  
+    }
+
     #formerClients{
         height: 27em;
     }
@@ -153,6 +250,7 @@
     .services{
         width: 21%;
         height: 26em;
+
     }
 
     #formerClients{
