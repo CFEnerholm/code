@@ -181,11 +181,34 @@
     }
 
     #ourTeam{
-        height: 126em
+        height: 111em
     }
 
     .teamMate{
         width: 23%;
-        height: 42em;
+        height: 37em;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    #values{
+        height: 24em;  
+      }
+
+    .value{
+       width: 31%; 
+    }
+
+    #ceoSpeaks{
+        height: 40em;
+    }
+
+    #ourTeam{
+        height: 132em
+    }
+
+    .teamMate{
+        width: 23%;
+        height: 44em;
     }
 }

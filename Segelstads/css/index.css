@@ -1,5 +1,5 @@
 #startTop{
-    height: 40em;
+    height: 35em;
     padding-left: 0;
     padding: 0;
 }
@@ -10,7 +10,7 @@
     padding-right: 2.5%;
     margin-left: 2.5%;
     margin-right: 22.5%;
-    height: 35em;
+    height: 30em;
     padding-top: 5em;
     background-color: rgba(12, 184, 182, 0.7);
     display: flex;
@@ -261,7 +261,7 @@
         padding-right: 2.5%;
         margin-left: 2.5%;
         margin-right: 42.5%;
-        height: 35em;
+        height: 30em;
         padding-top: 5em;
     }
 
@@ -293,7 +293,7 @@
         padding-right: 5%;
         margin-left: 5%;
         margin-right: 45%;
-        height: 35em;
+        height: 30em;
         padding-top: 5em;
     }
 
@@ -341,7 +341,7 @@
         padding-right: 5%;
         margin-left: 5%;
         margin-right: 55%;
-        height: 35em;
+        height: 30em;
         padding-top: 5em;
     }
 
@@ -385,7 +385,7 @@
         padding-right: 5%;
         margin-left: 10%;
         margin-right: 60%;
-        height: 35em;
+        height: 30em;
         padding-top: 5em;
     }
 
