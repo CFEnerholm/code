@@ -28,15 +28,13 @@
     width: 90%;
     padding-right: 5%;
     padding-left: 5%;
+    padding-top: 2em; 
     margin-top: 4em;
     height: 28em;
     float: left;
     background: linear-gradient(rgba(12, 184, 181, 0.7), rgba(12, 184, 182, 0.7)),url('../bilder/green.jpg');
     background-size: auto 100%;
     color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .offerRight h1, .offerRight h3, .offerRight h4{
@@ -136,18 +134,18 @@
     }
 
     #offer{
-        height: 35em;
+        height: 37em;
     }
 
     .offerLeft{
         width: 45%;
-        height: 35em;
+        height: 37em;
         padding-right: 5%;
     }
     
     .offerRight{
         width: 40%;
-        height: 31em;
+        height: 37em;
     }
 
     #quality{
@@ -194,16 +192,16 @@
     }
 
     #offer{
-        height: 31em;
+        height: 33em;
     }
 
     .offerLeft{
-        height: 31em;
+        height: 33em;
         padding-right: 5%;
     }
     
     .offerRight{
-        height: 27em;
+        height: 33em;
         width: 40%;
     }  
 
