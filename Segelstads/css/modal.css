@@ -21,12 +21,13 @@
     margin: auto;
     padding: 20px;
     border: 1px solid rgb(136, 136, 136);
-    width: 80%;
+    width: 70%;
     height: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
     overflow: scroll;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -45,11 +46,6 @@
     cursor: pointer;
   }
 
-  .modal-content p{
-      padding-left: 10%;
-      padding-right: 10%;
-  }
-
   .modal-content a{
     text-decoration: none;
   }
@@ -61,13 +57,13 @@
   @media screen and (min-width: 768px){
    
     .modal-content {
-      width: 75%;
+      width: 65%;
     }
   }
   
   /*För större skärmar*/
   @media screen and (min-width: 1024px){
     .modal-content {
-      width: 90%;
+      width: 80%;
   }
   }

@@ -15,18 +15,19 @@ $mail->CharSet = "UTF-8";
 
 $mail->SetFrom($_POST["mail"], $_POST["name"]);
 $mail->AddReplyTo($_POST["mail"], $_POST["name"]);
-$mail->AddAddress("info@newsab.se");	
-$mail->Subject = "Mail från hemsidan";
+$mail->AddAddress("info@newsab.se");
+$mail->AddAddress("carlfredrik@newsab.se");	
+$mail->Subject = "Mail från segelstads.se";
 $mail->WordWrap   = 80;
 //$mail->MsgHTML($_POST["message"]);
 
 $mail->Body = <<<EOT
-Valt Ämne: {$_POST['job']}
 
 Meddelande: 
 {$_POST['message']}
 
 Namn: {$_POST['name']}
+Valt Ämne: {$_POST['job']}
 Email: {$_POST['mail']}
 Telefon: {$_POST['phone']} 
 EOT;
