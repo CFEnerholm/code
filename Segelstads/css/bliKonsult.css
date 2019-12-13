@@ -149,7 +149,7 @@
     }
 
     #quality{
-        height: 28em;
+        height: 30em;
     }
 
     #qualityHeading{
@@ -160,13 +160,13 @@
 
     .qualityLeft{       
         width: 50%;
-        height: 23em;
+        height: 25em;
         margin-bottom: 5em;
     }
     
     .qualityRight{
         width: 45%;
-        height: 28em;
+        height: em;
         padding-left: 5%;
     }
 

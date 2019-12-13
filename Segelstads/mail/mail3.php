@@ -17,20 +17,20 @@ $mail->SetFrom($_POST["mail"], $_POST["name"]);
 $mail->AddReplyTo($_POST["mail"], $_POST["name"]);
 $mail->AddAddress("info@segelstads.se");
 $mail->AddAddress("info@newsab.se");
-$mail->Subject = "Mail från segelstads.se - Bli Konsult";
+$mail->Subject = "Mail från segelstads.se - Kontakt";
 $mail->WordWrap   = 80;
 //$mail->MsgHTML($_POST["message"]);
 
 $mail->Body = <<<EOT
-Namn: {$_POST['name']}
-Huvudsaklig kompetens: {$_POST['job']}
-Email: {$_POST['mail']}
-Telefon: {$_POST['phone']} 
-{$_POST['name']} har markerat att Segelstads Rehab ABs integretetspolicy har lästs och godkänts
 
 Meddelande: 
 {$_POST['message']}
 
+Meddelande kommer från: {$_POST['name']}
+Kontaktuppgifter:
+{$_POST['mail']}
+{$_POST['phone']} 
+{$_POST['name']} har markerat att Segelstads Rehab ABs integretetspolicy har lästs och godkänts
 
 EOT;
 

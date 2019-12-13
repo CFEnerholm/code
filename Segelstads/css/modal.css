@@ -33,6 +33,24 @@
     animation-name: zoom;
     animation-duration: 0.6s;
   }
+  .modal-content2 {
+    background-color: rgb(254, 254, 254);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(136, 136, 136);
+    width: 80%;
+    height: 50%;
+    overflow: scroll;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+
   .close {
     color: #aaaaaa;
     text-align: right;
@@ -51,13 +69,17 @@
   }
 
   .modal-content h2{
-    color: rgb(12, 184, 182);
+    color: rgb(12, 182, 179);
   }
 
   @media screen and (min-width: 768px){
    
     .modal-content {
       width: 65%;
+    }
+
+    .modal-content2 {
+      width: 60%;
     }
   }
   
@@ -66,4 +88,7 @@
     .modal-content {
       width: 80%;
   }
+  .modal-content2 {
+    width: 40%;
+}
   }
