@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="sv">
 
-<head >
-    
+<head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,7 +12,7 @@
 
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    
+
     <title>Webbyrå Örebro & Köping | newsab.se</title>
 </head>
 
@@ -23,75 +23,87 @@
         <div id="content-wrap">
 
             <div id="topImage" class="containerFullWidth">
-                    <div id="header" class="header">
-                            <div class="headerLeft">
-                                <a href="varaTjanster.html"><img id="logo" src="bilder/logga.png" alt=""></a>
+                <div id="header" class="header">
+                    <div class="headerLeft">
+                        <a href="varaTjanster.html"><img id="logo" src="bilder/logga.png" alt=""></a>
+                    </div>
+                    <div class="headerMiddle">
+                        <div class="menuBtn"><a href="varaTjanster.html">TJÄNSTER</a></div>
+                        <div class="menuBtn"><a href="tidigareProjekt.html">TIDIGARE PROJEKT</a></div>
+                        <div class="menuBtn"><a href="kontakt.html">KONTAKT</a></div>
+                    </div>
+                    <div class="headerRight">
+                        <img id="menuImage" src="bilder/menu.png" alt="" onclick="showMenu()">
+                    </div>
+                    <div class="mobileMenu">
+                        <a href="varaTjanster.html" onclick="showMenu()">
+                            <div class="mobileMenuBtn">
+                                <h3>TJÄNSTER</h3>
                             </div>
-                            <div class="headerMiddle">
-                                <div class="menuBtn"><a href="varaTjanster.html">Vad vi gör</a></div>
-                                <div class="menuBtn"><a href="tidigareProjekt.html">Tidigare projekt</a></div>
-                                <div class="menuBtn"><a href="kontakt.html">Kontakt</a></div>
+                        </a>
+                        <a href="tidigareProjekt.html" onclick="showMenu()">
+                            <div class="mobileMenuBtn">
+                                <h3>TIDIGARE PROJEKT</h3>
                             </div>
-                            <div class="headerRight">
-                                <img id="menuImage" src="bilder/menu.png" alt="" onclick="showMenu()">
+                        </a>
+                        <a href="kontakt.html" onclick="showMenu()">
+                            <div class="mobileMenuBtn">
+                                <h3>KONTAKT</h3>
                             </div>
-                            <div class="mobileMenu">
-                                <a href="varaTjanster.html" onclick="showMenu()">
-                                    <div class="mobileMenuBtn"><h3>Vad vi gör</h3></div>
-                                </a>
-                                <a href="tidigareProjekt.html" onclick="showMenu()">
-                                    <div class="mobileMenuBtn"><h3>Tidigare projekt</h3></div>
-                                </a>
-                                <a href="kontakt.html" onclick="showMenu()">
-                                    <div class="mobileMenuBtn"><h3>Kontakt</h3></div>
-                                </a>
-                            </div>
-                        </div>
-                <h6 class="swipeInFromLeft">Från ide till färdig lösning</h6> <!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!-->
-                <h2 class="swipeInFromRight">VAD VI GÖR</h2> <!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!-->
+                        </a>
+                    </div>
+                </div>
+                <h6 class="swipeInFromLeft">FRÅN IDE TILL FÄRDIG LÖSNING</h6>
+                <h2 class="swipeInFromRight">VAD VI GÖR</h2>
             </div>
 
             <div id="homepage" class="container">
-                <div class="homepageInfo fadeInDelay500"> <!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!-->
-                    <p>
-                        Med en bakgrund i systemvetenskapliga studier bygger vi <strong>webbplatser</strong> från 
-                        grunden. Det ger oss möjlighet att styra funktion och design fritt efter dina önskemål.
+                <div class="homepageInfo fadeInDelay500">
+                    <h3> VI SKAPAR</h3>
+                    <br>
+                    <p class="fadeInDelay1000"> På <strong>news</strong> skapar vi hemsidor från grunden vilket ger oss frihet att designa
+                        sidorna precis som vi vill.
+                        Alla <strong>hemsidor</strong> som vi gör är <strong>responsiva</strong> vilket betyder att de
+                        anpassar innehåll och design efter den
+                        enhet och webbläsare besökaren använder. 
                         <br><br>
-                        Är du osäker på hur du vill ha det eller känner att du inte har tiden eller intresset hjälper vi
-                        dig. Vårt mål är att du ska bli nöjd med slutresultatet!
+                        Vi ser även till att du får e-postadresser kopplade till ditt domännamn och hjälper dig att
+                        konfigurera dessa så att du kommer åt din mail.
+                </div>
+                <div class="homepageInfo fadeInDelay1000">
+                    <h3> VI UNDERHÅLLER</h3>
+                    <br>
+                    <p>
+                        Har du en <strong>hemsida</strong> i behov av löpande uppdateringar och ändringar? Kanske rör sig om att lägga
+                        upp bilder från utförda jobb,
+                        ett nyhetsflöde eller liknande så hjälper vi dig med detta efter dina önskemål.
+                        <br><br>
+                        Vi ser även till att förnya köp av dommännamn, förnya köp av hosting tjänster och att
+                        <strong>SSL-certifikat</strong>
+                        för sidorna är uppdaterade och att de därmed är säkra att surfa på</p style="Border-top: 1px solid rgb(110, 150, 150)">
                     </p>
                 </div>
-                <div class="homepageInfo fadeInDelay1000"> <!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!-->
+
+                <div class="homepageInfo2 fadeInDelay1500">
+                    <h3> VI INSTALLERAR</h3>
+                    <br>
                     <p>
-                        Utöver utvecklande av unika <strong>webbplatser</strong> driver vi vårt eget webbhotell. Det
-                        ger oss möjlighet att skapa en helhetslösning med eget domännamn, tillhörande <strong>e-postadresser</strong>  och
-                        hosting. Vi sköter även underhåll och uppdateringar av din <strong>webbplats</strong>. Vill du läsa mer om vår
-                        helhetslösning <a href="#package">klickar du här</a>. 
+                        För dig med lokaler installerar vi routrar, switchar och wi-fisändare utifrån din lokals specifika förutsättningar och 
+                        dina behov.
                         <br><br>
-                        Har du mer specifika behov så hjälper vi dig självklart med det!
+                        Vi konfigurerar även ditt nätverk för att öka prestandan och kan skapa olika nätverk hos dig utefter dina önskemål. 
+                        Exempelvis om du har behov av ett 'osynligt'-nätverk för smarta produkter eller ett separat gästnätverk för kunder 
+                        eller besökare vid sidan av ditt ordinarie nätverk.
                     </p>
-                </div>
-                <div class="homepageInfo2 fadeInDelay1500"> <!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!-->
-                    <p>
-                        Du kan också hyra in oss som konsulter. Vi har
-                        erfarenhet
-                        inom <strong>Java</strong>, <strong>C#</strong>, <strong>MySQL</strong>, <strong>.NET</strong>, <strong>HTML/CSS</strong>, <strong>Javascript</strong> m.m.
-                        <br><br>
-                        Vi kan även hjälpa dig med <strong>nätverk</strong>, <strong>wifi</strong> och smarta produkter till din verksamhet.
-                    </p>
-                    <br><br><br><br>
-                    <a href="kontakt.html">
-                        <div class="buttonContact">KONTAKTA OSS</div>
-                    </a>
                 </div>
             </div>
 
             <div id="middleImage" class="containerFullWidth">
-                <h6 class="swipeInFromLeft">Vi sköter allt som rör din webbplats</h6> <!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!-->
-                <h2 class="swipeInFromRight">SÅ ATT DU KAN FOKUSERA PÅ DET DU VILL</h2> <!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!-->
+                <h6 class="swipeInFromLeft">VI SKÖTER ALLT SOM RÖR DIN WEBBPLATS</h6>
+                <h2 class="swipeInFromRight">SÅ ATT DU KAN FOKUSERA PÅ DET DU VILL</h2>
             </div>
-            <div id="package" class="container" >
-                <div class="packageInfo fadeIn" > <!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!-->
+            <div id="package" class="container">
+                <div class="packageInfo fadeIn">
                     <p>
                         För att du som kund ska kunna fokusera på det du vill har vi på news tagit fram ett paket för
                         att lösa alla dina behov för din webbplats. Det enda du behöver göra är att hjälpa oss berätta
@@ -99,38 +111,39 @@
                         <br><br>
                         Självklart kan du även höra av dig om du har mer specifika behov så syr vi ihop nått som passar
                         dig.
-                        <br><br>
-                        <h6>pris (exkl. moms)</h6>
-                        <h2>4995kr</h2>
+                        <br><br><br>
+                        <h6>PRIS (EXKL. MOMS)</h6>
+                        <h1>4995KR</h1>
                     </p>
                 </div>
-                <div class="packageInfo2 fadeInDelay500" > <!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!-->
-                    <ul> 
-                        <li>Personlig kontakt</li>
+                <div class="packageInfo2 fadeInDelay500">
+                    <ul>
                         <li>Inskaffande av domännamn</li>
                         <li><strong>Webbplats</strong> med tre sidor
                             <br>(500kr/st utöver de tre som ingår)</li>
-                        <li>Hosting av <strong>hemsida</strong> i ett år
-                            <br>(Därefter från 99kr/mån)</li>
+                        <li>Hosting av <strong>hemsida</strong> i ett år</li>
                         <li>E-postadresser med ditt domännamn</li>
                         <li>SSL-Certifikat</li>
+                        <li>Personlig kontakt</li>
                     </ul>
                 </div>
-                <div class="packageInfo3 fadeInDelay1000" > <!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!-->
+                <div class="packageInfo3 fadeInDelay1000">
                     <p>
                         Är du intresserad?
                         <br>
                         Tveka inte att höra av dig!
                     </p>
-                    <br> <br> 
+                    <br> <br><br>
                     <a href="kontakt.html">
                         <div class="buttonContact">KONTAKTA OSS</div>
                     </a>
                 </div>
             </div>
         </div>
-        <div class="hiddenTest" id="foot" class="container" > <!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!--><!--HÄR!!!!!!!!-->
-            <p>&copy; 2019 <strong>Nilsson</strong> <strong>Enerholm</strong> Webb & Systemutveckling AB All Rights Reserved </p>
+        <div class="hiddenTest" id="foot" class="container">
+
+            <p>&copy; 2019 <strong>Nilsson</strong> <strong>Enerholm</strong> Webb & Systemutveckling AB All Rights
+                Reserved </p>
             <p>Developed by <a href="http://www.newsab.se" target="_blank">news</a></p>
         </div>
     </div>
