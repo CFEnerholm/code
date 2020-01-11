@@ -15,14 +15,12 @@ $mail->CharSet = "UTF-8";
 
 $mail->SetFrom($_POST["mail"], $_POST["companyName"]);
 $mail->AddReplyTo($_POST["mail"], $_POST["name"]);
-$mail->AddAddress("info@segelstads.se");
-$mail->AddAddress("info@newsab.se");	
+$mail->AddAddress("carlfredrik@newsab.se");
 $mail->Subject = "Mail från segelstads.se - Offert förfrågan";
 $mail->WordWrap   = 80;
 //$mail->MsgHTML($_POST["message"]);
 
 $mail->Body = <<<EOT
-
 Företag: {$_POST['companyName']}
 Organisationsnummer: {$_POST['orgId']}
 Kompetensbehov: {$_POST['job']}
@@ -30,12 +28,11 @@ Kompetensbehov: {$_POST['job']}
 Kontaktperson: {$_POST['name']}
 Email: {$_POST['mail']}
 Telefon: {$_POST['phone']}
-{$_POST['name']} har godkänt Segelstads Rehabs integretetspolicy
 
 Meddelande: 
 {$_POST['message']}
 
-
+{$_POST['name']} har markerat att Segelstads Rehab ABs integretetspolicy har lästs och godkänts
 EOT;
 
 if(is_array($_FILES)) {
