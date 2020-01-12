@@ -22,3 +22,15 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   
 }
+intervall = setInterval(slideIntervall, 5000);
+
+function slideIntervall(){
+plusSlides(1);
+}
+
+function pauseSlide(){
+
+  
+}
+
+
