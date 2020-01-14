@@ -16,7 +16,6 @@ $mail->CharSet = "UTF-8";
 $mail->SetFrom($_POST["mail"], $_POST["companyName"]);
 $mail->AddReplyTo($_POST["mail"], $_POST["name"]);
 $mail->AddAddress("info@segelstads.se");
-$mail->AddAddress("rebecka.segelstad@segelstads.se");
 $mail->Subject = "Mail från segelstads.se - Offert förfrågan";
 $mail->WordWrap   = 80;
 //$mail->MsgHTML($_POST["message"]);

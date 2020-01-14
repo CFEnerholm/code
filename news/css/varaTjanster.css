@@ -26,17 +26,7 @@ h6{
 }
 
 #homepage{
-    height: 62em;
-}
-
-.homepageInfo, .homepageInfo2{
-    height: 16em;
-}
-
-.homepageInfo h3, .homepageInfo2 h3{
-    font-weight: normal;
-    padding-left: 10px;
-    border-left: 3px solid rgb(110, 150, 150);
+    height: 68em;
 }
 
 .homepageInfo, .homepageInfo2, .packageInfo, .packageInfo2, .packageInfo3{
@@ -50,8 +40,13 @@ h6{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.homepageInfo, .homepageInfo2{
+    height: 18em;
+}
+
 .packageInfo, .packageInfo2, .packageInfo3{
     padding-top: 0em;
+    height: 17em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,6 +54,12 @@ h6{
 
 .packageInfo3{
     text-align: center;
+}
+
+.homepageInfo h3, .homepageInfo2 h3{
+    font-weight: normal;
+    padding-left: 10px;
+    border-left: 3px solid rgb(110, 150, 150);
 }
 
 .homepageInfo p, .homepageInfo2 p{
@@ -97,7 +98,7 @@ h6{
 #middleImage{
     height: 25em;
     background: linear-gradient(rgba(255, 255, 255, 0.523), rgba(255, 255, 255, 0.523)), url(../bilder/top/vadViGorMiddle.jpg);
-    background-size: 100% auto;
+    background-size: auto 100%;
     background-position-y: center;
     border-top: 2px solid rgb(110, 150, 150);
     border-bottom: 2px solid rgb(110, 150, 150);
@@ -167,6 +168,10 @@ h6{
         margin-left: 1%;
         margin-right: 1%;
         float: left;
+    }
+
+    #middleImage{
+        background-size: 100% auto;
     }
 
     #middleImage h6{
