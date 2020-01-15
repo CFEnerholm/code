@@ -49,13 +49,8 @@
         filter: grayscale(100%);
 }
 
-#ceoHeading{
-    background-color: rgb(235, 235, 235);
-}
-
 #ceoSpeaks{
     height: 60em;
-    background-color: rgb(235, 235, 235);
 }
 
 .corpInfo{

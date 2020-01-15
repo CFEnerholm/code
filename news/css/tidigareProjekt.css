@@ -50,13 +50,35 @@ h2, h3{
     padding-bottom: 5em;
 }
 
-.project1, .project2, .project3{
+.homepageInfo, .homepageInfo2{
+    background-color: rgb(244, 247, 249);
+    width: 96%;
+    height: 19em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.homepageInfo h3, .homepageInfo2 h3{
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+.homepageInfo p, .homepageInfo2 p{
+    padding-top: 1em;
+}
+
+.homepageInfo a, .homepageInfo2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.project4{
     position: relative;
     width: 100%;
     padding-top: 0em;
-    height: 19em;
     float: left;
-    margin-bottom: 2em;
 }
 
 .projectTop{
@@ -78,30 +100,6 @@ h2, h3{
     background-color: rgb(211, 211, 211);
 }
 
-
-.homepageInfo h3, .homepageInfo2 h3{
-    font-weight: normal;
-    padding-left: 10px;
-}
-
-.homepageInfo, .homepageInfo2, .packageInfo, .packageInfo2, .packageInfo3{
-    background-color: rgb(244, 247, 249);
-    width: 100%;
-    margin-top: 1em;
-    text-align: left;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.homepageInfo p, .homepageInfo2 p{
-    padding-top: 1em;
-}
-
-.homepageInfo a, .homepageInfo2 a, .packageInfo3 a{
-    color: black;
-    text-decoration: none;
-}
-
-
 @media screen and (min-width: 480px){
 
 }
@@ -118,12 +116,12 @@ h2, h3{
         padding-bottom: 5em;
     }
 
-    .project1, .project2, .project3{
-        width: 33.3%;
-        padding-top: 5em;
-        height: 17em;
+    .homepageInfo, .homepageInfo2{
+        width: 30.8%;
+        height: 14em;
+        margin-left: 1%;
+        margin-right: 1%;
         float: left;
-        margin-bottom: 0;
     }
     
     .projectTop{
@@ -136,20 +134,10 @@ h2, h3{
 }
 
 
-.homepageInfo, .homepageInfo2{
-    width: 30.8%;
-    margin-top: 5em;
-    margin-bottom: 5em;
-    margin-left: 1%;
-    margin-right: 1%;
-    float: left;
-}
-
 /*För MacBook 13"*/
 @media screen and (min-width: 1024px){
-    .project1, .project2, .project3{
-        height: 19em;
-        opacity: 0.4;
+    .homepageInfo, .homepageInfo2{
+        height: 16em;
     }
     
     .projectTop{
@@ -166,20 +154,20 @@ h2, h3{
         filter: grayscale(100%);
     }
 
-    .project1:hover .projectTop img, .project2:hover .projectTop img, .project3:hover .projectTop img, .project4:hover .projectTop img{
+.project4:hover .projectTop img{
         -webkit-filter: grayscale(0%);
         filter: grayscale(0%);
     }
     
-    .project1:hover, .project2:hover, .project3:hover, .project4:hover{
+.project4:hover{
         opacity: 1;
     }
 
 }
 
 @media screen and (min-width: 1440px){
-    .project1, .project2, .project3{
-        height: 20em;
+    .homepageInfo, .homepageInfo2{
+        height: 19em;
     }
     
     .projectTop{
